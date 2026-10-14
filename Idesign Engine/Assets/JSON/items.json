@@ -1,0 +1,176 @@
+{
+  "items": [
+    {
+      "id": "unchopped_herb",
+      "name": "Herb",
+      "type": "ingredient",
+      "location": "Forest",
+      "flavor": "A versatile vegetable, found commonly on the floors of the woods. Maybe you could chop this up"
+    },
+    {
+      "id": "chopped_herb",
+      "name": "Chopped Herb",
+      "type": "ingredient",
+      "flavor": "All diced up, it's served as toppings on food."
+    },
+    {
+      "id": "pear",
+      "name": "Fresh Pear",
+      "type": "ingredient",
+      "location": "Forest",
+      "flavor": "Bright green, atop trees, a fleeting luxury in a forager’s pack."
+      
+    },
+    {
+      "id": "strength_potion",
+      "name": "Potion of Strength",
+      "type": "potion",
+      "value": 200,
+      "flavor": "It burns the throat and makes the heart drum like a war march."
+    },
+    {
+      "id": "vitality_potion",
+      "name": "Potion of Vitality",
+      "type": "potion",
+      "value": 240,
+      "flavor": "Cooler than spring water, it washes away the ache of a long journey."
+    },
+        {
+      "id": "warmth_potion",
+      "name": "Potion of Warmth",
+      "type": "potion",
+      "value": 280,
+      "flavor": "A liquid hearth for those caught in the bite of a mountain gale."
+    },
+    {
+      "id": "knife",
+      "name": "Kitchen Knife",
+      "type": "tool",
+      "flavor": ""
+    },
+    {
+      "id": "wool",
+      "name": "Sheep Wool",
+      "type": "ingredient",
+      "location": "Forest",
+      "flavor": "The smell of high pastures and its fluffiness that keeps warmth in."
+    },
+    {
+      "id": "iron_ore",
+      "name": "Iron Ore",
+      "type": "ingredient",
+      "location": "Quarry",
+      "flavor": "Heavy and cold to the touch, it holds limitless potential for a craftsman. Maybe you could smelt this"
+    },
+    {
+      "id": "copper_ore",
+      "name": "Copper Ore",
+      "type": "ingredient",
+      "location": "Quarry",
+      "flavor": "Streaked with dull orange, it hums faintly when held near a heat source. Maybe you could smelt this"
+    },
+    {
+      "id": "iron_bar",
+      "name": "Iron Bar",
+      "type": "ingredient",
+      "flavor": "Refined and unyielding, the backbone of any sturdy defense."
+    },
+    {
+      "id": "copper_bar",
+      "name": "Copper Bar",
+      "type": "ingredient",
+      "flavor": "Gleaming with a soft luster, it conducts both heat and magic with ease."
+    },
+    {
+      "id": "mending_potion",
+      "name": "Potion of Mending",
+      "type": "potion",
+      "value": 400,
+      "flavor": "It knits skin and spirit back together as if the wound were only a dream."
+    },
+    {
+      "id": "defense_potion",
+      "name": "Potion of Defense",
+      "type": "potion",
+      "value": 450,
+      "flavor": "Your skin feels as dense as oak, turning aside all but the fiercest blows."
+    },
+    {
+      "id": "preservation_powder",
+      "name": "Preservation Powder",
+      "type": "powder",
+      "value": 400,
+      "flavor": "Fine as stardust, it keeps the rot at bay and the essence fresh."
+    },
+    {
+      "id": "healing_powder",
+      "name": "Healing Powder",
+      "type": "powder",
+      "value": 450,
+      "flavor": "A gritty, glowing dust that stings briefly before the warmth of mending sets in."
+    }
+    
+  ],
+  "recipes": [
+    {
+      "id": "r_chop_herb",
+      "inputs": ["unchopped_herb"],
+      "method": "Chopping",
+      "output": "chopped_herb"
+    },
+    {
+      "id": "r_iron_bar",
+      "inputs": ["iron_ore"],
+      "method": "Smelting",
+      "output": "iron_bar"
+    },
+    {
+      "id": "r_copper_bar",
+      "inputs": ["copper_ore"],
+      "method": "Smelting",
+      "output": "copper_bar"
+    },
+    {
+      "id": "r_strength_potion",
+      "inputs": ["unchopped_herb", "chopped_herb"],
+      "method": "Cauldron",
+      "output": "strength_potion"
+    },
+    {
+      "id": "r_vitality_potion",
+      "inputs": ["pear", "chopped_herb"],
+      "method": "Cauldron",
+      "output": "vitality_potion"
+    },
+    {
+      "id": "r_warmth_potion",
+      "inputs": ["wool", "pear"],
+      "method": "Cauldron",
+      "output": "warmth_potion"
+    },
+    {
+      "id": "r_mending_potion",
+      "inputs": ["iron_bar", "copper_bar"],
+      "method": "Cauldron",
+      "output": "mending_potion"
+    },
+    {
+      "id": "r_defense_potion",
+      "inputs": ["wool", "iron_bar", "unchopped_herb"],
+      "method": "Cauldron",
+      "output": "defense_potion"
+    },
+    {
+      "id": "r_preservation_powder",
+      "inputs": ["unchopped_herb", "copper_ore"],
+      "method": "MortarPestle",
+      "output": "preservation_powder"
+    },
+    {
+      "id": "r_healing_powder",
+      "inputs": ["pear", "wool", "iron_ore"],
+      "method": "MortarPestle",
+      "output": "healing_powder"
+    }
+  ]
+}

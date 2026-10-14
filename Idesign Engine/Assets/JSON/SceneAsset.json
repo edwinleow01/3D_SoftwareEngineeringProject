@@ -1,0 +1,14 @@
+{
+    "scenes": [
+        {
+            "guid": "fad288f7-8ffe-4aec-bb3b-5596d0240f1e",
+            "name": "Scene_2",
+            "path": "Scenes/Scene_2.scene"
+        },
+        {
+            "guid": "97fd4b00-5447-4351-b672-7f6bcbfa507f",
+            "name": "workpls",
+            "path": "Scenes/work pls.scene"
+        }
+    ]
+}

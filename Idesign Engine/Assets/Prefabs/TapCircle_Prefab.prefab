@@ -1,0 +1,41 @@
+{
+    "entity": {
+        "name": "TapCircle",
+        "guid": "a818ecec-62fd-4c23-8f85-a50a3d621ecd",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    1000.0,
+                    170.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    100.0,
+                    100.0,
+                    1.0
+                ],
+                "isActive": true
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": ""
+            },
+            "TextureComponent": {
+                "guid": "70ac7054-a8e0-4aca-ae06-3daa5c9c9a5f",
+                "isUI": true
+            }
+        }
+    }
+}

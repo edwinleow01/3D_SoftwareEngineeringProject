@@ -1,0 +1,41 @@
+{
+    "entity": {
+        "name": "GoodPound",
+        "guid": "a818ecec-62fd-4c23-8f85-a50a3d621ecd",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    1000.0,
+                    170.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    150.0,
+                    100.0,
+                    1.0
+                ],
+                "isActive": true
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": ""
+            },
+            "TextureComponent": {
+                "guid": "72bdbe81-126e-4bbb-901d-7370bc1e423b",
+                "isUI": true
+            }
+        }
+    }
+}

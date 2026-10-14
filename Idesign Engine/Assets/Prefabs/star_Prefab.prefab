@@ -1,0 +1,38 @@
+{
+    "entity": {
+        "name": "star",
+        "guid": "eb9db29e-16cb-487f-a6e5-e6d23c9e875e",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    100.0,
+                    100.0,
+                    0.6000000238418579
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    100.0,
+                    100.0,
+                    1.0
+                ],
+                "isActive": true
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "TextureComponent": {
+                "guid": "414b250f-1132-45b6-977c-4055957ef961",
+                "isUI": true
+            }
+        }
+    }
+}

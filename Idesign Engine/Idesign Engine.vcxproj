@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{784e1496-659c-4535-b786-17ba26ecfd4e}</ProjectGuid>
+    <RootNamespace>IdesignEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;GLFW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib\glfw-3.4.bin.WIN64\include;$(SolutionDir)Idesign Engine\src;$(SolutionDir)\Idesign Engine;$(SolutionDir)lib\glfw\include;$(SolutionDir)lib\glew\include\GL;$(SolutionDir)lib\gleq;$(SolutionDir)lib\glm\glm;$(SolutionDir)lib\stb_image;$(SolutionDir)lib\freetype\include;$(SolutionDir)lib\imgui;$(SolutionDir)lib\FMOD_STUDIO\inc;$(SolutionDir)lib\FMOD_CORE\inc;$(SolutionDir)lib\imgui-docking\backends;$(SolutionDir)lib\imgui\backends;$(SolutionDir)Idesign Engine\lib\installed\x64-windows\include;$(SolutionDir)Idesign Engine\src\shaders;$(SolutionDir)lib\installed\x64-windows\include;$(SolutionDir)Idesign Engine\Assets\Font;$(SolutionDir)lib\lua-5.4.2\include;$(SolutionDir)lib\Jolt;$(SolutionDir)lib</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\glfw-3.4.bin.WIN64\lib-vc2022;$(SolutionDir)Idesign Engine;$(SolutionDir)Idesign Engine\src;$(SolutionDir)lib\glew\lib\Release\x64;$(SolutionDir)lib\glew\lib\Debug\x64;$(SolutionDir)Idesign Engine\x64\Debug;$(SolutionDir)Idesign Engine\x64\Release;$(SolutionDir)lib\freetype;$(SolutionDir)lib\FMOD_CORE\lib\x64;$(SolutionDir)lib\FMOD_STUDIO\lib\x64;$(SolutionDir)\Idesign Engine\x64\Debug;$(SolutionDir)lib\installed\x64-windows\lib;$(SolutionDir)lib\Jolt\out\build\x64-Debug;$(SolutionDir)lib\Jolt\out\build\x64-Release;$(SolutionDir)lib\lua-5.4.2</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;user32.lib;gdi32.lib;shell32.lib;%(AdditionalDependencies);glew32s.lib;freetype.lib;fmod_vc.lib;fmodL_vc.lib;fmodstudio_vc.lib;fmodstudioL_vc.lib;glfw3.lib;assimp-vc143-mt.lib;glew32.lib;Jolt.lib;lua54.lib;rttr_core.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib\glfw-3.4.bin.WIN64\include;$(SolutionDir)Idesign Engine\src;$(SolutionDir)\Idesign Engine;$(SolutionDir)lib\glfw\include;$(SolutionDir)lib\glew\include\GL;$(SolutionDir)lib\gleq;$(SolutionDir)lib\glm\glm;$(SolutionDir)lib\stb_image;$(SolutionDir)lib\freetype\include;$(SolutionDir)lib\imgui;$(SolutionDir)lib\FMOD_STUDIO\inc;$(SolutionDir)lib\FMOD_CORE\inc;$(SolutionDir)lib\imgui-docking\backends;$(SolutionDir)lib\imgui\backends;$(SolutionDir)Idesign Engine\lib\installed\x64-windows\include;$(SolutionDir)Idesign Engine\src\shaders;$(SolutionDir)lib\installed\x64-windows\include;$(SolutionDir)Idesign Engine\Assets\Font;$(SolutionDir)lib\lua-5.4.2\include;$(SolutionDir)lib\Jolt;$(SolutionDir)lib</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\glfw-3.4.bin.WIN64\lib-vc2022;$(SolutionDir)Idesign Engine;$(SolutionDir)Idesign Engine\src;$(SolutionDir)lib\glew\lib\Release\x64;$(SolutionDir)lib\glew\lib\Debug\x64;$(SolutionDir)Idesign Engine\x64\Debug;$(SolutionDir)Idesign Engine\x64\Release;$(SolutionDir)lib\freetype;$(SolutionDir)lib\FMOD_CORE\lib\x64;$(SolutionDir)lib\FMOD_STUDIO\lib\x64;$(SolutionDir)\Idesign Engine\x64\Debug;$(SolutionDir)lib\installed\x64-windows\lib;$(SolutionDir)lib\Jolt\out\build\x64-Debug;$(SolutionDir)lib\Jolt\out\build\x64-Release;$(SolutionDir)lib\lua-5.4.2</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;user32.lib;gdi32.lib;shell32.lib;%(AdditionalDependencies);glew32s.lib;freetype.lib;fmod_vc.lib;fmodL_vc.lib;fmodstudio_vc.lib;fmodstudioL_vc.lib;glfw3.lib;assimp-vc143-mt.lib;glew32.lib;Jolt.lib;lua54.lib;rttr_core.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <ShowProgress>NotSet</ShowProgress>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)dll\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib\imgui\imgui.h" />
+    <ClInclude Include="..\lib\imgui\ImGuizmo.h" />
+    <ClInclude Include="..\lib\imgui\imgui_impl_glfw.h" />
+    <ClInclude Include="..\lib\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\lib\imgui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\lib\imgui\imgui_internal.h" />
+    <ClInclude Include="..\lib\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\lib\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\lib\imgui\imstb_truetype.h" />
+    <ClInclude Include="ItemComponent.h" />
+    <ClInclude Include="src\DialogueSystem.h" />
+    <ClInclude Include="src\LoadingSystem.h" />
+    <ClInclude Include="src\ParticleComponent.h" />
+    <ClInclude Include="src\ParticleSystem.h" />
+    <ClInclude Include="src\PlayerInteractSystem.h" />
+    <ClInclude Include="src\AnimationLoader.h" />
+    <ClInclude Include="src\BoxColliderComponent.h" />
+    <ClInclude Include="src\ButtonComponent.h" />
+    <ClInclude Include="src\CollectibleProperties.h" />
+    <ClInclude Include="src\EnginePath.h" />
+    <ClInclude Include="src\Animation.h" />
+    <ClInclude Include="src\AnimationProperties.h" />
+    <ClInclude Include="src\AnimationSystem.h" />
+    <ClInclude Include="src\AssetCompiler.h" />
+    <ClInclude Include="src\AssetHandler.h" />
+    <ClInclude Include="src\AssetLoader.h" />
+    <ClInclude Include="src\AssetManager.h" />
+    <ClInclude Include="src\Audio.h" />
+    <ClInclude Include="src\AudioComponent.h" />
+    <ClInclude Include="src\AudioSystem.h" />
+    <ClInclude Include="src\backward.hpp" />
+    <ClInclude Include="src\ButtonSystem.h" />
+    <ClInclude Include="src\Camera.h" />
+    <ClInclude Include="src\Collision.h" />
+    <ClInclude Include="src\ComponentArray.h" />
+    <ClInclude Include="src\ComponentList.h" />
+    <ClInclude Include="src\ComponentManager.h" />
+    <ClInclude Include="src\Coordinator.h" />
+    <ClInclude Include="src\Core.h" />
+    <ClInclude Include="src\Debugger.h" />
+    <ClInclude Include="src\DummySystem.h" />
+    <ClInclude Include="src\ECSystemManager.h" />
+    <ClInclude Include="src\EngineState.h" />
+    <ClInclude Include="src\EntityManager.h" />
+    <ClInclude Include="src\EventManager.h" />
+    <ClInclude Include="src\EventReceiverComponent.h" />
+    <ClInclude Include="src\EventSenderComponent.h" />
+    <ClInclude Include="src\EventSystem.h" />
+    <ClInclude Include="src\FileCheckSystem.h" />
+    <ClInclude Include="src\FoliageRenderer.h" />
+    <ClInclude Include="src\FontShader.h" />
+    <ClInclude Include="src\FontSystem.h" />
+    <ClInclude Include="src\GameMessages.h" />
+    <ClInclude Include="src\GameSystem.h" />
+    <ClInclude Include="src\Graphics.h" />
+    <ClInclude Include="src\GraphicsShader.h" />
+    <ClInclude Include="src\GraphicsWindows.h" />
+    <ClInclude Include="src\ImguiManager.h" />
+    <ClInclude Include="src\Imgui_Hierarchy.h" />
+    <ClInclude Include="src\InputHandler.h" />
+    <ClInclude Include="src\InteractionSystem.h" />
+    <ClInclude Include="src\Inventory.h" />
+    <ClInclude Include="src\JsonSerialize.h" />
+    <ClInclude Include="src\Lighting.h" />
+    <ClInclude Include="src\LightProperties.h" />
+    <ClInclude Include="src\MainMath.h" />
+    <ClInclude Include="src\MaterialLoader.h" />
+    <ClInclude Include="src\MaterialProperties.h" />
+    <ClInclude Include="src\Matrix3x3.h" />
+    <ClInclude Include="src\Matrix4x4.h" />
+    <ClInclude Include="src\Mesh.h" />
+    <ClInclude Include="src\MeshLoader.h" />
+    <ClInclude Include="src\MeshProperties.h" />
+    <ClInclude Include="src\Message.h" />
+    <ClInclude Include="src\MessageSystem.h" />
+    <ClInclude Include="src\NavMeshAgentProperties.h" />
+    <ClInclude Include="src\NavMeshProperties.h" />
+    <ClInclude Include="src\NavMeshSystem.h" />
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\PebbleRenderer.h" />
+    <ClInclude Include="src\PhaseManager.h" />
+    <ClInclude Include="src\PhysicsProperties.h" />
+    <ClInclude Include="src\PhysicsSystem.h" />
+    <ClInclude Include="src\PrefabComponent.h" />
+    <ClInclude Include="src\PrefabProperties.h" />
+    <ClInclude Include="src\PropertyMacro.h" />
+    <ClInclude Include="src\PropertySystem.h" />
+    <ClInclude Include="src\PropertyWidget.h" />
+    <ClInclude Include="src\rapidjson\allocators.h" />
+    <ClInclude Include="src\rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="src\rapidjson\document.h" />
+    <ClInclude Include="src\rapidjson\encodedstream.h" />
+    <ClInclude Include="src\rapidjson\encodings.h" />
+    <ClInclude Include="src\rapidjson\error\en.h" />
+    <ClInclude Include="src\rapidjson\error\error.h" />
+    <ClInclude Include="src\rapidjson\filereadstream.h" />
+    <ClInclude Include="src\rapidjson\filewritestream.h" />
+    <ClInclude Include="src\rapidjson\fwd.h" />
+    <ClInclude Include="src\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="src\rapidjson\internal\clzll.h" />
+    <ClInclude Include="src\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="src\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="src\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="src\rapidjson\internal\itoa.h" />
+    <ClInclude Include="src\rapidjson\internal\meta.h" />
+    <ClInclude Include="src\rapidjson\internal\pow10.h" />
+    <ClInclude Include="src\rapidjson\internal\regex.h" />
+    <ClInclude Include="src\rapidjson\internal\stack.h" />
+    <ClInclude Include="src\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="src\rapidjson\internal\strtod.h" />
+    <ClInclude Include="src\rapidjson\internal\swap.h" />
+    <ClInclude Include="src\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="src\rapidjson\memorybuffer.h" />
+    <ClInclude Include="src\rapidjson\memorystream.h" />
+    <ClInclude Include="src\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="src\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="src\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="src\rapidjson\pointer.h" />
+    <ClInclude Include="src\rapidjson\prettywriter.h" />
+    <ClInclude Include="src\rapidjson\rapidjson.h" />
+    <ClInclude Include="src\rapidjson\reader.h" />
+    <ClInclude Include="src\rapidjson\schema.h" />
+    <ClInclude Include="src\rapidjson\stream.h" />
+    <ClInclude Include="src\rapidjson\stringbuffer.h" />
+    <ClInclude Include="src\rapidjson\uri.h" />
+    <ClInclude Include="src\rapidjson\writer.h" />
+    <ClInclude Include="src\Recast\DetourAlloc.h" />
+    <ClInclude Include="src\Recast\DetourAssert.h" />
+    <ClInclude Include="src\Recast\DetourCommon.h" />
+    <ClInclude Include="src\Recast\DetourMath.h" />
+    <ClInclude Include="src\Recast\DetourNavMesh.h" />
+    <ClInclude Include="src\Recast\DetourNavMeshBuilder.h" />
+    <ClInclude Include="src\Recast\DetourNavMeshQuery.h" />
+    <ClInclude Include="src\Recast\DetourNode.h" />
+    <ClInclude Include="src\Recast\DetourStatus.h" />
+    <ClInclude Include="src\Recast\Recast.h" />
+    <ClInclude Include="src\Recast\RecastAlloc.h" />
+    <ClInclude Include="src\Recast\RecastAssert.h" />
+    <ClInclude Include="src\RecipeBookManager.h" />
+    <ClInclude Include="src\SceneInterface.h" />
+    <ClInclude Include="src\SceneManager.h" />
+    <ClInclude Include="src\SceneProperties.h" />
+    <ClInclude Include="src\ScriptingSystem.h" />
+    <ClInclude Include="src\ScriptProperties.h" />
+    <ClInclude Include="src\ShaderProgram.h" />
+    <ClInclude Include="src\SignalHandler.h" />
+    <ClInclude Include="src\Skybox.h" />
+    <ClInclude Include="src\System.h" />
+    <ClInclude Include="src\SystemInclude.h" />
+    <ClInclude Include="src\TagManager.h" />
+    <ClInclude Include="src\Terrain.h" />
+    <ClInclude Include="src\TestSystem.h" />
+    <ClInclude Include="src\TextProperties.h" />
+    <ClInclude Include="src\TextureAsset.h" />
+    <ClInclude Include="src\TextureLoader.h" />
+    <ClInclude Include="src\TextureLoaderDDS.h" />
+    <ClInclude Include="src\TextureProperties.h" />
+    <ClInclude Include="src\TimerComponent.h" />
+    <ClInclude Include="src\TimerSystem.h" />
+    <ClInclude Include="src\TransformProperties.h" />
+    <ClInclude Include="src\TypeRegistry.h" />
+    <ClInclude Include="src\Types.h" />
+    <ClInclude Include="src\Upgrade.h" />
+    <ClInclude Include="src\Vector2D.h" />
+    <ClInclude Include="src\Vector3D.h" />
+    <ClInclude Include="src\WindowConfigProperties.h" />
+    <ClInclude Include="UILayout.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\fontshaders\textfrag.glsl" />
+    <None Include="Assets\fontshaders\textvert.glsl" />
+    <None Include="Assets\JSON\AudioAsset.json" />
+    <None Include="Assets\JSON\MeshAsset.json" />
+    <None Include="Assets\JSON\TextureAsset.json" />
+    <None Include="Assets\JSON\WindowAsset.json" />
+    <None Include="Assets\Prefabs\Customer_Kinematic_2_Prefab.prefab" />
+    <None Include="Assets\shaders\blur.glsl" />
+    <None Include="Assets\shaders\final.glsl" />
+    <None Include="Assets\shaders\fragment.glsl" />
+    <None Include="Assets\shaders\instancedleave_frag.glsl" />
+    <None Include="Assets\shaders\instancedleave_vert.glsl" />
+    <None Include="Assets\shaders\instanced_frag.glsl" />
+    <None Include="Assets\shaders\instanced_pebble_frag.glsl" />
+    <None Include="Assets\shaders\instanced_pebble_vert.glsl" />
+    <None Include="Assets\shaders\instanced_vert.glsl" />
+    <None Include="Assets\shaders\lightingfrag.glsl" />
+    <None Include="Assets\shaders\lightingvert.glsl" />
+    <None Include="Assets\shaders\meshfrag.glsl" />
+    <None Include="Assets\shaders\meshvert.glsl" />
+    <None Include="Assets\shaders\pickfrag.glsl" />
+    <None Include="Assets\shaders\pickvert.glsl" />
+    <None Include="Assets\shaders\postprocess.glsl" />
+    <None Include="Assets\shaders\skybox_frag.glsl" />
+    <None Include="Assets\shaders\skybox_vert.glsl" />
+    <None Include="Assets\shaders\terrainfrag.glsl" />
+    <None Include="Assets\shaders\terrainvert.glsl" />
+    <None Include="Assets\shaders\vertex.glsl" />
+    <None Include="C:\Users\victo\Downloads\To Input\shaders\instancedleave_frag.glsl" />
+    <None Include="C:\Users\victo\Downloads\To Input\shaders\instancedleave_vert.glsl" />
+    <None Include="C:\Users\victo\Downloads\To Input\shaders\instanced_pebble_frag.glsl" />
+    <None Include="C:\Users\victo\Downloads\To Input\shaders\instanced_pebble_vert.glsl" />
+    <None Include="Descriptor\AudioAsset.meta" />
+    <None Include="Descriptor\MeshProperties.meta" />
+    <None Include="Descriptor\TextureAsset.meta" />
+    <None Include="Descriptor\WindowAsset.meta" />
+    <None Include="imgui.ini" />
+    <None Include="Resource\AudioAsset.bin" />
+    <None Include="Resource\MeshAsset.bin" />
+    <None Include="Resource\TextureAsset.bin" />
+    <None Include="Resource\WindowAsset.cfg" />
+    <None Include="SceneMenuSample.json" />
+    <None Include="SceneWithEnemies.json" />
+    <None Include="SceneWithOscilators.json" />
+    <None Include="Shader2dfrag.glsl" />
+    <None Include="Shader2dvert.glsl" />
+    <None Include="Test Scene Save.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib\imgui\imgui.cpp" />
+    <ClCompile Include="..\lib\imgui\ImGuizmo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\lib\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\lib\imgui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\lib\imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\lib\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\lib\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="src\DialogueSystem.cpp" />
+    <ClCompile Include="src\LoadingSystem.cpp" />
+    <ClCompile Include="src\ParticleSystem.cpp" />
+    <ClCompile Include="src\PlayerInteractSystem.cpp" />
+    <ClCompile Include="src\AnimationLoader.cpp" />
+    <ClCompile Include="src\AnimationSystem.cpp" />
+    <ClCompile Include="src\AssetCompiler.cpp" />
+    <ClCompile Include="src\AssetManager.cpp" />
+    <ClCompile Include="src\AudioSystem.cpp" />
+    <ClCompile Include="src\BoxColliderComponent.cpp" />
+    <ClCompile Include="src\ButtonSystem.cpp" />
+    <ClCompile Include="src\Collision.cpp" />
+    <ClCompile Include="src\ComponentManager.cpp" />
+    <ClCompile Include="src\Coordinator.cpp" />
+    <ClCompile Include="src\Core.cpp" />
+    <ClCompile Include="src\Debugger.cpp" />
+    <ClCompile Include="src\DummySystem.cpp" />
+    <ClCompile Include="src\EngineState.cpp" />
+    <ClCompile Include="src\EntityManager.cpp" />
+    <ClCompile Include="src\EventManager.cpp" />
+    <ClCompile Include="src\EventSystem.cpp" />
+    <ClCompile Include="src\FileCheckSystem.cpp" />
+    <ClCompile Include="src\FoliageRenderer.cpp" />
+    <ClCompile Include="src\FontSystem.cpp" />
+    <ClCompile Include="src\GameSystem.cpp" />
+    <ClCompile Include="src\Graphics.cpp" />
+    <ClCompile Include="src\GraphicsShader.cpp" />
+    <ClCompile Include="src\GraphicsWindows.cpp" />
+    <ClCompile Include="src\ImguiManager.cpp" />
+    <ClCompile Include="src\InputHandler.cpp" />
+    <ClCompile Include="src\Inventory.cpp" />
+    <ClCompile Include="src\Lighting.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\MainMath.cpp" />
+    <ClCompile Include="src\MaterialLoader.cpp" />
+    <ClCompile Include="src\Matrix3x3.cpp" />
+    <ClCompile Include="src\Matrix4x4.cpp" />
+    <ClCompile Include="src\Mesh.cpp" />
+    <ClCompile Include="src\MeshLoader.cpp" />
+    <ClCompile Include="src\MessageSystem.cpp" />
+    <ClCompile Include="src\NavMeshSystem.cpp" />
+    <ClCompile Include="src\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\PebbleRenderer.cpp" />
+    <ClCompile Include="src\PhaseManager.cpp" />
+    <ClCompile Include="src\PhysicsSystem.cpp" />
+    <ClCompile Include="src\PropertyWidget.cpp" />
+    <ClCompile Include="src\Recast\DetourAlloc.cpp" />
+    <ClCompile Include="src\Recast\DetourAssert.cpp" />
+    <ClCompile Include="src\Recast\DetourCommon.cpp" />
+    <ClCompile Include="src\Recast\DetourNavMesh.cpp" />
+    <ClCompile Include="src\Recast\DetourNavMeshBuilder.cpp" />
+    <ClCompile Include="src\Recast\DetourNavMeshQuery.cpp" />
+    <ClCompile Include="src\Recast\DetourNode.cpp" />
+    <ClCompile Include="src\Recast\Recast.cpp" />
+    <ClCompile Include="src\Recast\RecastAlloc.cpp" />
+    <ClCompile Include="src\Recast\RecastArea.cpp" />
+    <ClCompile Include="src\Recast\RecastAssert.cpp" />
+    <ClCompile Include="src\Recast\RecastContour.cpp" />
+    <ClCompile Include="src\Recast\RecastFilter.cpp" />
+    <ClCompile Include="src\Recast\RecastLayers.cpp" />
+    <ClCompile Include="src\Recast\RecastMesh.cpp" />
+    <ClCompile Include="src\Recast\RecastMeshDetail.cpp" />
+    <ClCompile Include="src\Recast\RecastRasterization.cpp" />
+    <ClCompile Include="src\Recast\RecastRegion.cpp" />
+    <ClCompile Include="src\SceneInterface.cpp" />
+    <ClCompile Include="src\SceneManager.cpp" />
+    <ClCompile Include="src\ScriptingSystem.cpp" />
+    <ClCompile Include="src\ShaderProgram.cpp" />
+    <ClCompile Include="src\SignalHandler.cpp" />
+    <ClCompile Include="src\Skybox.cpp" />
+    <ClCompile Include="src\TagManager.cpp" />
+    <ClCompile Include="src\Terrain.cpp" />
+    <ClCompile Include="src\TestSystem.cpp" />
+    <ClCompile Include="src\TextureLoader.cpp" />
+    <ClCompile Include="src\TextureLoaderDDS.cpp" />
+    <ClCompile Include="src\TimerSystem.cpp" />
+    <ClCompile Include="src\Upgrade.cpp" />
+    <ClCompile Include="src\Vector2D.cpp" />
+    <ClCompile Include="src\Vector3D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\back.png" />
+    <Image Include="Assets\Textures\arrow.png" />
+    <Image Include="Assets\Textures\AUTUMN PINE TREE MED.png" />
+    <Image Include="Assets\Textures\Autumn pine tree small.png" />
+    <Image Include="Assets\Textures\autumn tree 2 branches.png" />
+    <Image Include="Assets\Textures\autumn tree 2 tier.png" />
+    <Image Include="Assets\Textures\autumn tree 4 branches.png" />
+    <Image Include="Assets\Textures\autumn tree merged leaves.png" />
+    <Image Include="Assets\Textures\autumn tree.png" />
+    <Image Include="Assets\Textures\back.png" />
+    <Image Include="Assets\Textures\back1.png" />
+    <Image Include="Assets\Textures\BACKGROUND_REMASTERED.png" />
+    <Image Include="Assets\Textures\Backyard.png" />
+    <Image Include="Assets\Textures\bluecloud_bk.jpg" />
+    <Image Include="Assets\Textures\bluecloud_dn.jpg" />
+    <Image Include="Assets\Textures\bluecloud_ft.jpg" />
+    <Image Include="Assets\Textures\bluecloud_lf.jpg" />
+    <Image Include="Assets\Textures\bluecloud_rt.jpg" />
+    <Image Include="Assets\Textures\bluecloud_up.jpg" />
+    <Image Include="Assets\Textures\BluePotion.png" />
+    <Image Include="Assets\Textures\BluePotion2.png" />
+    <Image Include="Assets\Textures\BluePotion3.png" />
+    <Image Include="Assets\Textures\BlueVial.png" />
+    <Image Include="Assets\Textures\book.png" />
+    <Image Include="Assets\Textures\BottleEmpty.png" />
+    <Image Include="Assets\Textures\bottom.png" />
+    <Image Include="Assets\Textures\bottom1.png" />
+    <Image Include="Assets\Textures\BoxOfPears-3-VegetableCrate.png" />
+    <Image Include="Assets\Textures\Chest.png" />
+    <Image Include="Assets\Textures\ChoppedHerb1.png" />
+    <Image Include="Assets\Textures\chopped_herb.png" />
+    <Image Include="Assets\Textures\chopped_herb3D.png" />
+    <Image Include="Assets\Textures\CLOSE BUTTON.png" />
+    <Image Include="Assets\Textures\CLOSE HOVER BUTTON.png" />
+    <Image Include="Assets\Textures\close_button.png" />
+    <Image Include="Assets\Textures\Counter.png" />
+    <Image Include="Assets\Textures\CREDITS BUTTON.png" />
+    <Image Include="Assets\Textures\CREDITS HOVER BUTTON.png" />
+    <Image Include="Assets\Textures\CSTEXT2.png" />
+    <Image Include="Assets\Textures\CSTEXT3.png" />
+    <Image Include="Assets\Textures\Cupboard.png" />
+    <Image Include="Assets\Textures\Cutting Board.png" />
+    <Image Include="Assets\Textures\Door.png" />
+    <Image Include="Assets\Textures\Drawer.png" />
+    <Image Include="Assets\Textures\fir tree bent.png" />
+    <Image Include="Assets\Textures\fir tree large.png" />
+    <Image Include="Assets\Textures\fountain.png" />
+    <Image Include="Assets\Textures\Frog.png" />
+    <Image Include="Assets\Textures\FrogPortrait.png" />
+    <Image Include="Assets\Textures\front.png" />
+    <Image Include="Assets\Textures\front1.png" />
+    <Image Include="Assets\Textures\Goblin.png" />
+    <Image Include="Assets\Textures\grass2.png" />
+    <Image Include="Assets\Textures\grass3.png" />
+    <Image Include="Assets\Textures\Grass_normal_left.png" />
+    <Image Include="Assets\Textures\green.png" />
+    <Image Include="Assets\Textures\GreenPotion.png" />
+    <Image Include="Assets\Textures\GreenPotion2.png" />
+    <Image Include="Assets\Textures\GreenPotion3.png" />
+    <Image Include="Assets\Textures\horsecart.png" />
+    <Image Include="Assets\Textures\HOW TO PLAY BUTTON.png" />
+    <Image Include="Assets\Textures\HOW TO PLAY HOVER BUTTON.png" />
+    <Image Include="Assets\Textures\howtoplaybutton.png" />
+    <Image Include="Assets\Textures\instructions.png" />
+    <Image Include="Assets\Textures\Item_DefaultBG.png" />
+    <Image Include="Assets\Textures\Item_IngredientBG.png" />
+    <Image Include="Assets\Textures\Item_PotionBG.png" />
+    <Image Include="Assets\Textures\Key_E.png" />
+    <Image Include="Assets\Textures\knife.png" />
+    <Image Include="Assets\Textures\Lantern.png" />
+    <Image Include="Assets\Textures\left.png" />
+    <Image Include="Assets\Textures\left1.png" />
+    <Image Include="Assets\Textures\Loading1.png" />
+    <Image Include="Assets\Textures\Loading10.png" />
+    <Image Include="Assets\Textures\Loading11.png" />
+    <Image Include="Assets\Textures\Loading12.png" />
+    <Image Include="Assets\Textures\Loading13.png" />
+    <Image Include="Assets\Textures\Loading2.png" />
+    <Image Include="Assets\Textures\Loading3.png" />
+    <Image Include="Assets\Textures\Loading4.png" />
+    <Image Include="Assets\Textures\Loading5.png" />
+    <Image Include="Assets\Textures\Loading6.png" />
+    <Image Include="Assets\Textures\Loading7.png" />
+    <Image Include="Assets\Textures\Loading8.png" />
+    <Image Include="Assets\Textures\Loading9.png" />
+    <Image Include="Assets\Textures\logo1.png" />
+    <Image Include="Assets\Textures\mainIcon.png" />
+    <Image Include="Assets\Textures\mine_sign.png" />
+    <Image Include="Assets\Textures\mushroom 2.png" />
+    <Image Include="Assets\Textures\mushroom single.png" />
+    <Image Include="Assets\Textures\music.png" />
+    <Image Include="Assets\Textures\nextday.png" />
+    <Image Include="Assets\Textures\obj.png" />
+    <Image Include="Assets\Textures\pausebg.png" />
+    <Image Include="Assets\Textures\pause_fade.png" />
+    <Image Include="Assets\Textures\pear.png" />
+    <Image Include="Assets\Textures\pear3D.png" />
+    <Image Include="Assets\Textures\pickaxe.png" />
+    <Image Include="Assets\Textures\playbutton.png" />
+    <Image Include="Assets\Textures\play_button.png" />
+    <Image Include="Assets\Textures\pngegg.png" />
+    <Image Include="Assets\Textures\Potion1.png" />
+    <Image Include="Assets\Textures\QUIT BUTTON.png" />
+    <Image Include="Assets\Textures\QUIT HOVER BUTTON.png" />
+    <Image Include="Assets\Textures\quitbutton.png" />
+    <Image Include="Assets\Textures\recipe_layout.png" />
+    <Image Include="Assets\Textures\red.png" />
+    <Image Include="Assets\Textures\RedPotion2.png" />
+    <Image Include="Assets\Textures\RedVial.png" />
+    <Image Include="Assets\Textures\RESUME HOVER BUTTON.png" />
+    <Image Include="Assets\Textures\resumebuton.png" />
+    <Image Include="Assets\Textures\REUME BUTTON.png" />
+    <Image Include="Assets\Textures\right.png" />
+    <Image Include="Assets\Textures\right1.png" />
+    <Image Include="Assets\Textures\Rock030_2K-PNG_Color.png" />
+    <Image Include="Assets\Textures\Rocks007_2K-PNG_Color.png" />
+    <Image Include="Assets\Textures\rock_pixelated.png" />
+    <Image Include="Assets\Textures\SETTING HOVER BUTTON.png" />
+    <Image Include="Assets\Textures\SETTINGS BUTTON.png" />
+    <Image Include="Assets\Textures\settings.png" />
+    <Image Include="Assets\Textures\Shelf.png" />
+    <Image Include="Assets\Textures\SkyMidNight_Back.png" />
+    <Image Include="Assets\Textures\SkyMidNight_Bottom.png" />
+    <Image Include="Assets\Textures\SkyMidNight_Front.png" />
+    <Image Include="Assets\Textures\SkyMidNight_Left.png" />
+    <Image Include="Assets\Textures\SkyMidNight_Right.png" />
+    <Image Include="Assets\Textures\SkyMidNight_Top.png" />
+    <Image Include="Assets\Textures\SkyNoon_Back.png" />
+    <Image Include="Assets\Textures\SkyNoon_Bottom.png" />
+    <Image Include="Assets\Textures\SkyNoon_Front.png" />
+    <Image Include="Assets\Textures\SkyNoon_Left.png" />
+    <Image Include="Assets\Textures\SkyNoon_Right.png" />
+    <Image Include="Assets\Textures\SkyNoon_Top.png" />
+    <Image Include="Assets\Textures\snow_dark.png" />
+    <Image Include="Assets\Textures\START BUTTON.png" />
+    <Image Include="Assets\Textures\START HOVER BUTTON.png" />
+    <Image Include="Assets\Textures\strength_potion.png" />
+    <Image Include="Assets\Textures\strength_potion3D.png" />
+    <Image Include="Assets\Textures\Table.png" />
+    <Image Include="Assets\Textures\textbox.png" />
+    <Image Include="Assets\Textures\top.png" />
+    <Image Include="Assets\Textures\top1.png" />
+    <Image Include="Assets\Textures\tori gate.png" />
+    <Image Include="Assets\Textures\treeLong.png" />
+    <Image Include="Assets\Textures\T_Brick_BaseColor.png" />
+    <Image Include="Assets\Textures\unchopped_herb.png" />
+    <Image Include="Assets\Textures\unchopped_herb3D.png" />
+    <Image Include="Assets\Textures\upgrades.png" />
+    <Image Include="Assets\Textures\vitality_potion.png" />
+    <Image Include="Assets\Textures\vitality_potion3D.png" />
+    <Image Include="Assets\Textures\White.png" />
+    <Image Include="Assets\Textures\White_background.png" />
+    <Image Include="Assets\Textures\Wood.png" />
+    <Image Include="Assets\Textures\YellowVIal.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

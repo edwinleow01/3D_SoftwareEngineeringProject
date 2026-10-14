@@ -1,0 +1,40 @@
+{
+    "entity": {
+        "name": "ProgressBarTick",
+        "guid": "69a2f6e5-e0fb-4632-afd7-2b458ef7308c",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    -0.3195204734802246,
+                    0.2609849274158478,
+                    -0.10973334312438965
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": "f699e1d9-f947-49e1-9108-ad2ecb610aa0"
+            },
+            "TextureComponent": {
+                "guid": "eb687c6c-3f11-4f0e-b113-a7b451c5f632",
+                "isUI": false
+            }
+        }
+    }
+}

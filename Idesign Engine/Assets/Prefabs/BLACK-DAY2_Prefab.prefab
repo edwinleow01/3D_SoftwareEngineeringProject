@@ -1,0 +1,46 @@
+{
+    "entity": {
+        "name": "BLACK-DAY2",
+        "guid": "b29b7d4b-5fd6-401f-9187-93787a67a0d5",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    960.0,
+                    540.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1920.0,
+                    1080.0,
+                    1.0
+                ],
+                "isActive": true
+            },
+            "TagComponent": {
+                "tags": [
+                    "day2phase"
+                ]
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [
+                    "57d7d3fe-c165-4a09-a551-fad3893d4f8b",
+                    "fad28ff1-e365-4c2e-949b-8bc0acb0d540"
+                ],
+                "sortIndex": 401
+            },
+            "MeshReference": {
+                "guid": ""
+            },
+            "TextureComponent": {
+                "guid": "bd53721a-583e-47d7-b196-17af52bd40fe",
+                "isUI": false
+            }
+        }
+    }
+}

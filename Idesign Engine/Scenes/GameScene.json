@@ -1,0 +1,3160 @@
+{
+    "Entities": [
+        {
+            "name": "Backyard",
+            "guid": "baafee22-007e-41a1-a32e-a236685246ea",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -45.934112548828125,
+                        5.300000190734863,
+                        14.715734481811523
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0471999645233154,
+                        1.0471999645233154,
+                        1.0471999645233154
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 1,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": [
+                        "BackyardZone"
+                    ]
+                },
+                "MeshComponent": {
+                    "guid": "52f9947c-0b27-4f5a-9a18-cfef71bcfac3",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "aa40e4be-e3ce-4b7d-8806-dc0f46d34ee8",
+                    "isUI": false
+                },
+                "NavMeshComponent": {
+                    "guid": "",
+                    "isNavMeshSource": true,
+                    "runtimeGenerated": true,
+                    "agentRadius": 0.5,
+                    "agentHeight": 2.0,
+                    "cellSize": 0.30000001192092896,
+                    "cellHeight": 0.20000000298023224,
+                    "maxSlope": 45.0
+                },
+                "BoxColliderComponent": {
+                    "colliders": [
+                        {
+                            "size": [
+                                19.5,
+                                5.800000190734863,
+                                20.0
+                            ],
+                            "center": [
+                                -15.300000190734863,
+                                2.799999952316284,
+                                -5.0
+                            ],
+                            "canPassThrough": true,
+                            "triggerMessage": "BackyardZone",
+                            "isInteractable": false,
+                            "interactMessage": "",
+                            "promptText": ""
+                        }
+                    ]
+                },
+                "PhysicsProperties": {
+                    "category": 0,
+                    "isImmovable": true,
+                    "gravityFactor": 1.0,
+                    "mass": 1.0,
+                    "friction": 0.5,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                },
+                "AudioComponent": {
+                    "guid": "98e943fc-62e3-4646-ae60-49ef01e59ff0",
+                    "eventName": "event:/ForestAmbient",
+                    "is3D": true,
+                    "minDistance": 1.0,
+                    "maxDistance": 100.0,
+                    "volume": 0.20000000298023224,
+                    "loop": false,
+                    "playOnStart": true,
+                    "isPlaying": false,
+                    "lastPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Knife",
+            "guid": "46643a43-ef91-4c8f-8675-27e1d159b4e9",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -40.5,
+                        7.400000095367432,
+                        1.2000000476837158
+                    ],
+                    "rotation": [
+                        0.0,
+                        90.0,
+                        270.0
+                    ],
+                    "scale": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 2,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "6cbaa85b-562d-4b23-9f64-8639947659cc",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "AnimationProperties": {
+                    "guid": "e4d836ef-c0bc-46bb-914c-c1e05246eb81",
+                    "defaultAnimationName": "",
+                    "animationSpeed": 10.0,
+                    "bLoops": false,
+                    "bPlayOnStart": true,
+                    "currentTime": 20.0
+                }
+            }
+        },
+        {
+            "name": "Floor",
+            "guid": "1bb31b9b-4e34-4d02-a51f-7c7df73d7ba4",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -32.06560134887695,
+                        5.536312103271484,
+                        9.240556716918945
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.3908507227897644,
+                        0.0020719559397548437,
+                        0.22487787902355194
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 3,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "b3e40e99-b06a-4bb3-8a28-f7c4782d7941",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "0f2ece2c-6b29-43d9-a6ae-1f648d18d86d",
+                    "isUI": false
+                },
+                "NavMeshComponent": {
+                    "guid": "",
+                    "isNavMeshSource": true,
+                    "runtimeGenerated": true,
+                    "agentRadius": 0.5,
+                    "agentHeight": 2.0,
+                    "cellSize": 0.30000001192092896,
+                    "cellHeight": 0.20000000298023224,
+                    "maxSlope": 45.0
+                },
+                "BoxColliderComponent": {
+                    "colliders": [
+                        {
+                            "size": [
+                                337.1000061035156,
+                                104.5,
+                                99.80000305175781
+                            ],
+                            "center": [
+                                -25.0,
+                                0.0,
+                                0.0
+                            ],
+                            "canPassThrough": false,
+                            "triggerMessage": "",
+                            "isInteractable": false,
+                            "interactMessage": "",
+                            "promptText": ""
+                        }
+                    ]
+                },
+                "PhysicsProperties": {
+                    "category": 0,
+                    "isImmovable": true,
+                    "gravityFactor": 1.0,
+                    "mass": 1.0,
+                    "friction": 0.5,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                }
+            }
+        },
+        {
+            "name": "Sidewall1",
+            "guid": "e4130229-f40b-4ea2-b7fc-1286364c377d",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -32.4915885925293,
+                        8.311403274536133,
+                        -0.742485761642456
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.3904722332954407,
+                        0.10825313627719879,
+                        0.005319627933204174
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 4,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "b3e40e99-b06a-4bb3-8a28-f7c4782d7941",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "b57b4683-8581-4256-9cc5-60c900acec67",
+                    "isUI": false
+                },
+                "PhysicsProperties": {
+                    "category": 0,
+                    "isImmovable": true,
+                    "gravityFactor": 1.0,
+                    "mass": 1.0,
+                    "friction": 0.5,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                }
+            }
+        },
+        {
+            "name": "Sidewall2",
+            "guid": "62c7b9cd-e670-47c7-aa39-0cc6fc1db9b4",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -31.71799659729004,
+                        8.331247329711914,
+                        20.250329971313477
+                    ],
+                    "rotation": [
+                        0.0,
+                        89.99994659423828,
+                        0.0
+                    ],
+                    "scale": [
+                        0.005693023093044758,
+                        0.09739581495523453,
+                        0.39961451292037964
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 5,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "eac3e6f4-1bf2-415f-aef8-8f1269d91560",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "b57b4683-8581-4256-9cc5-60c900acec67",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Chest",
+            "guid": "753610d8-7f01-4be6-bacd-9d723b302316",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -16.0,
+                        5.699999809265137,
+                        1.600000023841858
+                    ],
+                    "rotation": [
+                        0.0,
+                        120.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.009999999776482582,
+                        0.009999999776482582,
+                        0.009999999776482582
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 6,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "da032094-6e5c-40fe-b6f0-39a9d542ffe5",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "add88db8-22f2-4599-ad64-d9abc2f87fa9",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Light",
+            "guid": "a5959674-8c2b-442d-a3ee-f088e94eede2",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -44.64616775512695,
+                        10.991904258728027,
+                        10.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.006000001449137926,
+                        0.006000001449137926,
+                        0.006125030107796192
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 7,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "b3e40e99-b06a-4bb3-8a28-f7c4782d7941",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "77c33f84-c586-48c2-b69b-e2e6fc39d606",
+                    "isUI": false
+                },
+                "LightProperties": {
+                    "enabled": true,
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "intensity": 0.15800000727176666,
+                    "radius": 100.0,
+                    "innerCutOffAngle": 0.21816615760326385,
+                    "outerCutOffAngle": 0.2617993950843811,
+                    "castsShadow": false,
+                    "shadowBiasConst": 0.004999999888241291,
+                    "shadowBiasFactor": 0.05000000074505806,
+                    "type": "Point"
+                }
+            }
+        },
+        {
+            "name": "Window",
+            "guid": "88b10393-f1ce-43ec-b1ed-1e3655666008",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -13.912982940673828,
+                        8.949725151062012,
+                        4.382748126983643
+                    ],
+                    "rotation": [
+                        0.0,
+                        89.99994659423828,
+                        0.0
+                    ],
+                    "scale": [
+                        0.02209661900997162,
+                        0.021748846396803856,
+                        0.031897157430648804
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 8,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "62fa60bd-a3d0-4575-851f-e6d04a326345",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "b57b4683-8581-4256-9cc5-60c900acec67",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Front Wall",
+            "guid": "9dc62558-aae7-4cda-8f90-f91df19e289a",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -13.913000106811523,
+                        8.94261360168457,
+                        17.60236358642578
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.005579162854701281,
+                        0.09544789046049118,
+                        0.055340882390737534
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 9,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "b3e40e99-b06a-4bb3-8a28-f7c4782d7941",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "b57b4683-8581-4256-9cc5-60c900acec67",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Door",
+            "guid": "79b82f01-7281-4ba6-89e4-94e4064592a2",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -14.218849182128906,
+                        5.0,
+                        12.92231273651123
+                    ],
+                    "rotation": [
+                        180.0,
+                        -89.99994659423828,
+                        180.0
+                    ],
+                    "scale": [
+                        1.0,
+                        0.9999999403953552,
+                        0.9999996423721313
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 10,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "814c3cff-9da8-4ad4-8a05-009b99a4ea2b"
+                },
+                "TextureComponent": {
+                    "guid": "d4899207-ea5e-473b-870f-aade76e8a7ff",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Pillar",
+            "guid": "5538beba-3f06-4398-aac9-5b9e301f1147",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -14.0,
+                        8.682190895080566,
+                        16.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.011312635615468025,
+                        0.04952094703912735,
+                        0.012584984302520752
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 11,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "e902f0d7-a022-45fc-9c17-2a98cbdb793e",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "b57b4683-8581-4256-9cc5-60c900acec67",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Roof",
+            "guid": "d2412103-1ae6-44e0-8b00-2758dc7bd406",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -32.43061447143555,
+                        13.0,
+                        9.240556716918945
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.38257095217704773,
+                        0.000750000006519258,
+                        0.22487787902355194
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 12,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "b3e40e99-b06a-4bb3-8a28-f7c4782d7941",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "0f2ece2c-6b29-43d9-a6ae-1f648d18d86d",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Drawer",
+            "guid": "4b9578f8-88cb-4f04-b2ec-60018e863e38",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -15.727629661560059,
+                        5.631114959716797,
+                        5.671132564544678
+                    ],
+                    "rotation": [
+                        180.0,
+                        -89.99994659423828,
+                        180.0
+                    ],
+                    "scale": [
+                        1.0,
+                        0.9999999403953552,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 13,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "90a63915-c3e8-40b9-8c48-b8fe58a9bd67",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                }
+            }
+        },
+        {
+            "name": "Pillar (Copy)",
+            "guid": "36206d34-5784-4ab9-90d5-a11a1eca56da",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -14.0,
+                        8.682190895080566,
+                        9.899999618530273
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.011312635615468025,
+                        0.04952094703912735,
+                        0.012584984302520752
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 14,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "e902f0d7-a022-45fc-9c17-2a98cbdb793e",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "b57b4683-8581-4256-9cc5-60c900acec67",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Cupboard",
+            "guid": "aeb7c383-4052-4321-931d-eb07dc657761",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -16.5,
+                        5.599999904632568,
+                        18.5
+                    ],
+                    "rotation": [
+                        0.0,
+                        180.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.7999999523162842,
+                        2.0,
+                        1.7999999523162842
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 15,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "d51dc95c-5066-4fd5-a31c-e51faf79cdd2",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "312bdb54-477d-47bb-a1ce-2224bc3ec5e3",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Cupboard",
+            "guid": "478831c9-ae7d-417d-a0bf-b58cfd4bc07e",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -21.480642318725586,
+                        5.600010871887207,
+                        0.672803521156311
+                    ],
+                    "rotation": [
+                        -0.00010427302913740277,
+                        -0.000005028666237194557,
+                        -0.00010427342931507155
+                    ],
+                    "scale": [
+                        1.7999999523162842,
+                        2.0,
+                        1.7999999523162842
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 16,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "d51dc95c-5066-4fd5-a31c-e51faf79cdd2",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "312bdb54-477d-47bb-a1ce-2224bc3ec5e3",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Drawer",
+            "guid": "3b9a45b0-8447-4c5f-bfb0-01a3ed032447",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -26.220155715942383,
+                        5.631120681762695,
+                        0.3236251175403595
+                    ],
+                    "rotation": [
+                        0.00010427324014017358,
+                        -0.0000050676871978794225,
+                        0.00010427081724628806
+                    ],
+                    "scale": [
+                        1.4800000190734863,
+                        1.4799998998641968,
+                        1.4800000190734863
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 17,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "90a63915-c3e8-40b9-8c48-b8fe58a9bd67",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                }
+            }
+        },
+        {
+            "name": "Cupboard",
+            "guid": "6e61af6f-a000-4547-b138-8f6890a2a38f",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -30.98725128173828,
+                        5.600026607513428,
+                        0.6728028059005737
+                    ],
+                    "rotation": [
+                        -0.00010427255620015785,
+                        -0.00000505330672240234,
+                        -0.00010427342931507155
+                    ],
+                    "scale": [
+                        1.7999999523162842,
+                        2.0,
+                        1.7999999523162842
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 18,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "d51dc95c-5066-4fd5-a31c-e51faf79cdd2",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "312bdb54-477d-47bb-a1ce-2224bc3ec5e3",
+                    "isUI": false
+                },
+                "BoxColliderComponent": {
+                    "colliders": []
+                },
+                "PhysicsProperties": {
+                    "category": 0,
+                    "isImmovable": true,
+                    "gravityFactor": 1.0,
+                    "mass": 1.0,
+                    "friction": 0.5,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                }
+            }
+        },
+        {
+            "name": "Counter",
+            "guid": "67daacd1-cc8e-4f0f-a143-ba350aa87e50",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -30.936601638793945,
+                        5.622932434082031,
+                        14.606721878051758
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.0212996006011963,
+                        2.0212996006011963,
+                        2.0212996006011963
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 19,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "0bfc0f47-64aa-4521-b9fa-08ff8aed994b",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "4cf1bf23-4fbd-4a08-9abb-f662145f2134",
+                    "isUI": false
+                },
+                "NavMeshComponent": {
+                    "guid": "",
+                    "isNavMeshSource": true,
+                    "runtimeGenerated": true,
+                    "agentRadius": 0.5,
+                    "agentHeight": 2.0,
+                    "cellSize": 0.30000001192092896,
+                    "cellHeight": 0.20000000298023224,
+                    "maxSlope": 45.0
+                }
+            }
+        },
+        {
+            "name": "Frog",
+            "guid": "87f2f07a-6159-4407-8a6e-fc4cced6096c",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -28.970077514648438,
+                        7.690000057220459,
+                        8.321422576904297
+                    ],
+                    "rotation": [
+                        -0.000005613005669147242,
+                        90.0,
+                        1.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 20,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": [
+                        "Interactable"
+                    ]
+                },
+                "MeshComponent": {
+                    "guid": "239cddd5-6733-44a1-927a-e3b13152a09a",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "2b27f501-a163-4398-bbe4-869717e7f7c0",
+                    "isUI": false
+                },
+                "BoxColliderComponent": {
+                    "colliders": [
+                        {
+                            "size": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "center": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "canPassThrough": false,
+                            "triggerMessage": "",
+                            "isInteractable": false,
+                            "interactMessage": "",
+                            "promptText": ""
+                        }
+                    ]
+                },
+                "PhysicsProperties": {
+                    "category": 1,
+                    "isImmovable": true,
+                    "gravityFactor": 1.0,
+                    "mass": 1.0,
+                    "friction": 0.5,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                },
+                "AudioComponent": {
+                    "guid": "d6f23fa6-ff6f-4892-91b3-ca11349bb492",
+                    "eventName": "event:/FrogCroak",
+                    "is3D": true,
+                    "minDistance": 1.0,
+                    "maxDistance": 50.0,
+                    "volume": 1.0,
+                    "loop": false,
+                    "playOnStart": false,
+                    "isPlaying": false,
+                    "lastPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Backwall",
+            "guid": "3362bb3d-c420-4b37-8fde-05f15414e6f5",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -38.78162384033203,
+                        7.141292572021484,
+                        9.871298789978027
+                    ],
+                    "rotation": [
+                        180.0,
+                        -89.99994659423828,
+                        180.0
+                    ],
+                    "scale": [
+                        0.020966889336705208,
+                        0.02096688747406006,
+                        0.020966889336705208
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 21,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "1cc97700-7326-4df8-b677-80233b030807",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "b57b4683-8581-4256-9cc5-60c900acec67",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Back Back wall",
+            "guid": "2d5f79e2-3abc-480b-8859-fdbaa83c90ca",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -51.42828369140625,
+                        9.494440078735352,
+                        9.30470085144043
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.005441007670015097,
+                        0.076914481818676,
+                        0.21291054785251617
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 22,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "b3e40e99-b06a-4bb3-8a28-f7c4782d7941",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "b57b4683-8581-4256-9cc5-60c900acec67",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Light (Copy)",
+            "guid": "ed016c46-7dc3-4081-ba22-e006e380c005",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -30.0,
+                        10.991904258728027,
+                        10.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.006000001449137926,
+                        0.006000001449137926,
+                        0.006125030107796192
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 23,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "b3e40e99-b06a-4bb3-8a28-f7c4782d7941",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "77c33f84-c586-48c2-b69b-e2e6fc39d606",
+                    "isUI": false
+                },
+                "LightProperties": {
+                    "enabled": true,
+                    "color": [
+                        0.6554892063140869,
+                        0.6365410089492798,
+                        0.3543917238712311
+                    ],
+                    "intensity": 1.0,
+                    "radius": 100.0,
+                    "innerCutOffAngle": 0.21816615760326385,
+                    "outerCutOffAngle": 0.2617993950843811,
+                    "castsShadow": false,
+                    "shadowBiasConst": 0.004999999888241291,
+                    "shadowBiasFactor": 0.05000000074505806,
+                    "type": "Point"
+                }
+            }
+        },
+        {
+            "name": "Table",
+            "guid": "51315770-51ee-4179-8c2f-6f04b11153ff",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -41.83613586425781,
+                        5.706251621246338,
+                        0.6743062138557434
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.8104922771453857,
+                        1.6536455154418945,
+                        2.9104809761047363
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 24,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "177fa052-079f-42bb-b225-97be34770804",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "c3eb9787-d36c-4380-a39f-78737901cda2",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Cutting Board",
+            "guid": "eb2fdb7a-289e-4652-b363-26137da3d2b5",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -42.68813705444336,
+                        7.379386901855469,
+                        0.6743054986000061
+                    ],
+                    "rotation": [
+                        180.0,
+                        -89.99994659423828,
+                        180.0
+                    ],
+                    "scale": [
+                        1.9111347198486328,
+                        1.1244789361953735,
+                        1.979127049446106
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 25,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": [
+                        "Interactable"
+                    ]
+                },
+                "MeshComponent": {
+                    "guid": "6fa52b14-d79c-4815-aaff-767eb40b32ca",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "a3d6570b-a168-4e13-9ecc-6abb2ed62b18",
+                    "isUI": false
+                },
+                "ScriptProperties": {
+                    "scripts": [
+                        {
+                            "guid": "583b617e-c68e-4e62-81cf-a2b05eefa1e4",
+                            "scriptPath": "Assets\\Scripts\\ChoppingBoard.lua",
+                            "hotReload": false
+                        }
+                    ]
+                },
+                "BoxColliderComponent": {
+                    "colliders": [
+                        {
+                            "size": [
+                                1.0,
+                                1.0,
+                                2.0
+                            ],
+                            "center": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "canPassThrough": false,
+                            "triggerMessage": "",
+                            "isInteractable": true,
+                            "interactMessage": "StartChopping",
+                            "promptText": ""
+                        }
+                    ]
+                },
+                "PhysicsProperties": {
+                    "category": 1,
+                    "isImmovable": true,
+                    "gravityFactor": 1.0,
+                    "mass": 1.0,
+                    "friction": 0.5,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                },
+                "EventReceiverComponent": {
+                    "receivers": [
+                        {
+                            "messageToListenFor": "StartChopping",
+                            "luaFunctionToCall": "OnInteract"
+                        }
+                    ]
+                },
+                "AudioComponent": {
+                    "guid": "d6f23fa6-ff6f-4892-91b3-ca11349bb492",
+                    "eventName": "event:/ChoppingHerb",
+                    "is3D": true,
+                    "minDistance": 1.0,
+                    "maxDistance": 100.0,
+                    "volume": 1.0,
+                    "loop": false,
+                    "playOnStart": false,
+                    "isPlaying": false,
+                    "lastPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Chest 2",
+            "guid": "5b53309d-80db-44f7-858c-1a7aef613773",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -20.11764907836914,
+                        5.89459228515625,
+                        18.055177688598633
+                    ],
+                    "rotation": [
+                        0.0,
+                        -16.815418243408203,
+                        0.0
+                    ],
+                    "scale": [
+                        0.009999998845160007,
+                        0.009999995119869709,
+                        0.009999998845160007
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 26,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "da032094-6e5c-40fe-b6f0-39a9d542ffe5",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "add88db8-22f2-4599-ad64-d9abc2f87fa9",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Chest 3",
+            "guid": "db9ab59c-c8cf-4c7c-aad8-9e6551f515f4",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -23.217504501342773,
+                        5.89459228515625,
+                        17.985631942749023
+                    ],
+                    "rotation": [
+                        0.0,
+                        12.840668678283691,
+                        0.0
+                    ],
+                    "scale": [
+                        0.009999998845160007,
+                        0.009999995119869709,
+                        0.009999998845160007
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 27,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "da032094-6e5c-40fe-b6f0-39a9d542ffe5",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "add88db8-22f2-4599-ad64-d9abc2f87fa9",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Blue Potion",
+            "guid": "1afcb3a2-20e7-43d4-bd2f-83c604bc334c",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -36.9110221862793,
+                        8.714263916015625,
+                        0.06380751729011536
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.5816400051116943,
+                        0.5816400051116943,
+                        0.5816400051116943
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "59cca078-d956-4d13-b89e-4f92455afb42",
+                    "sortIndex": 28,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "97635846-7fcd-4674-b730-21d672c2f510"
+                },
+                "TextureComponent": {
+                    "guid": "4647cf55-032f-4bd2-952f-0ae059337c19",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Shelf",
+            "guid": "b68c4658-932f-4e84-ba02-430055baa2c3",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -35.766578674316406,
+                        9.546210289001465,
+                        0.058269698172807693
+                    ],
+                    "rotation": [
+                        -179.99989318847656,
+                        -0.00000506484411744168,
+                        -179.99989318847656
+                    ],
+                    "scale": [
+                        1.070039987564087,
+                        1.070039987564087,
+                        1.070039987564087
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 29,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "4658a6a6-5858-4b7b-bf14-feea255d368c",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "8c24c8aa-00ff-4065-b384-a73ace8019dc",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Shelf 2",
+            "guid": "939cc486-aff8-45cc-9953-fda5792b4f15",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -35.766578674316406,
+                        7.755105972290039,
+                        0.0582694336771965
+                    ],
+                    "rotation": [
+                        -179.99989318847656,
+                        -0.000005082261395727983,
+                        -179.99989318847656
+                    ],
+                    "scale": [
+                        1.070039987564087,
+                        1.070039987564087,
+                        1.070039987564087
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 30,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "4658a6a6-5858-4b7b-bf14-feea255d368c",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "8c24c8aa-00ff-4065-b384-a73ace8019dc",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Shelf 3",
+            "guid": "76664a7c-73ef-49ba-b2da-6d39e08e6c61",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -41.909427642822266,
+                        9.160372734069824,
+                        0.058270346373319626
+                    ],
+                    "rotation": [
+                        179.99989318847656,
+                        -0.000005105172022012994,
+                        179.99989318847656
+                    ],
+                    "scale": [
+                        1.070039987564087,
+                        1.070039987564087,
+                        1.070039987564087
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 31,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "4658a6a6-5858-4b7b-bf14-feea255d368c",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "8c24c8aa-00ff-4065-b384-a73ace8019dc",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Blue Potions",
+            "guid": "59cca078-d956-4d13-b89e-4f92455afb42",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 32,
+                    "children": [
+                        "1afcb3a2-20e7-43d4-bd2f-83c604bc334c",
+                        "a0044528-bc5c-4035-af9e-f4cdb1690717",
+                        "e35e75b7-208c-4f9d-af45-0b8fad29348b",
+                        "5d1f0245-bf1b-4d5f-b277-6cd7d48374fc",
+                        "413174c6-8365-4e37-84a4-101766f3e59c",
+                        "baa16c15-f4ef-4514-b68c-b23fbd8e4bed",
+                        "0a4191fc-7f50-40df-af78-6a1f924ee304",
+                        "da273a64-fa17-4d25-a5e4-6bbd0c2cd9c3",
+                        "76f1fbbc-ad31-406b-b405-ead8b5c18e88",
+                        "bd799ca8-1797-4bc1-bffa-2c34cfa5cd29",
+                        "a7ad7510-0d2f-49ef-a9a9-468427ab6909",
+                        "0d5dfce2-6172-430c-8fd6-9fe6e21b6775",
+                        "a85ab40b-d371-4f2e-995f-896506be938b",
+                        "eb2198cf-50c0-4855-835e-f9a81a2b3fe8",
+                        "91e173de-50e4-4332-a01a-42e823a288b3"
+                    ]
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "TextureComponent": {
+                    "guid": "2b27f501-a163-4398-bbe4-869717e7f7c0",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Blue Potion 2",
+            "guid": "a0044528-bc5c-4035-af9e-f4cdb1690717",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -36.21561050415039,
+                        8.714263916015625,
+                        0.035648733377456665
+                    ],
+                    "rotation": [
+                        0.0,
+                        -11.748125076293945,
+                        0.0
+                    ],
+                    "scale": [
+                        0.5638800263404846,
+                        0.5638800263404846,
+                        0.5638800263404846
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "59cca078-d956-4d13-b89e-4f92455afb42",
+                    "sortIndex": 33,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "bf7c3abb-d8d4-4fa5-bd45-019e80216f61",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "7bd3846d-4142-4b26-ab54-85667861258f",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Blue Potion 3",
+            "guid": "e35e75b7-208c-4f9d-af45-0b8fad29348b",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -35.38490295410156,
+                        8.714263916015625,
+                        0.035648733377456665
+                    ],
+                    "rotation": [
+                        0.0,
+                        7.886200904846191,
+                        0.0
+                    ],
+                    "scale": [
+                        0.5638800263404846,
+                        0.5638800263404846,
+                        0.5638800263404846
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "59cca078-d956-4d13-b89e-4f92455afb42",
+                    "sortIndex": 34,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "bf7c3abb-d8d4-4fa5-bd45-019e80216f61",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "7bd3846d-4142-4b26-ab54-85667861258f",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Blue Potion 4",
+            "guid": "5d1f0245-bf1b-4d5f-b277-6cd7d48374fc",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -34.64800262451172,
+                        8.714263916015625,
+                        0.035648733377456665
+                    ],
+                    "rotation": [
+                        0.0,
+                        -2.6804490089416504,
+                        0.0
+                    ],
+                    "scale": [
+                        0.5638800263404846,
+                        0.5638800263404846,
+                        0.5638800263404846
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "59cca078-d956-4d13-b89e-4f92455afb42",
+                    "sortIndex": 35,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "bf7c3abb-d8d4-4fa5-bd45-019e80216f61",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "7bd3846d-4142-4b26-ab54-85667861258f",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Blue Potion 5",
+            "guid": "413174c6-8365-4e37-84a4-101766f3e59c",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -31.73258399963379,
+                        8.009451866149902,
+                        0.7132465839385986
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.5816400051116943,
+                        0.5816400051116943,
+                        0.5816400051116943
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "59cca078-d956-4d13-b89e-4f92455afb42",
+                    "sortIndex": 36,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "bf7c3abb-d8d4-4fa5-bd45-019e80216f61",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "7bd3846d-4142-4b26-ab54-85667861258f",
+                    "isUI": false
+                },
+                "PhysicsProperties": {
+                    "category": 0,
+                    "isImmovable": false,
+                    "gravityFactor": 1.0,
+                    "mass": 1.0,
+                    "friction": 0.5,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                }
+            }
+        },
+        {
+            "name": "Blue Potion 6",
+            "guid": "baa16c15-f4ef-4514-b68c-b23fbd8e4bed",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -30.5306339263916,
+                        10.804140090942383,
+                        0.7132465839385986
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.5816400051116943,
+                        0.5816400051116943,
+                        0.5816400051116943
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "59cca078-d956-4d13-b89e-4f92455afb42",
+                    "sortIndex": 37,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "bf7c3abb-d8d4-4fa5-bd45-019e80216f61",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "7bd3846d-4142-4b26-ab54-85667861258f",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Blue Potion 7",
+            "guid": "0a4191fc-7f50-40df-af78-6a1f924ee304",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -22.460952758789063,
+                        9.401006698608398,
+                        0.9042762517929077
+                    ],
+                    "rotation": [
+                        180.0,
+                        -99.03876495361328,
+                        180.0
+                    ],
+                    "scale": [
+                        0.5816400051116943,
+                        0.5816398859024048,
+                        0.58163982629776
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "59cca078-d956-4d13-b89e-4f92455afb42",
+                    "sortIndex": 38,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "76f36163-789f-4c71-87b4-76fdccaa8408",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                }
+            }
+        },
+        {
+            "name": "Blue Potion 8",
+            "guid": "da273a64-fa17-4d25-a5e4-6bbd0c2cd9c3",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -21.869476318359375,
+                        9.401006698608398,
+                        0.4654752314090729
+                    ],
+                    "rotation": [
+                        180.0,
+                        -80.6634750366211,
+                        180.0
+                    ],
+                    "scale": [
+                        0.5816400051116943,
+                        0.5816398859024048,
+                        0.58163982629776
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "59cca078-d956-4d13-b89e-4f92455afb42",
+                    "sortIndex": 39,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "76f36163-789f-4c71-87b4-76fdccaa8408",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                }
+            }
+        },
+        {
+            "name": "Blue Potion 9",
+            "guid": "76f1fbbc-ad31-406b-b405-ead8b5c18e88",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -21.1890811920166,
+                        9.401006698608398,
+                        0.8061068654060364
+                    ],
+                    "rotation": [
+                        180.0,
+                        -108.93928527832031,
+                        180.0
+                    ],
+                    "scale": [
+                        0.5816400051116943,
+                        0.5816398859024048,
+                        0.58163982629776
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "59cca078-d956-4d13-b89e-4f92455afb42",
+                    "sortIndex": 40,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "76f36163-789f-4c71-87b4-76fdccaa8408",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                }
+            }
+        },
+        {
+            "name": "Blue Potion 10",
+            "guid": "bd799ca8-1797-4bc1-bffa-2c34cfa5cd29",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -20.4802188873291,
+                        9.401006698608398,
+                        0.5140872001647949
+                    ],
+                    "rotation": [
+                        180.0,
+                        -78.18431091308594,
+                        180.0
+                    ],
+                    "scale": [
+                        0.5816400051116943,
+                        0.5816398859024048,
+                        0.58163982629776
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "59cca078-d956-4d13-b89e-4f92455afb42",
+                    "sortIndex": 41,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": "76f36163-789f-4c71-87b4-76fdccaa8408",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                }
+            }
+        },
+        {
+            "name": "Layout",
+            "guid": "3dad660d-0e51-49b6-a366-94bde75915ec",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 42,
+                    "children": [
+                        "1bb31b9b-4e34-4d02-a51f-7c7df73d7ba4",
+                        "9dc62558-aae7-4cda-8f90-f91df19e289a",
+                        "67daacd1-cc8e-4f0f-a143-ba350aa87e50",
+                        "e4130229-f40b-4ea2-b7fc-1286364c377d",
+                        "62c7b9cd-e670-47c7-aa39-0cc6fc1db9b4",
+                        "753610d8-7f01-4be6-bacd-9d723b302316",
+                        "88b10393-f1ce-43ec-b1ed-1e3655666008",
+                        "5538beba-3f06-4398-aac9-5b9e301f1147",
+                        "d2412103-1ae6-44e0-8b00-2758dc7bd406",
+                        "aeb7c383-4052-4321-931d-eb07dc657761",
+                        "36206d34-5784-4ab9-90d5-a11a1eca56da",
+                        "6e61af6f-a000-4547-b138-8f6890a2a38f",
+                        "478831c9-ae7d-417d-a0bf-b58cfd4bc07e",
+                        "4b9578f8-88cb-4f04-b2ec-60018e863e38",
+                        "3b9a45b0-8447-4c5f-bfb0-01a3ed032447",
+                        "2d5f79e2-3abc-480b-8859-fdbaa83c90ca",
+                        "3362bb3d-c420-4b37-8fde-05f15414e6f5",
+                        "79b82f01-7281-4ba6-89e4-94e4064592a2",
+                        "5b53309d-80db-44f7-858c-1a7aef613773",
+                        "db9ab59c-c8cf-4c7c-aad8-9e6551f515f4",
+                        "b68c4658-932f-4e84-ba02-430055baa2c3",
+                        "939cc486-aff8-45cc-9953-fda5792b4f15",
+                        "76664a7c-73ef-49ba-b2da-6d39e08e6c61",
+                        "51315770-51ee-4179-8c2f-6f04b11153ff",
+                        "4b602606-219d-4ebc-a2b9-2dada0e70a9f"
+                    ]
+                },
+                "TagComponent": {
+                    "tags": []
+                }
+            }
+        },
+        {
+            "name": "Player",
+            "guid": "ac6128ea-238e-4050-8de6-27e47348b309",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -31.438796997070313,
+                        8.039384841918945,
+                        11.160252571105957
+                    ],
+                    "rotation": [
+                        0.2979116439819336,
+                        43.03558349609375,
+                        179.98690795898438
+                    ],
+                    "scale": [
+                        0.9999989867210388,
+                        0.9999967813491821,
+                        0.9999994039535522
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 43,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                },
+                "ScriptProperties": {
+                    "scripts": [
+                        {
+                            "guid": "4c64acea-fd05-4342-9f32-85ba69929743",
+                            "scriptPath": "Assets\\Scripts\\footstep.lua",
+                            "hotReload": true
+                        }
+                    ]
+                },
+                "BoxColliderComponent": {
+                    "colliders": [
+                        {
+                            "size": [
+                                1.0,
+                                4.800000190734863,
+                                1.0
+                            ],
+                            "center": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "canPassThrough": false,
+                            "triggerMessage": "",
+                            "isInteractable": false,
+                            "interactMessage": "",
+                            "promptText": ""
+                        }
+                    ]
+                },
+                "PhysicsProperties": {
+                    "category": 2,
+                    "isImmovable": false,
+                    "gravityFactor": 0.0,
+                    "mass": 1.0,
+                    "friction": 0.5,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                },
+                "EventSenderComponent": {
+                    "senders": [
+                        {
+                            "triggerName": "OnCollision",
+                            "messageName": "deez"
+                        }
+                    ]
+                },
+                "ListenerComponent": {
+                    "position": [
+                        -31.438796997070313,
+                        8.039384841918945,
+                        11.160252571105957
+                    ],
+                    "forward": [
+                        0.0,
+                        0.0,
+                        -1.0
+                    ],
+                    "up": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ],
+                    "velocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "active": true,
+                    "listenerIndex": 0
+                },
+                "AudioComponent": {
+                    "guid": "d6f23fa6-ff6f-4892-91b3-ca11349bb492",
+                    "eventName": "event:/Footstep",
+                    "is3D": true,
+                    "minDistance": 1.0,
+                    "maxDistance": 100.0,
+                    "volume": 1.0,
+                    "loop": false,
+                    "playOnStart": false,
+                    "isPlaying": false,
+                    "lastPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Customer[System]",
+            "guid": "c9cb3c57-08a0-40e1-99ff-364fba30c505",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 44,
+                    "children": [
+                        "082ac940-2d06-4a93-85cb-ed1a1a651594",
+                        "f3ac9264-85f2-4433-bbe3-24f57fc60ca3",
+                        "c121b678-c782-4205-b20e-9695226e60ca"
+                    ]
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                },
+                "TextureComponent": {
+                    "guid": "8c24c8aa-00ff-4065-b384-a73ace8019dc",
+                    "isUI": false
+                },
+                "ScriptProperties": {
+                    "scripts": [
+                        {
+                            "guid": "35037238-3549-4319-9a74-8a0472ccefa3",
+                            "scriptPath": "Assets\\Scripts\\CustomerSystem.lua",
+                            "hotReload": false
+                        }
+                    ]
+                },
+                "EventReceiverComponent": {
+                    "receivers": [
+                        {
+                            "messageToListenFor": "CustomerComplete",
+                            "luaFunctionToCall": "OnCustomerComplete"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "SpawnPoint",
+            "guid": "f3ac9264-85f2-4433-bbe3-24f57fc60ca3",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -14.777397155761719,
+                        7.0,
+                        13.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "c9cb3c57-08a0-40e1-99ff-364fba30c505",
+                    "sortIndex": 45,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                },
+                "TextureComponent": {
+                    "guid": "8c24c8aa-00ff-4065-b384-a73ace8019dc",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "CustomerWaitingPoint",
+            "guid": "c121b678-c782-4205-b20e-9695226e60ca",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -25.987422943115234,
+                        6.886701583862305,
+                        13.040227890014648
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "c9cb3c57-08a0-40e1-99ff-364fba30c505",
+                    "sortIndex": 46,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                },
+                "TextureComponent": {
+                    "guid": "8c24c8aa-00ff-4065-b384-a73ace8019dc",
+                    "isUI": false
+                }
+            }
+        },
+        {
+            "name": "Herb",
+            "guid": "cacae5c6-d63c-4a92-9a65-b512e4eb2fa0",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -42.63027572631836,
+                        5.769213676452637,
+                        9.310661315917969
+                    ],
+                    "rotation": [
+                        0.0,
+                        -0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 47,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": [
+                        "Interactable"
+                    ]
+                },
+                "MeshComponent": {
+                    "guid": "4bf0356c-3b1b-4e45-a327-5a7f573a20ef",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "afd25b76-dddc-4c4f-bae4-a6c9a22931e5",
+                    "isUI": false
+                },
+                "ScriptProperties": {
+                    "scripts": [
+                        {
+                            "guid": "998e8733-cf17-48d4-96be-ab700322c93c",
+                            "scriptPath": "Assets\\Scripts\\spawnPrompt.lua",
+                            "hotReload": false
+                        },
+                        {
+                            "guid": "852f4291-12ff-48e6-a6eb-bd6685a86b30",
+                            "scriptPath": "Assets\\Scripts\\herb_pickup.lua",
+                            "hotReload": false
+                        }
+                    ]
+                },
+                "BoxColliderComponent": {
+                    "colliders": [
+                        {
+                            "size": [
+                                3.5999999046325684,
+                                2.5999999046325684,
+                                3.0
+                            ],
+                            "center": [
+                                0.0,
+                                1.2999999523162842,
+                                0.0
+                            ],
+                            "canPassThrough": true,
+                            "triggerMessage": "deez",
+                            "isInteractable": true,
+                            "interactMessage": "HerbPickup",
+                            "promptText": ""
+                        }
+                    ]
+                },
+                "PhysicsProperties": {
+                    "category": 1,
+                    "isImmovable": true,
+                    "gravityFactor": 1.0,
+                    "mass": 1.0,
+                    "friction": 0.5,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                },
+                "EventReceiverComponent": {
+                    "receivers": [
+                        {
+                            "messageToListenFor": "deez",
+                            "luaFunctionToCall": "OnInteract"
+                        },
+                        {
+                            "messageToListenFor": "HerbPickup",
+                            "luaFunctionToCall": "OnPickup"
+                        }
+                    ]
+                },
+                "ItemComponent": {
+                    "name": "unchopped_herb",
+                    "isIngredient": true,
+                    "isChoppable": true,
+                    "toDestroyWhenPicked": false
+                }
+            }
+        },
+        {
+            "name": "Cauldron",
+            "guid": "fffc27d4-57ce-4192-9177-a998866e67f5",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -40.230262756347656,
+                        6.287981033325195,
+                        17.725893020629883
+                    ],
+                    "rotation": [
+                        -2.647702501690219e-7,
+                        -0.004017276223748922,
+                        -0.000004445694230525987
+                    ],
+                    "scale": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 48,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": [
+                        "Interactable"
+                    ]
+                },
+                "MeshComponent": {
+                    "guid": "95461aed-91bf-4172-9f2c-d7578e059e28",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "AnimationProperties": {
+                    "guid": "e6e64140-6e45-4eb9-986a-e146404672bf",
+                    "defaultAnimationName": "",
+                    "animationSpeed": 1.0,
+                    "bLoops": true,
+                    "bPlayOnStart": true,
+                    "currentTime": 175.99960327148438
+                },
+                "TextureComponent": {
+                    "guid": "2b27f501-a163-4398-bbe4-869717e7f7c0",
+                    "isUI": false
+                },
+                "ScriptProperties": {
+                    "scripts": [
+                        {
+                            "guid": "3a5dd495-f311-4f19-991a-b6bfc5d63825",
+                            "scriptPath": "Assets\\Scripts\\Cauldron.lua",
+                            "hotReload": false
+                        }
+                    ]
+                },
+                "BoxColliderComponent": {
+                    "colliders": [
+                        {
+                            "size": [
+                                6.599999904632568,
+                                6.0,
+                                6.400000095367432
+                            ],
+                            "center": [
+                                -1.600000023841858,
+                                1.0,
+                                -1.0
+                            ],
+                            "canPassThrough": false,
+                            "triggerMessage": "",
+                            "isInteractable": true,
+                            "interactMessage": "STIR",
+                            "promptText": "Stir Cauldron"
+                        }
+                    ]
+                },
+                "PhysicsProperties": {
+                    "category": 1,
+                    "isImmovable": true,
+                    "gravityFactor": 1.0,
+                    "mass": 1.0,
+                    "friction": 0.5,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                },
+                "EventReceiverComponent": {
+                    "receivers": [
+                        {
+                            "messageToListenFor": "STIR",
+                            "luaFunctionToCall": "OnInteract"
+                        }
+                    ]
+                },
+                "AudioComponent": {
+                    "guid": "d6f23fa6-ff6f-4892-91b3-ca11349bb492",
+                    "eventName": "event:/Boiling",
+                    "is3D": true,
+                    "minDistance": 1.0,
+                    "maxDistance": 15.0,
+                    "volume": 1.0,
+                    "loop": true,
+                    "playOnStart": true,
+                    "isPlaying": false,
+                    "lastPosition": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Entity 62",
+            "guid": "2c69c89e-ac72-47a4-8404-3b26b7e561f1",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -42.63027572631836,
+                        8.269213676452637,
+                        9.310661315917969
+                    ],
+                    "rotation": [
+                        0.0,
+                        90.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 49,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                }
+            }
+        },
+        {
+            "name": "gameIcon",
+            "guid": "9dcecee3-55a2-4c8b-897d-7ed2a7014be4",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        960.0,
+                        640.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1024.0,
+                        1024.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "ed731c16-5301-4220-8ffa-98fd139ffb91",
+                    "sortIndex": 50,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                },
+                "ButtonComponent": {
+                    "position": [
+                        960.0,
+                        640.0
+                    ],
+                    "size": [
+                        1024.0,
+                        1024.0
+                    ],
+                    "isHovered": false,
+                    "isFrontButton": false
+                }
+            }
+        },
+        {
+            "name": "settingbutton",
+            "guid": "af7e17df-fb68-48bf-b4dd-bc4333f62497",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        980.0,
+                        340.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        250.0,
+                        250.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "ed731c16-5301-4220-8ffa-98fd139ffb91",
+                    "sortIndex": 51,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                },
+                "ButtonComponent": {
+                    "position": [
+                        980.0,
+                        340.0
+                    ],
+                    "size": [
+                        250.0,
+                        250.0
+                    ],
+                    "isHovered": false,
+                    "isFrontButton": false
+                }
+            }
+        },
+        {
+            "name": "startbutton",
+            "guid": "ed731c16-5301-4220-8ffa-98fd139ffb91",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        980.0,
+                        440.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        250.0,
+                        250.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 52,
+                    "children": [
+                        "aa8365ac-5eae-4566-b921-f4c2c546b8fc",
+                        "af7e17df-fb68-48bf-b4dd-bc4333f62497",
+                        "9dcecee3-55a2-4c8b-897d-7ed2a7014be4"
+                    ]
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                },
+                "ScriptProperties": {
+                    "scripts": [
+                        {
+                            "guid": "0b25e0c5-79e6-465a-96cd-920b83ef31e6",
+                            "scriptPath": "Assets\\Scripts\\GameStateStart.lua",
+                            "hotReload": true
+                        }
+                    ]
+                },
+                "ButtonComponent": {
+                    "position": [
+                        980.0,
+                        440.0
+                    ],
+                    "size": [
+                        250.0,
+                        250.0
+                    ],
+                    "isHovered": false,
+                    "isFrontButton": false
+                }
+            }
+        },
+        {
+            "name": "exitbutton",
+            "guid": "aa8365ac-5eae-4566-b921-f4c2c546b8fc",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        980.0,
+                        240.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        250.0,
+                        250.0,
+                        1.0
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "ed731c16-5301-4220-8ffa-98fd139ffb91",
+                    "sortIndex": 53,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                },
+                "ScriptProperties": {
+                    "scripts": [
+                        {
+                            "guid": "c6d4d63d-bced-4890-8a3b-3938e82b13e8",
+                            "scriptPath": "Assets\\Scripts\\GameStateExit.lua",
+                            "hotReload": true
+                        }
+                    ]
+                },
+                "ButtonComponent": {
+                    "position": [
+                        980.0,
+                        240.0
+                    ],
+                    "size": [
+                        250.0,
+                        250.0
+                    ],
+                    "isHovered": false,
+                    "isFrontButton": false
+                }
+            }
+        },
+        {
+            "name": "Pear_Crate",
+            "guid": "72ec9390-2f62-47d9-9fc5-63e4dc887a65",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -46.82866287231445,
+                        6.099185466766357,
+                        9.699509620666504
+                    ],
+                    "rotation": [
+                        0.0003272549656685442,
+                        -0.9336321949958801,
+                        -0.00032849254785105586
+                    ],
+                    "scale": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 0,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": [
+                        "Interactable"
+                    ]
+                },
+                "MeshComponent": {
+                    "guid": "162fe10c-ffbf-4733-835c-4beb16376317",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "827936c9-bf24-4d8e-8786-804be9e59c2f",
+                    "isUI": false
+                },
+                "BoxColliderComponent": {
+                    "colliders": [
+                        {
+                            "size": [
+                                5.0,
+                                10.300000190734863,
+                                4.099999904632568
+                            ],
+                            "center": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "canPassThrough": false,
+                            "triggerMessage": "",
+                            "isInteractable": true,
+                            "interactMessage": "",
+                            "promptText": ""
+                        }
+                    ]
+                },
+                "PhysicsProperties": {
+                    "category": 1,
+                    "isImmovable": true,
+                    "gravityFactor": 1.0,
+                    "mass": 1.0,
+                    "friction": 0.5,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                },
+                "ItemComponent": {
+                    "name": "pear",
+                    "isIngredient": true,
+                    "isChoppable": false,
+                    "toDestroyWhenPicked": false
+                }
+            }
+        },
+        {
+            "name": "ProgressBarFrame",
+            "guid": "e3bb1d65-0a76-4c4b-9c3e-bcbffd48f2f8",
+            "components": {
+                "PrefabComponent": {
+                    "prefabGUID.id": "6c60686a-c68c-4284-bce0-019cfcbf77fa"
+                }
+            }
+        },
+        {
+            "name": "ProgressBarFill",
+            "guid": "8a232844-018e-41c5-8b2d-0c330a0bda38",
+            "components": {
+                "PrefabComponent": {
+                    "prefabGUID.id": "5dfc16be-aa4a-420a-9105-f7c9652f3620"
+                }
+            }
+        },
+        {
+            "name": "unchopped_herb_64",
+            "guid": "fdd6444c-3cce-4e0f-a6b4-8f76c3a95e26",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -40.74610900878906,
+                        7.5393171310424805,
+                        17.925642013549805
+                    ],
+                    "rotation": [
+                        0.0,
+                        15342.5009765625,
+                        0.0
+                    ],
+                    "scale": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 0,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                }
+            }
+        },
+        {
+            "name": "unchopped_herb_65",
+            "guid": "ddf1c0bd-69cd-4737-bf96-a44b18f40c0b",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -41.230010986328125,
+                        7.44350528717041,
+                        17.410045623779297
+                    ],
+                    "rotation": [
+                        0.0,
+                        15342.5009765625,
+                        0.0
+                    ],
+                    "scale": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 0,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                }
+            }
+        },
+        {
+            "name": "unchopped_herb_66",
+            "guid": "74aff7f6-c612-446b-8b91-30f65d5e49ab",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -40.71441650390625,
+                        7.388584136962891,
+                        16.926143646240234
+                    ],
+                    "rotation": [
+                        0.0,
+                        15342.5009765625,
+                        0.0
+                    ],
+                    "scale": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 0,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                }
+            }
+        },
+        {
+            "name": "unchopped_herb_67",
+            "guid": "04ee9bb1-1d4b-4d3a-8365-cf0de67280f6",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -40.23051452636719,
+                        7.425048351287842,
+                        17.441740036010742
+                    ],
+                    "rotation": [
+                        0.0,
+                        15342.5009765625,
+                        0.0
+                    ],
+                    "scale": [
+                        0.30000001192092896,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "",
+                    "sortIndex": 0,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": []
+                },
+                "MeshComponent": {
+                    "guid": ""
+                }
+            }
+        },
+        {
+            "name": "ProgressBarFrame",
+            "guid": "935c4b6c-9776-45bb-8758-055bf13c8c7e",
+            "components": {
+                "PrefabComponent": {
+                    "prefabGUID.id": "6c60686a-c68c-4284-bce0-019cfcbf77fa"
+                }
+            }
+        },
+        {
+            "name": "ProgressBarFill",
+            "guid": "b60854ac-3888-4f8f-80ee-c2fde7a2f57e",
+            "components": {
+                "PrefabComponent": {
+                    "prefabGUID.id": "5dfc16be-aa4a-420a-9105-f7c9652f3620"
+                }
+            }
+        },
+        {
+            "name": "pestle",
+            "guid": "4b602606-219d-4ebc-a2b9-2dada0e70a9f",
+            "components": {
+                "TransformComponent": {
+                    "position": [
+                        -47.69264221191406,
+                        5.700194835662842,
+                        0.7333226203918457
+                    ],
+                    "rotation": [
+                        3.114053725994381e-8,
+                        -8.916254614632635e-7,
+                        -0.000009134036190516781
+                    ],
+                    "scale": [
+                        2.8104922771453857,
+                        1.6536455154418945,
+                        2.9104809761047363
+                    ],
+                    "isActive": true
+                },
+                "HierarchyComponent": {
+                    "parent": "3dad660d-0e51-49b6-a366-94bde75915ec",
+                    "sortIndex": 24,
+                    "children": []
+                },
+                "TagComponent": {
+                    "tags": [
+                        "Interactable"
+                    ]
+                },
+                "MeshComponent": {
+                    "guid": "177fa052-079f-42bb-b225-97be34770804",
+                    "materialGuid": "119a0f36-daa3-4fea-8298-f3c08f675040"
+                },
+                "TextureComponent": {
+                    "guid": "c3eb9787-d36c-4380-a39f-78737901cda2",
+                    "isUI": false
+                },
+                "ScriptProperties": {
+                    "scripts": [
+                        {
+                            "guid": "18045653-72cf-4920-9971-f2782f8edbc1",
+                            "scriptPath": "Assets\\Scripts\\Mortar.lua",
+                            "hotReload": true
+                        }
+                    ]
+                },
+                "BoxColliderComponent": {
+                    "colliders": [
+                        {
+                            "size": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "center": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "canPassThrough": false,
+                            "triggerMessage": "",
+                            "isInteractable": true,
+                            "interactMessage": "MASH",
+                            "promptText": "Start Minigame"
+                        }
+                    ]
+                },
+                "PhysicsProperties": {
+                    "category": 1,
+                    "isImmovable": true,
+                    "gravityFactor": 1.0,
+                    "mass": 1.0,
+                    "friction": 1.0,
+                    "restitution": 0.0,
+                    "linearVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "angularVelocity": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "startAwake": true
+                },
+                "EventReceiverComponent": {
+                    "receivers": [
+                        {
+                            "messageToListenFor": "MASH",
+                            "luaFunctionToCall": "OnInteract"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

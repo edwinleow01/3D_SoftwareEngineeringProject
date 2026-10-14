@@ -1,0 +1,41 @@
+{
+    "entity": {
+        "name": "UI_SkillBar_Marker",
+        "guid": "e52df412-a28e-44cb-b2e7-087c878f8ce0",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    600.0,
+                    300.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    48.0,
+                    128.0,
+                    1.0
+                ],
+                "isActive": true
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "17680db6-5ebc-4b8b-a281-b678ed384ef8",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": ""
+            },
+            "TextureComponent": {
+                "guid": "8ebd21a3-4b28-4a24-8e0e-c1a23923925e",
+                "isUI": true
+            }
+        }
+    }
+}

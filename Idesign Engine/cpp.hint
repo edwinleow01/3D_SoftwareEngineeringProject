@@ -1,0 +1,6 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define PROP_INT(field, type) Framework::prop{ #field, Framework::prop::INT, [](void* pObj, const void* pData) { static_cast<type*>(pObj)->field = *static_cast<const int*>(pData); }, [](const void* pObj, void* pData) { *static_cast<int*>(pData) = static_cast<const type*>(pObj)->field; } }
+#define PROPERTY_BEGIN(TypeName, PropArrayName) namespace { static const Framework::prop PropArrayName[] = {
+#define PROP_STRING(field, type) Framework::prop{ #field, Framework::prop::STRING, [](void* pObj, const void* pData) { assert(pObj && pData); static_cast<type*>(pObj)->field = *static_cast<const std::string*>(pData); }, [](const void* pObj, void* pData) { assert(pObj && pData); *static_cast<std::string*>(pData) = static_cast<const type*>(pObj)->field; } }

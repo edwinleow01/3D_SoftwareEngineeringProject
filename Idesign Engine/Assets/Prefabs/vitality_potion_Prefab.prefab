@@ -1,0 +1,110 @@
+{
+    "entity": {
+        "name": "vitality_potion",
+        "guid": "eb55bfd8-af37-4f54-b1a1-13033cb929bf",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    -42.63027572631836,
+                    5.769213676452637,
+                    7.115435600280762
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.5,
+                    0.5,
+                    0.5
+                ]
+            },
+            "TagComponent": {
+                "tags": [
+                    "Interactable"
+                ]
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 47
+            },
+            "MeshReference": {
+                "guid": "473d7163-f81d-41d7-bde2-5106f072d36a"
+            },
+            "TextureComponent": {
+                "guid": "390883fb-54a2-4a3a-92d9-75c4057b2f76",
+                "isUI": false
+            },
+            "ScriptProperties": {
+                "scripts": [
+                    "Assets\\Scripts\\herb_pickup.lua"
+                ]
+            },
+            "BoxColliderComponent": {
+                "colliders": [
+                    {
+                        "size": [
+                            1.5,
+                            1.5,
+                            1.5
+                        ],
+                        "center": [
+                            0.0,
+                            0.9,
+                            0.0
+                        ],
+                        "canPassThrough": true,
+                        "triggerMessage": "deez",
+                        "isInteractable": true
+                    }
+                ]
+            },
+            "PhysicsProperties": {
+                "category": 1,
+                "isImmovable": true,
+                "gravityFactor": 1.0,
+                "mass": 1.0,
+                "friction": 0.5,
+                "restitution": 0.0,
+                "linearVelocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "startAwake": true
+            },
+            "ItemComponent": {
+                "name": "vitality_potion",
+                "isIngredient": true,
+                "isChoppable": true,
+                "toDestroyWhenPicked": true
+            },
+            "ParticleEmitterComponent": {
+                "active": true,
+                "loop": false,
+                "duration": 1.0,
+                "direction": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "spreadAngleDeg": 180.0,
+                "range": 3.0,
+                "particlesPerSecond": 100.0,
+                "particleSpeed": 5.0,
+                "particleSize": 0.20000000298023224,
+                "localSpace": true,
+                "textureGuid": "20bfa50e-1760-4ee1-ad9e-409ed900a550",
+                "pixelFilter": true,
+                "maxParticles": 200
+            }
+        }
+    }
+}

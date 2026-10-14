@@ -1,0 +1,41 @@
+{
+    "entity": {
+        "name": "UI_SkillBar_BG",
+        "guid": "17680db6-5ebc-4b8b-a281-b678ed384ef8",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    920.0,
+                    300.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1080.0,
+                    48.0,
+                    1.0
+                ],
+                "isActive": true
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": ""
+            },
+            "TextureComponent": {
+                "guid": "c30cd85f-281f-4768-b344-e81389711158",
+                "isUI": true
+            }
+        }
+    }
+}

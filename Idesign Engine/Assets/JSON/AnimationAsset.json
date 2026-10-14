@@ -1,0 +1,70 @@
+{
+    "animation": [
+        {
+            "guid": "e4d836ef-c0bc-46bb-914c-c1e05246eb81",
+            "name": "knifechoppingwithBONEFIXED4",
+            "path": "Assets/Objects/knifechoppingwithBONEFIXED4.fbx",
+            "defaultAnimationName": "",
+            "animationSpeed": 1.0,
+            "bLoops": true,
+            "bPlayOnStart": true,
+            "currentTime": 0.0,
+            "vbo_skinning": 0
+        },
+        {
+            "guid": "f02e9dd9-f0c5-491d-84e2-1d01daed4a9d",
+            "name": "bellow",
+            "path": "Assets\\Objects\\bellow.fbx",
+            "defaultAnimationName": "",
+            "animationSpeed": 1.0,
+            "bLoops": true,
+            "bPlayOnStart": true,
+            "currentTime": 0.0,
+            "vbo_skinning": 0
+        },
+        {
+            "guid": "af14de83-981d-448a-a6e3-07a92a48e676",
+            "name": "CauldronStiring",
+            "path": "Assets\\Objects\\CauldronStiring.fbx",
+            "defaultAnimationName": "",
+            "animationSpeed": 1.0,
+            "bLoops": true,
+            "bPlayOnStart": true,
+            "currentTime": 0.0,
+            "vbo_skinning": 0
+        },
+        {
+            "guid": "37152dff-3566-4f91-a676-a7d7ad4d7813",
+            "name": "furance_fire",
+            "path": "Assets\\Objects\\furance_fire.fbx",
+            "defaultAnimationName": "",
+            "animationSpeed": 1.0,
+            "bLoops": true,
+            "bPlayOnStart": true,
+            "currentTime": 0.0,
+            "vbo_skinning": 0
+        },
+        {
+            "guid": "549d7a18-39fa-480b-8477-3ac6fd1bf574",
+            "name": "Finalgoblinwithfeedback",
+            "path": "Assets\\Objects\\Finalgoblinwithfeedback.fbx",
+            "defaultAnimationName": "",
+            "animationSpeed": 1.0,
+            "bLoops": true,
+            "bPlayOnStart": true,
+            "currentTime": 0.0,
+            "vbo_skinning": 0
+        },
+        {
+            "guid": "9d229382-b04c-4fc1-8a98-b9e938aa51ae",
+            "name": "FISHFINALWITHFEEDBACK",
+            "path": "Assets\\Objects\\FISHFINALWITHFEEDBACK.fbx",
+            "defaultAnimationName": "",
+            "animationSpeed": 1.0,
+            "bLoops": true,
+            "bPlayOnStart": true,
+            "currentTime": 0.0,
+            "vbo_skinning": 0
+        }
+    ]
+}
