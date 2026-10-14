@@ -1,0 +1,326 @@
+﻿  SVGPatternLoader.cpp
+  ImGuizmo.cpp
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\vc120.pdb'; linking object as if no debug info
+Jolt.lib(BodyManager.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(BodyManager.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(BodyManager.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(BodyManager.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(ContactConstraintManager.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(ContactConstraintManager.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(ContactConstraintManager.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(ContactConstraintManager.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(IslandBuilder.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(IslandBuilder.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(LargeIslandSplitter.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(LargeIslandSplitter.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(IslandBuilder.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(IslandBuilder.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(LargeIslandSplitter.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(LargeIslandSplitter.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(PhysicsSystem.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(PhysicsSystem.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PhysicsSystem.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(PhysicsSystem.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(Memory.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(Memory.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(Memory.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(Memory.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(BodyInterface.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(BodyInterface.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(BodyInterface.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(BodyInterface.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(SerializableObject.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(SerializableObject.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(SerializableObject.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(SerializableObject.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(MassProperties.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(MassProperties.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(MassProperties.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(MassProperties.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(Shape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(Shape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(Shape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(Shape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(JobSystemThreadPool.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(JobSystemThreadPool.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(JobSystemThreadPool.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(JobSystemThreadPool.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(NarrowPhaseQuery.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(NarrowPhaseQuery.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(NarrowPhaseQuery.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(NarrowPhaseQuery.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(ConvexShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(ConvexShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(ConvexShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(ConvexShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(RegisterTypes.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(RegisterTypes.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(RegisterTypes.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(RegisterTypes.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(BoxShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(BoxShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(BoxShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(BoxShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(DecoratedShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(DecoratedShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(DecoratedShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(DecoratedShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(OffsetCenterOfMassShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(OffsetCenterOfMassShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(OffsetCenterOfMassShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(OffsetCenterOfMassShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(CompoundShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(CompoundShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(CompoundShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(CompoundShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(StaticCompoundShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(StaticCompoundShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(StaticCompoundShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(StaticCompoundShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(IssueReporting.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(IssueReporting.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(IssueReporting.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(IssueReporting.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(Factory.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(Factory.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(Factory.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(Factory.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(MotionProperties.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(MotionProperties.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(MotionProperties.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(MotionProperties.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(Body.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(Body.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(Body.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(Body.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(BodyCreationSettings.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(BodyCreationSettings.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(BodyCreationSettings.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(BodyCreationSettings.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(SoftBodyMotionProperties.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(SoftBodyMotionProperties.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(SoftBodyMotionProperties.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(SoftBodyMotionProperties.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(SoftBodyShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(SoftBodyShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(SoftBodyShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(SoftBodyShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(Color.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(Color.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(Color.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(Color.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(TransformedShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(TransformedShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(TransformedShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(TransformedShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(ManifoldBetweenTwoFaces.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(ManifoldBetweenTwoFaces.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(ManifoldBetweenTwoFaces.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(ManifoldBetweenTwoFaces.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(ConstraintManager.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(ConstraintManager.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(ConstraintManager.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(ConstraintManager.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(BroadPhase.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(BroadPhase.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PhysicsUpdateContext.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(BroadPhase.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(BroadPhase.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(PhysicsUpdateContext.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PhysicsUpdateContext.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(PhysicsUpdateContext.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(BroadPhaseQuadTree.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(BroadPhaseQuadTree.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(BroadPhaseQuadTree.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(BroadPhaseQuadTree.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(CollisionDispatch.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(CollisionDispatch.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(CollisionDispatch.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(CollisionDispatch.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(CollisionGroup.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(CollisionGroup.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PhysicsMaterial.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(PhysicsMaterial.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(CollisionGroup.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(CollisionGroup.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(PhysicsMaterial.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(PhysicsMaterial.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(RTTI.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(RTTI.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(RTTI.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(RTTI.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(ScaledShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(ScaledShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(ScaledShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(ScaledShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(Semaphore.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(Semaphore.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(Semaphore.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(Semaphore.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(JobSystemWithBarrier.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(JobSystemWithBarrier.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(JobSystemWithBarrier.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(JobSystemWithBarrier.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(OrientedBox.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(OrientedBox.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(OrientedBox.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(OrientedBox.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(TriangleShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(TriangleShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(TriangleShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(TriangleShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(PlaneShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(PlaneShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PlaneShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(PlaneShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(SphereShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(SphereShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(SphereShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(SphereShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(CapsuleShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(CapsuleShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(CapsuleShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(CapsuleShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(TaperedCapsuleShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(TaperedCapsuleShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(TaperedCapsuleShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(TaperedCapsuleShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(CylinderShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(CylinderShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(CylinderShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(CylinderShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(TaperedCylinderShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(TaperedCylinderShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(TaperedCylinderShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(TaperedCylinderShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(MeshShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(MeshShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(MeshShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(MeshShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(ConvexHullShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(ConvexHullShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(ConvexHullShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(ConvexHullShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(HeightFieldShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(HeightFieldShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(HeightFieldShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(HeightFieldShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(RotatedTranslatedShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(RotatedTranslatedShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(RotatedTranslatedShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(RotatedTranslatedShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(MutableCompoundShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(MutableCompoundShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(MutableCompoundShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(MutableCompoundShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(EmptyShape.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(EmptyShape.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(EmptyShape.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(EmptyShape.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(PhysicsMaterialSimple.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(PhysicsMaterialSimple.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PhysicsMaterialSimple.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(PhysicsMaterialSimple.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(Skeleton.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(Skeleton.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(Skeleton.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(Skeleton.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(SkeletalAnimation.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(SkeletalAnimation.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(SkeletalAnimation.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(SkeletalAnimation.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(Ragdoll.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(Ragdoll.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(Ragdoll.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(Ragdoll.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(PointConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(PointConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PointConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(PointConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(SixDOFConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(SixDOFConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(SixDOFConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(SixDOFConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(SliderConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(SliderConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(SliderConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(SliderConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(SwingTwistConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(SwingTwistConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(SwingTwistConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(SwingTwistConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(DistanceConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(DistanceConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(DistanceConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(DistanceConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(HingeConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(HingeConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(HingeConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(HingeConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(FixedConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(FixedConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(FixedConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(FixedConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(ConeConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(ConeConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(ConeConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(ConeConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(PathConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(PathConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PathConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(PathConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(PathConstraintPath.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(PathConstraintPath.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PathConstraintPath.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(PathConstraintPath.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(PathConstraintPathHermite.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(PathConstraintPathHermite.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PathConstraintPathHermite.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(PathConstraintPathHermite.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(VehicleConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(VehicleConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(VehicleConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(VehicleConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(WheeledVehicleController.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(WheeledVehicleController.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(WheeledVehicleController.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(WheeledVehicleController.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(TrackedVehicleController.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(TrackedVehicleController.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(TrackedVehicleController.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(TrackedVehicleController.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(MotorcycleController.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(MotorcycleController.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(MotorcycleController.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(MotorcycleController.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(RackAndPinionConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(RackAndPinionConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(RackAndPinionConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(RackAndPinionConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(GearConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(GearConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(GearConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(GearConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(PulleyConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(PulleyConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PulleyConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(PulleyConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(MotorSettings.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(MotorSettings.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(MotorSettings.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(MotorSettings.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(PhysicsScene.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(PhysicsScene.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(PhysicsScene.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(PhysicsScene.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(GroupFilter.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(GroupFilter.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(GroupFilter.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(GroupFilter.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(GroupFilterTable.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(GroupFilterTable.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(GroupFilterTable.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(GroupFilterTable.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(SoftBodyCreationSettings.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(SoftBodyCreationSettings.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(SoftBodyCreationSettings.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(SoftBodyCreationSettings.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(CastConvexVsTriangles.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(CastConvexVsTriangles.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(CastConvexVsTriangles.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(CastConvexVsTriangles.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(CastSphereVsTriangles.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(CastSphereVsTriangles.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(CastSphereVsTriangles.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(CastSphereVsTriangles.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(CollideConvexVsTriangles.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(CollideConvexVsTriangles.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(CollideConvexVsTriangles.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(CollideConvexVsTriangles.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(CollideSphereVsTriangles.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(CollideSphereVsTriangles.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(CollideSphereVsTriangles.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(CollideSphereVsTriangles.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(QuadTree.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(QuadTree.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(QuadTree.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(QuadTree.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(StringTools.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(StringTools.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(StringTools.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(StringTools.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(Indexify.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(Indexify.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(Indexify.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(Indexify.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(TriangleSplitterBinning.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(TriangleSplitterBinning.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(TriangleSplitterBinning.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(TriangleSplitterBinning.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(TriangleSplitterMean.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(TriangleSplitterMean.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(AABBTreeBuilder.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(AABBTreeBuilder.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(TriangleSplitterMean.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(TriangleSplitterMean.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(AABBTreeBuilder.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(AABBTreeBuilder.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(ConvexHullBuilder.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(ConvexHullBuilder.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(ConvexHullBuilder.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(ConvexHullBuilder.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(Constraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(Constraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(Constraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(Constraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(TwoBodyConstraint.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(TwoBodyConstraint.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(TwoBodyConstraint.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(TwoBodyConstraint.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(SpringSettings.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(SpringSettings.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(VehicleAntiRollBar.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(VehicleAntiRollBar.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(SpringSettings.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(SpringSettings.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(VehicleAntiRollBar.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(VehicleAntiRollBar.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(Wheel.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(Wheel.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(Wheel.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(Wheel.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(VehicleController.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(VehicleController.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(LinearCurve.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(LinearCurve.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(VehicleController.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(VehicleController.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(VehicleEngine.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(VehicleEngine.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(LinearCurve.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(LinearCurve.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(VehicleTransmission.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(VehicleTransmission.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(VehicleEngine.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(VehicleEngine.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(VehicleTransmission.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(VehicleTransmission.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(VehicleDifferential.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(VehicleDifferential.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(VehicleDifferential.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(VehicleDifferential.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(VehicleTrack.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(VehicleTrack.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(VehicleTrack.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(VehicleTrack.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(SoftBodySharedSettings.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(SoftBodySharedSettings.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(SoftBodySharedSettings.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(SoftBodySharedSettings.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(TriangleSplitter.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(TriangleSplitter.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(TriangleSplitter.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(TriangleSplitter.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+Jolt.lib(ConvexHullBuilder2D.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in imgui.obj
+Jolt.lib(ConvexHullBuilder2D.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in imgui.obj
+Jolt.lib(ConvexHullBuilder2D.cpp.obj) : warning LNK4099: PDB 'Jolt.pdb' was not found with 'Jolt.lib(ConvexHullBuilder2D.cpp.obj)' or at 'D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Jolt.pdb'; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+main.obj : error LNK2001: unresolved external symbol "bool (__cdecl* JPH::AssertFailed)(char const *,char const *,char const *,unsigned int)" (?AssertFailed@JPH@@3P6A_NPEBD00I@ZEA)
+PhysicsSystem.obj : error LNK2001: unresolved external symbol "bool (__cdecl* JPH::AssertFailed)(char const *,char const *,char const *,unsigned int)" (?AssertFailed@JPH@@3P6A_NPEBD00I@ZEA)
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\x64\Debug\Idesign Engine.exe : fatal error LNK1120: 1 unresolved externals

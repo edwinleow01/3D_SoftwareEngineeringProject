@@ -1,0 +1,63 @@
+{
+    "entity": {
+        "name": "Customer",
+        "guid": "082ac940-2d06-4a93-85cb-ed1a1a651594",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    -25.869571685791016,
+                    5.900000095367432,
+                    13.039504051208496
+                ],
+                "rotation": [
+                    0.0,
+                    -89.44013214111328,
+                    0.0
+                ],
+                "scale": [
+                    0.009999999776482582,
+                    0.029999999329447746,
+                    0.009999999776482582
+                ]
+            },
+            "TagComponent": {
+                "tags": [
+                    "Interactable"
+                ]
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": "e902f0d7-a022-45fc-9c17-2a98cbdb793e"
+            },
+            "TextureComponent": {
+                "guid": "8c24c8aa-00ff-4065-b384-a73ace8019dc",
+                "isUI": false
+            },
+            "NavMeshAgentComponent": {
+                "agentHeight": 10.0,
+                "agentRadius": 0.6000000238418579,
+                "moveSpeed": 3.5,
+                "angularSpeed": 120.0,
+                "acceleration": 8.0,
+                "stoppingDistance": 0.10000000149011612,
+                "autoRepath": false,
+                "stopOnTargetReached": true,
+                "targetPosition": [
+                    -25.987422943115234,
+                    6.886701583862305,
+                    13.040227890014648
+                ]
+            },
+            "ScriptProperties": {
+                "scripts": [
+                    "Assets/Scripts/Pathfinding.lua",
+                    "Assets\\Scripts\\Customer.lua"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "entity": {
+        "name": "CustomerLog",
+        "guid": "605cfc4f-dcb6-4680-852a-5512348dd89a",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    0.009999999776482582,
+                    0.45,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "TagComponent": {
+                "tags": [
+                    "CustomerLog"
+                ]
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": ""
+            },
+            "TextureComponent": {
+                "guid": "d51ae7b6-67be-4d65-acc3-eaa40328d190",
+                "isUI": false
+            },
+            "ScriptProperties": {
+                "scripts": [
+                    "Assets\\Scripts\\FloatUpAndDelete.lua"
+                ]
+            },
+            "TextProperties": {
+                "text": "",
+                "scale": 0.800000011920929,
+                "color": [
+                    1.0,
+                    0,
+                    0
+                ],
+                "alignment": 0,
+                "isBillboard": false,
+                "screenSpace": true
+            }
+        }
+    }
+}

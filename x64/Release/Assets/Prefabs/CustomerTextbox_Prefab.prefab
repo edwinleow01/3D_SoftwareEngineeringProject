@@ -1,0 +1,52 @@
+{
+    "entity": {
+        "name": "CustomerTextbox",
+        "guid": "dcfd9fa6-2515-486e-aa5e-f42953e31613",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    -26.495574951171875,
+                    10.399999618530273,
+                    13.040315628051758
+                ],
+                "rotation": [
+                    0.0,
+                    -89.73345947265625,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": ""
+            },
+            "TextureComponent": {
+                "guid": "d51ae7b6-67be-4d65-acc3-eaa40328d190",
+                "isUI": false
+            },
+            "TextProperties": {
+                "text": "Hi, I want a chopped_herb!",
+                "scale": 0.01549999974668026,
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "alignment": 1,
+                "isBillboard": true,
+                "screenSpace": false
+            }
+        }
+    }
+}

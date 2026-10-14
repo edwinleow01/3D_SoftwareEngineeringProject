@@ -1,0 +1,58 @@
+{
+    "entity": {
+        "name": "Frog",
+        "guid": "afb56b2a-47bd-4896-8bc8-11d61d4f1155",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    -5.04966402053833,
+                    0.252316415309906,
+                    -8.0
+                ],
+                "rotation": [
+                    0.0,
+                    66.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [
+                    "58505cf7-aef9-44e3-a16c-2d836d78ddf5"
+                ],
+                "sortIndex": 1
+            },
+            "MeshReference": {
+                "guid": "239cddd5-6733-44a1-927a-e3b13152a09a"
+            },
+            "TextureComponent": {
+                "guid": "4caccc21-6007-45d5-bb72-a14260f29a35"
+            },
+            "NavMeshAgentComponent": {
+                "agentHeight": 2.0,
+                "agentRadius": 0.6000000238418579,
+                "moveSpeed": 10.0,
+                "angularSpeed": 120.0,
+                "acceleration": 8.0,
+                "stoppingDistance": 0.10000000149011612,
+                "autoRepath": false,
+                "stopOnTargetReached": true,
+                "targetPosition": [
+                    -5.0,
+                    0.30000001192092896,
+                    -8.0
+                ]
+            },
+            "ScriptComponent": {
+                "scripts": [
+                    "C:/test/Idesign-Studio-Engine-GAM300/Idesign Engine/Idesign Engine/Assets/Scripts/Pathfinding.lua"
+                ]
+            }
+        }
+    }
+}

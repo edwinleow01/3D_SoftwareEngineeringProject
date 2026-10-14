@@ -1,0 +1,106 @@
+{
+    "entity": {
+        "name": "ironOre1",
+        "guid": "bedade6d-684c-44a9-956a-47b86a1531fb",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    -108.3657455444336,
+                    315.8154602050781,
+                    -89.6010513305664
+                ],
+                "rotation": [
+                    0.0027618408203125,
+                    -24.5679931640625,
+                    -0.00274658203125
+                ],
+                "scale": [
+                    0.75,
+                    0.75,
+                    0.75
+                ],
+                "isActive": true
+            },
+            "TagComponent": {
+                "tags": [
+                    "Interactable",
+                    "iron"
+                ]
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 73
+            },
+            "MeshReference": {
+                "guid": "7c1c5c3c-ec12-4542-84f3-6127123c40ae"
+            },
+            "TextureComponent": {
+                "guid": "2642ccd9-5c56-48fe-8e85-452b329651f1",
+                "isUI": false
+            },
+            "BoxColliderComponent": {
+                "colliders": [
+                    {
+                        "size": [
+                            3.0,
+                            4.099999904632568,
+                            4.0
+                        ],
+                        "center": [
+                            0.0,
+                            1.899999976158142,
+                            0.0
+                        ],
+                        "canPassThrough": false,
+                        "isInteractable": false
+                    }
+                ]
+            },
+            "PhysicsProperties": {
+                "category": 1,
+                "isImmovable": true,
+                "gravityFactor": 1.0,
+                "mass": 1.0,
+                "friction": 0.5,
+                "restitution": 0.0,
+                "linearVelocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "startAwake": true
+            },
+            "ItemComponent": {
+                "name": "iron_ore",
+                "isIngredient": true,
+                "isChoppable": true,
+                "toDestroyWhenPicked": true
+            },
+            "ParticleEmitterComponent": {
+                "active": true,
+                "loop": true,
+                "duration": 1.0,
+                "direction": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "spreadAngleDeg": 100.0,
+                "range": 1.5,
+                "particlesPerSecond": 15.0,
+                "particleSpeed": 1.0,
+                "particleSize": 0.2,
+                "localSpace": true,
+                "textureGuid": "7f81f0a1-cb99-4e9a-ac72-e1f7193092f7",
+                "pixelFilter": true,
+                "maxParticles": 200
+            }
+        }
+    }
+}

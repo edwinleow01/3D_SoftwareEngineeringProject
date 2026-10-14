@@ -1,0 +1,37 @@
+{
+    "entity": {
+        "name": "RightFoot",
+        "guid": "fdf6b957-6767-6767-b053-911623eeb56e",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    0.009999999776482582,
+                    0.019999999552965164,
+                    0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.5,
+                    0.5,
+                    0.5
+                ]
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "TextureComponent": {
+                "guid": "5f9e2a12-8afd-48ac-af8a-3392580e5c60",
+                "isUI": true
+            }
+        }
+    }
+}

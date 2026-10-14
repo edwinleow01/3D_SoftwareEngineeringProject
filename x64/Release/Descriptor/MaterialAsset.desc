@@ -1,0 +1,15 @@
+{
+    "count": 2,
+    "entries": [
+        {
+            "guid": "2c12a0a9-b140-4b43-b447-295558cb1317",
+            "name": "BrushedMetal",
+            "path": "Assets/Materials/BrushedMetal.material"
+        },
+        {
+            "guid": "119a0f36-daa3-4fea-8298-f3c08f675040",
+            "name": "WoodPlank",
+            "path": "Assets/Materials/WoodPlank.material"
+        }
+    ]
+}

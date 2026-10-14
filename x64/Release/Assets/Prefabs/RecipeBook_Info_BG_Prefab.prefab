@@ -1,0 +1,38 @@
+{
+    "entity": {
+        "name": "RecipeBook_Info_BG",
+        "guid": "c69ebf89-e895-48fd-6767-eda44a422dd1",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    960.0,
+                    540.0,
+                    0.7
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1920.0,
+                    1080.0,
+                    1.0
+                ],
+                "isActive": true
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": ""
+            },
+            "TextureComponent": {
+                "guid": "201a6573-d291-4534-91da-f38d52aa02b4",
+                "isUI": true
+            }
+        }
+    }
+}

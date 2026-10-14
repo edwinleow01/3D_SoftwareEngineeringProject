@@ -1,0 +1,77 @@
+{
+    "count": 9,
+    "entries": [
+        {
+            "guid": "{ad3d4d36-263d-49a4-af7c-db517f5157ec}",
+            "name": "winloop",
+            "path": "event:/winloop",
+            "mode": "loop",
+            "soundType": "background",
+            "duration": 1.0
+        },
+        {
+            "guid": "{853ecc5f-520b-4061-9206-ca434d00437b}",
+            "name": "previousbutton",
+            "path": "event:/previousbutton",
+            "mode": "oneshot",
+            "soundType": "effect",
+            "duration": 1.0
+        },
+        {
+            "guid": "{c2a095d5-c89c-4658-ae91-5ac8e3728077}",
+            "name": "ForestAmbient",
+            "path": "event:/ForestAmbient",
+            "mode": "loop",
+            "soundType": "background",
+            "duration": 1.0
+        },
+        {
+            "guid": "{6e538d8f-7934-4a55-bb86-f14eed76df94}",
+            "name": "piano",
+            "path": "event:/piano",
+            "mode": "loop",
+            "soundType": "background",
+            "duration": 1.0
+        },
+        {
+            "guid": "{133800eb-c2d9-43ff-8cf8-b737a68ef397}",
+            "name": "buttonclick",
+            "path": "event:/buttonclick",
+            "mode": "oneshot",
+            "soundType": "effect",
+            "duration": 1.0
+        },
+        {
+            "guid": "{7cfd5342-6418-4287-87d7-36966f8be477}",
+            "name": "Level1BGM",
+            "path": "event:/Level1BGM",
+            "mode": "loop",
+            "soundType": "background",
+            "duration": 1.0
+        },
+        {
+            "guid": "{a6788508-9a6c-4e28-bd16-a275464e017b}",
+            "name": "selectbutton",
+            "path": "event:/selectbutton",
+            "mode": "oneshot",
+            "soundType": "effect",
+            "duration": 1.0
+        },
+        {
+            "guid": "{b6f8dace-d303-415b-9283-d7e3da2a59aa}",
+            "name": "ChoppingHerb",
+            "path": "event:/ChoppingHerb",
+            "mode": "oneshot",
+            "soundType": "effect",
+            "duration": 1.0
+        },
+        {
+            "guid": "{22a1e570-9295-4ea2-b721-85f4c76c1e38}",
+            "name": "Footstep",
+            "path": "event:/Footstep",
+            "mode": "oneshot",
+            "soundType": "effect",
+            "duration": 1.0
+        }
+    ]
+}

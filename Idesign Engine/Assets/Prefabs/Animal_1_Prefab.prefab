@@ -1,0 +1,137 @@
+{
+    "entity": {
+        "name": "Animal_1",
+        "guid": "4531509c-e3e5-4195-add6-739b9c23d8bd",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    -240.16969299316406,
+                    316.1000061035156,
+                    646.4075927734375
+                ],
+                "rotation": [
+                    0.03514954820275307,
+                    103.96455383300781,
+                    -0.037727031856775284
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "isActive": true
+            },
+            "TagComponent": {
+                "tags": [
+                    "Interactable",
+                    "interactable",
+                    "Sheep"
+                ]
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": "58328ef6-2b84-4dd3-b935-6b58b34bb052"
+            },
+            "TextureComponent": {
+                "guid": "cb835734-627c-46b7-8267-7a9cb3ddebdc",
+                "isUI": false
+            },
+            "NavMeshAgentComponent": {
+                "agentHeight": 10.0,
+                "agentRadius": 0.6000000238418579,
+                "moveSpeed": 3.5,
+                "angularSpeed": 360.0,
+                "rotationOffset": 0.0, 
+                "acceleration": 8.0,
+                "stoppingDistance": 0.10000000149011612,
+                "autoRepath": false,
+                "stopOnTargetReached": true,
+                "targetPosition": [
+                    -240.1552276611328,
+                    316.1000061035156,
+                    646.4658203125
+                ]
+            },
+            "ScriptProperties": {
+                "scripts": [
+                    "Assets\\Scripts\\Herbivore_AI.lua"
+                ]
+            },
+            "BoxColliderComponent": {
+                "colliders": [
+                    {
+                        "size": [
+                            2.0,
+                            4.0,
+                            4.0
+                        ],
+                        "center": [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        "canPassThrough": false,
+                        "isInteractable": true,
+                        "interactMessage": "ShearSheep",
+                        "promptText": "Collect Wool"
+                    }
+                ]
+            },
+            "PhysicsProperties": {
+                "category": 1,
+                "isImmovable": true,
+                "gravityFactor": 1.0,
+                "mass": 1.0,
+                "friction": 0.5,
+                "restitution": 0.0,
+                "linearVelocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "startAwake": true
+            },
+            "EventReceiverComponent": {
+                "receivers": [
+                    {
+                        "messageToListenFor": "ShearSheep",
+                        "luaFunctionToCall": "OnInteract"
+                    }
+                ]
+            },
+            "ParticleEmitterComponent": {
+                "active": true,
+                "loop": true,
+                "duration": 1.0,
+                "direction": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "emitterOffset": [
+                    0.0,
+                    0.5,
+                    0.0
+                ],
+                "spreadAngleDeg": 100.0,
+                "range": 2.0,
+                "particlesPerSecond": 10.0,
+                "particleSpeed": 1.0,
+                "particleSize": 0.3,
+                "localSpace": true,
+                "textureGuid": "7f81f0a1-cb99-4e9a-ac72-e1f7193092f7",
+                "pixelFilter": true,
+                "maxParticles": 200
+            }
+        }
+    }
+}

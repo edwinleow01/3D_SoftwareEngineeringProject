@@ -1,0 +1,485 @@
+{
+    "count": 80,
+    "entries": [
+        {
+            "guid": "ab20d9cc-f552-47fb-8cd9-82403e4c3b22",
+            "name": "Pear4_Prefab",
+            "path": "Assets\\Prefabs\\Pear4_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "5f279032-d551-4137-8772-e24f5ae5af73",
+            "name": "Animal_1_Prefab",
+            "path": "Assets\\Prefabs\\Animal_1_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "898b36fc-aae3-43e4-9e2e-8edcb193e3c1",
+            "name": "Frog_Prefab",
+            "path": "Assets\\Prefabs\\Frog_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "6c60686a-c68c-4284-bce0-019cfcbf77fa",
+            "name": "ProgressBarFrame_Prefab",
+            "path": "Assets\\Prefabs\\ProgressBarFrame_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "6dd5bda0-0211-4253-87c2-6e39e0eb9ff8",
+            "name": "Pear3_Prefab",
+            "path": "Assets\\Prefabs\\Pear3_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "8af2edf2-5fa6-473b-afaa-8be1f93d519d",
+            "name": "Pear5_Prefab",
+            "path": "Assets\\Prefabs\\Pear5_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "5dfc16be-aa4a-420a-9105-f7c9652f3620",
+            "name": "ProgressBarFill_Prefab",
+            "path": "Assets\\Prefabs\\ProgressBarFill_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "610184a6-f0a5-4d4e-a903-6cc938f6f643",
+            "name": "Pear6_Prefab",
+            "path": "Assets\\Prefabs\\Pear6_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "e5d9bff9-1f28-46c5-aca4-68fd5519dcec",
+            "name": "ProgressBarFrame_Prefab",
+            "path": "Assets\\Prefabs\\ProgressBarFrame_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "09165696-3faf-4bd5-838f-ca6549af1306",
+            "name": "Customer_Dynamic_Prefab",
+            "path": "Assets\\Prefabs\\Customer_Dynamic_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "8be70edb-fb03-4af7-a8b1-4880d8b00107",
+            "name": "ProgressBarFill_Prefab",
+            "path": "Assets\\Prefabs\\ProgressBarFill_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "b1e7bea6-ba5d-4a40-be1c-b30224f8868c",
+            "name": "CustomerTextbox_Prefab",
+            "path": "Assets\\Prefabs\\CustomerTextbox_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "584b841f-a181-4adb-a75c-852abf944c79",
+            "name": "Customer_Kinematic_Prefab",
+            "path": "Assets\\Prefabs\\Customer_Kinematic_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "b317af21-a509-418b-8340-8c6852a41c93",
+            "name": "ForestHerb3_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb3_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "cc960fa4-f792-4441-af1b-c0752b8862cd",
+            "name": "strength_potion_Prefab",
+            "path": "Assets\\Prefabs\\strength_potion_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "c3d15396-ffe4-4053-9556-d28ffe848109",
+            "name": "ForestHerb6_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb6_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "71a83449-8181-416a-8371-acb33d34c4f4",
+            "name": "vitality_potion_Prefab",
+            "path": "Assets\\Prefabs\\vitality_potion_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "12a83449-8181-416a-8371-dfg33d34c4f4",
+            "name": "iron_bar_Prefab",
+            "path": "Assets\\Prefabs\\iron_bar_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "22a83449-8181-416a-8371-dfg67d34c462",
+            "name": "preservation_powder_Prefab",
+            "path": "Assets\\Prefabs\\preservation_powder_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "33a83449-6767-416a-8371-67667d34c462",
+            "name": "healing_powder_Prefab",
+            "path": "Assets\\Prefabs\\healing_powder_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "67a83449-8181-416a-8371-dfg33d34c467",
+            "name": "copper_bar_Prefab",
+            "path": "Assets\\Prefabs\\copper_bar_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "eb37c4f0-924e-4edc-af53-c18f22773ba5",
+            "name": "Herb3_Prefab",
+            "path": "Assets\\Prefabs\\Herb3_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "546385ef-6adb-4a62-8685-3b7cf8cfef7b",
+            "name": "unchopped_herb_Prefab",
+            "path": "Assets\\Prefabs\\unchopped_herb_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "2b031b5f-39b1-4596-8f6f-ad7a639fb94d",
+            "name": "Customer_Kinematic_2_Prefab",
+            "path": "Assets\\Prefabs\\Customer_Kinematic_2_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "654ed3fe-c485-4a60-90f4-cac1b387d8c0",
+            "name": "UI_SkillBar_Zone_Prefab",
+            "path": "Assets\\Prefabs\\UI_SkillBar_Zone_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "702b8b28-03cd-448f-bcac-52b8ef5e1856",
+            "name": "CustomerLog_Prefab",
+            "path": "Assets\\Prefabs\\CustomerLog_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "8a362b6a-e321-41b7-9496-e18c1839cfbd",
+            "name": "ScoreText_Prefab",
+            "path": "Assets\\Prefabs\\ScoreText_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "784fb99c-10de-491c-a454-a1ecdd245f49",
+            "name": "CauldronLog_Prefab",
+            "path": "Assets\\Prefabs\\CauldronLog_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "4727a0ad-4372-49ef-b0d2-c8258cc0d518",
+            "name": "Herb2_Prefab",
+            "path": "Assets\\Prefabs\\Herb2_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "fbe80521-4170-4211-a034-8affde47c581",
+            "name": "ForestHerb2_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb2_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "a8b89a08-c5f9-494c-81fc-ac3d88ff4f53",
+            "name": "Herb1_Prefab",
+            "path": "Assets\\Prefabs\\Herb1_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "f8511c2c-d929-4580-a086-c0ce863f85bf",
+            "name": "ForestHerb3_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb3_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "f2b79bf2-29d4-4577-801d-b6dff82ecb2c",
+            "name": "Herb4_Prefab",
+            "path": "Assets\\Prefabs\\Herb4_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "f57ba7b7-a429-4a93-8205-926f7d73c15d",
+            "name": "ForestHerb5_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb5_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "547d1c97-d493-4ad7-8b74-776711960c57",
+            "name": "ForestHerb_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "0a36a5ea-8321-4d14-9896-9a8610e429ae",
+            "name": "UI_SkillBar_BG_Prefab",
+            "path": "Assets\\Prefabs\\UI_SkillBar_BG_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "e7ef6b5d-76e8-4091-9d4f-5fd7138fb430",
+            "name": "ForestHerb1_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb1_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "7023b721-9f48-4acf-9f24-ba89e0e6b602",
+            "name": "ForestHerb1_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb1_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "04266e94-331d-4017-8728-a3670b317952",
+            "name": "ForestHerb2_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb2_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "964598ed-b412-4b29-8e6b-36ac4f9fc530",
+            "name": "ForestHerb4_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb4_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "61debb8a-d3c7-415e-b373-3d7c6260dff2",
+            "name": "UI_ProgressBar_Fill_Prefab",
+            "path": "Assets\\Prefabs\\UI_ProgressBar_Fill_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "bcdd602a-3c09-4d09-a61b-824cf7a01e80",
+            "name": "UI_SkillBar_Marker_Prefab",
+            "path": "Assets\\Prefabs\\UI_SkillBar_Marker_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "30599f0c-044c-4341-897c-638b396cfb8e",
+            "name": "ForestHerb4_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb4_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "bbbf04f6-e194-4b88-8b7a-b9ad4639219f",
+            "name": "ForestHerb7_Prefab",
+            "path": "Assets\\Prefabs\\ForestHerb7_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "7d4d9a90-0c4c-4b1e-a74c-bf7b45025c10",
+            "name": "warmth_potion_Prefab",
+            "path": "Assets\\Prefabs\\warmth_potion_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "6c3cd53d-28f8-44bd-b92a-28334ea5d325",
+            "name": "Pear1_Prefab",
+            "path": "Assets\\Prefabs\\Pear1_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "dc0218a7-2241-4356-b827-ae1ca79c9ff3",
+            "name": "Pear2_Prefab",
+            "path": "Assets\\Prefabs\\Pear2_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "7e843fe5-b3c9-4ebe-8887-3dc3ef5fb857",
+            "name": "GoodPound_Prefab_Prefab",
+            "path": "Assets\\Prefabs\\GoodPound_Prefab_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "66ff6826-5ae7-41de-809c-a5e5a98dd780",
+            "name": "GoodPound_Prefab",
+            "path": "Assets\\Prefabs\\GoodPound_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "da6baeea-200a-4039-8e82-8acbad37c1c6",
+            "name": "MediumPound_Prefab",
+            "path": "Assets\\Prefabs\\MediumPound_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "20f81914-110a-49b6-8374-e99042f5b4df",
+            "name": "PoorPound_Prefab",
+            "path": "Assets\\Prefabs\\PoorPound_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "ff92c088-16c9-4dfa-89e3-496283748893",
+            "name": "TapCircle_Prefab",
+            "path": "Assets\\Prefabs\\TapCircle_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "68900b6c-9902-4d58-92b0-9baf74f5aa0f",
+            "name": "BLACK-DAY2_Prefab",
+            "path": "Assets\\Prefabs\\BLACK-DAY2_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "c80f6bba-61d9-4043-bdcb-1325b557c72d",
+            "name": "copperOre1_Prefab",
+            "path": "Assets\\Prefabs\\copperOre1_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "bd9a018d-bc26-422d-a388-40c949f801c1",
+            "name": "copperOre2_Prefab",
+            "path": "Assets\\Prefabs\\copperOre2_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "88a875da-e9a4-4afb-bc99-8bd2f20d0f02",
+            "name": "copperOre3_Prefab",
+            "path": "Assets\\Prefabs\\copperOre3_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "2e70e4bc-a2d7-4449-9c91-df59327f68e5",
+            "name": "copperOre4_Prefab",
+            "path": "Assets\\Prefabs\\copperOre4_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "55eb2ac3-fc7e-49fb-a16f-5bc550efd602",
+            "name": "copperOre5_Prefab",
+            "path": "Assets\\Prefabs\\copperOre5_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "6581693e-a651-41e6-8cfe-487ac7e0e7b4",
+            "name": "copperOre6_Prefab",
+            "path": "Assets\\Prefabs\\copperOre6_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "6abe33b2-a30d-457f-94b2-b523bccb736d",
+            "name": "copperOre7_Prefab",
+            "path": "Assets\\Prefabs\\copperOre7_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "cb19eb3d-5845-4378-9e8e-7223c3ea1262",
+            "name": "ironOre1_Prefab",
+            "path": "Assets\\Prefabs\\ironOre1_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "c9c06746-7892-4ab1-93f3-ae126632ff45",
+            "name": "ironOre2_Prefab",
+            "path": "Assets\\Prefabs\\ironOre2_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "7328adac-8a58-4d24-905d-8e87f32b16a6",
+            "name": "ironOre3_Prefab",
+            "path": "Assets\\Prefabs\\ironOre3_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "0f3554d6-e172-4d74-b661-7b22e9360b20",
+            "name": "ironOre4_Prefab",
+            "path": "Assets\\Prefabs\\ironOre4_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "fd40105d-485e-49d8-80e2-5b300f7809c9",
+            "name": "ironOre5_Prefab",
+            "path": "Assets\\Prefabs\\ironOre5_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "fd865278-0ed5-4779-9d56-2fdaeab583aa",
+            "name": "ironOre6_Prefab",
+            "path": "Assets\\Prefabs\\ironOre6_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "bedade6d-684c-44a9-676a-47b86a1531fb",
+            "name": "ironOre7_Prefab",
+            "path": "Assets\\Prefabs\\ironOre7_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "bedade6d-684c-44a9-676a-47b86a6761fb",
+            "name": "ironOre8_Prefab",
+            "path": "Assets\\Prefabs\\ironOre8_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "1a8824fb-65db-4cd3-b3cf-1186bb545b05",
+            "name": "ProgressBarTick_Prefab",
+            "path": "Assets\\Prefabs\\ProgressBarTick_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "43ee45ec-54c0-45a7-b0c7-6695a7e7f47d",
+            "name": "Entity 8_Prefab",
+            "path": "Assets\\Prefabs\\Entity 8_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "ec0756fc-946b-49cc-b962-188fa926c182",
+            "name": "Prefab_Test_Prefab",
+            "path": "Assets\\Prefabs\\Prefab_Test_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "6800e96c-6bd6-4974-a3a0-edbe5457558f",
+            "name": "mending_potion_Prefab",
+            "path": "Assets\\Prefabs\\mending_potion_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "c26d9aa1-e8bc-4f97-878c-6659f3dd7bdb",
+            "name": "defense_potion_Prefab",
+            "path": "Assets\\Prefabs\\defense_potion_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "c26d9aa1-e8bc-4f97-878c-6659f3dd7bd7",
+            "name": "chopped_herb_Prefab",
+            "path": "Assets\\Prefabs\\chopped_herb_prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "88eeea08-85e0-47fd-9297-fd858ee22464",
+            "name": "Spinner_Prefab",
+            "path": "Assets\\Prefabs\\Spinner_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "eb18b3df-9602-4719-ad6a-68af33bca681",
+            "name": "star_Prefab",
+            "path": "Assets\\Prefabs\\star_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "c69ebf89-e895-48fd-900b-eda44a422dd1",
+            "name": "RecipeBook_Info_Prefab",
+            "path": "Assets\\Prefabs\\RecipeBook_Info_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "c69ebf89-e895-48fd-6767-eda44a422dd1",
+            "name": "RecipeBook_Info_BG_Prefab",
+            "path": "Assets\\Prefabs\\RecipeBook_Info_BG_Prefab.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "fdf6b957-d479-6767-b053-911623eeb56e",
+            "name": "LeftFoot",
+            "path": "Assets\\Prefabs\\LeftFoot.prefab",
+            "isScenePrefab": false
+        },
+        {
+            "guid": "fdf6b957-6767-6767-b053-911623eeb56e",
+            "name": "RightFoot",
+            "path": "Assets\\Prefabs\\RightFoot.prefab",
+            "isScenePrefab": false
+        }
+    ]
+}

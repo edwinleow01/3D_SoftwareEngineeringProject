@@ -1,0 +1,87 @@
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\lib\imgui\imgui.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\imgui.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\lib\imgui\ImGuizmo.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\ImGuizmo.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\lib\imgui\imgui_demo.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\imgui_demo.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\lib\imgui\imgui_draw.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\imgui_draw.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\lib\imgui\imgui_impl_glfw.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\imgui_impl_glfw.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\lib\imgui\imgui_impl_opengl3.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\imgui_impl_opengl3.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\lib\imgui\imgui_tables.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\imgui_tables.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\lib\imgui\imgui_widgets.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\imgui_widgets.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\DialogueSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\DialogueSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\LoadingSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\LoadingSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\ParticleSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\ParticleSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\PlayerInteractSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\PlayerInteractSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\AnimationLoader.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\AnimationLoader.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\AnimationSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\AnimationSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\AssetCompiler.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\AssetCompiler.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\AssetManager.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\AssetManager.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\AudioSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\AudioSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\BoxColliderComponent.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\BoxColliderComponent.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\ButtonSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\ButtonSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Collision.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Collision.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\ComponentManager.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\ComponentManager.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Coordinator.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Coordinator.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Core.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Core.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Debugger.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Debugger.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\DummySystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\DummySystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\EngineState.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\EngineState.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\EntityManager.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\EntityManager.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\EventManager.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\EventManager.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\EventSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\EventSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\FileCheckSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\FileCheckSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\FoliageRenderer.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\FoliageRenderer.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\FontSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\FontSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\GameSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\GameSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Graphics.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Graphics.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\GraphicsShader.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\GraphicsShader.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\GraphicsWindows.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\GraphicsWindows.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\ImguiManager.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\ImguiManager.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\InputHandler.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\InputHandler.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Inventory.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Inventory.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Lighting.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Lighting.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\main.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\main.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\MainMath.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\MainMath.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\MaterialLoader.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\MaterialLoader.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Matrix3x3.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Matrix3x3.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Matrix4x4.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Matrix4x4.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Mesh.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Mesh.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\MeshLoader.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\MeshLoader.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\MessageSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\MessageSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\NavMeshSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\NavMeshSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\pch.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\pch.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\PebbleRenderer.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\PebbleRenderer.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\PhaseManager.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\PhaseManager.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\PhysicsSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\PhysicsSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\PropertyWidget.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\PropertyWidget.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\DetourAlloc.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\DetourAlloc.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\DetourAssert.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\DetourAssert.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\DetourCommon.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\DetourCommon.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\DetourNavMesh.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\DetourNavMesh.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\DetourNavMeshBuilder.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\DetourNavMeshBuilder.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\DetourNavMeshQuery.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\DetourNavMeshQuery.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\DetourNode.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\DetourNode.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\Recast.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Recast.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\RecastAlloc.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\RecastAlloc.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\RecastArea.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\RecastArea.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\RecastAssert.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\RecastAssert.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\RecastContour.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\RecastContour.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\RecastFilter.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\RecastFilter.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\RecastLayers.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\RecastLayers.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\RecastMesh.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\RecastMesh.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\RecastMeshDetail.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\RecastMeshDetail.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\RecastRasterization.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\RecastRasterization.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Recast\RecastRegion.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\RecastRegion.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\SceneInterface.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\SceneInterface.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\SceneManager.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\SceneManager.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\ScriptingSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\ScriptingSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\ShaderProgram.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\ShaderProgram.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\SignalHandler.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\SignalHandler.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Skybox.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Skybox.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\TagManager.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\TagManager.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Terrain.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Terrain.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\TestSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\TestSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\TextureLoader.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\TextureLoader.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\TextureLoaderDDS.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\TextureLoaderDDS.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\TimerSystem.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\TimerSystem.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Upgrade.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Upgrade.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Vector2D.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Vector2D.obj
+D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\src\Vector3D.cpp;D:\github\Idesign-Studio-Engine-GAM300\Idesign Engine\Idesign Engine\x64\Release\Vector3D.obj

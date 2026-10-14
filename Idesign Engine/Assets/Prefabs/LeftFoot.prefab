@@ -1,0 +1,37 @@
+{
+    "entity": {
+        "name": "LeftFoot",
+        "guid": "fdf6b957-d479-6767-b053-911623eeb56e",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    0.009999999776482582,
+                    0.019999999552965164,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.5,
+                    0.5,
+                    0.5
+                ]
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "TextureComponent": {
+                "guid": "bf2ce39c-0414-41eb-9333-3f298754cbed",
+                "isUI": true
+            }
+        }
+    }
+}

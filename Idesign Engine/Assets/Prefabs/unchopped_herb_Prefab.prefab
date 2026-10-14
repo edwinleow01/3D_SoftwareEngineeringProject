@@ -1,0 +1,41 @@
+{
+    "entity": {
+        "name": "unchopped_herb",
+        "guid": "cacae5c6-d63c-4a92-9a65-b512e4eb2fa0",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    -42.44966125488281,
+                    7.469938278198242,
+                    0.8977437615394592
+                ],
+                "rotation": [
+                    -179.99989318847656,
+                    -0.000005015218903281493,
+                    -179.99989318847656
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 46
+            },
+            "MeshReference": {
+                "guid": "4bf0356c-3b1b-4e45-a327-5a7f573a20ef"
+            },
+            "TextureComponent": {
+                "guid": "afd25b76-dddc-4c4f-bae4-a6c9a22931e5",
+                "isUI": false
+            },
+            "ScriptProperties": {
+                "scripts": [
+                ]
+            }
+        }
+    }
+}

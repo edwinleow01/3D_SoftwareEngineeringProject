@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "JoltPhysics",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Jolt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Jolt-RelWithDebInfo-b372044a96b4a6db96ca.json",
+					"name" : "Jolt",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Jasper/Downloads/SIT Stuff/Year 3/SEP Y3T1/Idesign-Studio-Engine-GAM300/Idesign Engine/lib/Jolt/out/build/x64-Release",
+		"source" : "C:/Users/Jasper/Downloads/SIT Stuff/Year 3/SEP Y3T1/Idesign-Studio-Engine-GAM300/Idesign Engine/lib/Jolt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

@@ -1,0 +1,382 @@
+{
+    "scripts": [
+        {
+            "guid": "16f0caaf-2e11-4715-ab0e-06c67810e1ba",
+            "scriptPath": "Assets\\Scripts\\InventoryUpgrade.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "23de8816-8d7d-42e1-ada2-3fdd7190fe5f",
+            "scriptPath": "Assets\\Scripts\\GameStateSettingsAudio.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "c6d4d63d-bced-4890-8a3b-3938e82b13e8",
+            "scriptPath": "Assets\\Scripts\\GameStateExit.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "98caa7fe-14e5-4cb0-b0c3-bc039dbde2cf",
+            "scriptPath": "Assets\\Scripts\\DialogueSystem.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "e99fded3-5d37-45b1-b3e9-d30799e94914",
+            "scriptPath": "Assets\\Scripts\\Herbivore_AI.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "8de4ea3f-31fb-4768-a277-e1ac0fc64201",
+            "scriptPath": "Assets\\Scripts\\GameStateHowToPlay.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "78bee47a-d444-4c29-a687-a272fd50e5b3",
+            "scriptPath": "Assets/Scripts/prove_lua.lua",
+            "hotReload": false,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "0cf97121-19fa-4fe9-a473-1b2cb85370f8",
+            "scriptPath": "Assets\\Scripts\\TagFunctionExample.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "583b617e-c68e-4e62-81cf-a2b05eefa1e4",
+            "scriptPath": "Assets\\Scripts\\ChoppingBoard.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "d147b738-c2f4-4231-9905-ea0d34658d17",
+            "scriptPath": "Assets\\Scripts\\MapSelectionUI.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "c29df17b-a280-43be-bfd9-900ec398078b",
+            "scriptPath": "Assets\\Scripts\\ForestUnlockUpgrade.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "6d5cf756-cb0e-4343-a7df-ac4c89a09858",
+            "scriptPath": "Assets\\Scripts\\score_test.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "48782e7b-a969-4b1f-ad50-0d92ca2e6de2",
+            "scriptPath": "Assets\\Scripts\\Settings_BGM_Mute.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "dc1222af-4b5e-4d38-8c8d-e16e5ae744dc",
+            "scriptPath": "Assets\\Scripts\\QuarryUnlockUpgrade.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "3a5dd495-f311-4f19-991a-b6bfc5d63825",
+            "scriptPath": "Assets\\Scripts\\Cauldron.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "c602f641-2748-4e0a-8fe7-2df7e8c401a2",
+            "scriptPath": "Assets/Scripts/cook_all.lua",
+            "hotReload": false,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "d922d53f-3ff6-4f93-b646-3e2249c228b8",
+            "scriptPath": "Assets/Scripts/hello.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "2f3321b6-3682-49be-8ee2-5dea0ad6ced9",
+            "scriptPath": "Assets/Scripts/controls.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "cab5a340-58ee-40d0-8e34-f85a330fcf87",
+            "scriptPath": "Assets/Scripts/FindEntityExample.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "f2483dea-2693-432a-b1a5-01aed656bd1e",
+            "scriptPath": "Assets\\Scripts\\GameStateResume.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "3fec6498-cd0e-40c0-8b7c-6e6d78cc6d5f",
+            "scriptPath": "Assets/Scripts/numpad_Move.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "e7535686-93e2-4aa2-8052-4abfe9e7deda",
+            "scriptPath": "Assets/Scripts/Pathfinding.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "196dd534-8ed5-43b7-97f2-9a77ce318958",
+            "scriptPath": "Assets\\Scripts\\TagFunctionExamaple2.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "35037238-3549-4319-9a74-8a0472ccefa3",
+            "scriptPath": "Assets\\Scripts\\CustomerSystem.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "2a043a0e-5056-4deb-a5db-ef302f3af345",
+            "scriptPath": "Assets\\Scripts\\Customer.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "852f4291-12ff-48e6-a6eb-bd6685a86b30",
+            "scriptPath": "Assets\\Scripts\\herb_pickup.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "d6628c13-1f36-47dd-9b77-5447605bb81f",
+            "scriptPath": "Assets\\Scripts\\knife.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "0b25e0c5-79e6-465a-96cd-920b83ef31e6",
+            "scriptPath": "Assets\\Scripts\\GameStateStart.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "003553a3-ff9c-4a33-b5c3-719a86239b90",
+            "scriptPath": "Assets\\Scripts\\GameStatePaused.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "be141cd7-fad9-4612-8d4c-9452cd03cce0",
+            "scriptPath": "Assets\\Scripts\\FloatUpAndDelete.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "ec4ab6ff-e63e-4653-9df5-3aff0b2cbad9",
+            "scriptPath": "Assets\\Scripts\\StartGame.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "50911a7e-8c97-4e66-99f4-ffd4855680ee",
+            "scriptPath": "Assets\\Scripts\\GameStateBackToPause.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "6b92065e-2d95-46f7-9c6e-3e2a2dae96ca",
+            "scriptPath": "Assets\\Scripts\\Settings_SFX_Mute.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "df1c2540-8fa0-4c78-899d-2eaee06453e8",
+            "scriptPath": "Assets\\Scripts\\GameStateCutscene.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "5a675a8e-6d41-4326-bfd1-7106b0279459",
+            "scriptPath": "Assets\\Scripts\\Settings_Master_Mute.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "42e8ffe5-ac90-4ec7-a592-bc4778c6fe98",
+            "scriptPath": "Assets\\Scripts\\CurrencyIncreaseUpgrade.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "e3d7fea7-6e58-4337-8951-9b0b0a7324f5",
+            "scriptPath": "Assets\\Scripts\\MapController.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "b20ceaf5-8708-422e-a0d1-9234f7d411c0",
+            "scriptPath": "Assets\\Scripts\\MapButton.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "1b87e222-4f27-465d-99e3-cb4e03a24086",
+            "scriptPath": "Assets\\Scripts\\BackpackUpgrade.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "c314695a-2a9e-4bf0-acad-f36a8ca7775a",
+            "scriptPath": "Assets\\Scripts\\potion_pickup.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "9b586251-481f-4167-8d99-3dcfc8c4ed5a",
+            "scriptPath": "Assets\\Scripts\\GameStateBackToMenu.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "b8c9be25-1e3f-4d68-a3a7-aad0bf25e985",
+            "scriptPath": "Assets\\Scripts\\PhaseSwitcher.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "ebdbf8aa-d944-40e4-8c1d-2a7415165a8d",
+            "scriptPath": "Assets\\Scripts\\itemSpawner.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "bb0ce2b0-2754-4eaf-b8e5-3c8603f5cc7a",
+            "scriptPath": "Assets\\Scripts\\Furnace.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "863fc1b9-38e3-4a59-a3f6-8f4ef9378b72",
+            "scriptPath": "Assets\\Scripts\\HUDSystem.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "18045653-72cf-4920-9971-f2782f8edbc1",
+            "scriptPath": "Assets\\Scripts\\Mortar.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "5aa8f34d-8af4-45bf-ab8c-2d79071796ff",
+            "scriptPath": "Assets\\Scripts\\Cauldron(Auto).lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "222194d1-12f8-41fe-ad7a-6c3e621835ee",
+            "scriptPath": "Assets\\Scripts\\QuarryTutorialSystem.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "28376f19-0136-4e10-8b4e-e88ec410c54c",
+            "scriptPath": "Assets\\Scripts\\EndStatsButtonController.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "d9936a81-a487-4c79-8b31-bcdc665aff8f",
+            "scriptPath": "Assets\\Scripts\\StatsSystem.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "ab4e1a2c-14d2-4389-ab5c-78e0e8491a76",
+            "scriptPath": "Assets\\Scripts\\DayStatsNextButton.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "9e9bb12e-919b-4628-8bc5-98719e3f89a4",
+            "scriptPath": "Assets\\Scripts\\GameStateSettingsGamma.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "30a375b3-769f-4f16-a8a2-14adb7b79d53",
+            "scriptPath": "Assets\\Scripts\\GameStateCredit.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        },
+        {
+            "guid": "09947353-2bee-401a-aaac-b525405c940d",
+            "scriptPath": "Assets\\Scripts\\GameStateWinOrLose.lua",
+            "hotReload": true,
+            "initialized": false,
+            "tableRef": -1
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "count": 5,
+    "entries": [
+        {
+            "guid": "174fa02d-453c-432c-a7ad-3a189353c91b",
+            "name": "BGM",
+            "path": "Assets\\Audio\\Desktop\\BGM.bank"
+        },
+        {
+            "guid": "45b5f7d2-94b5-4a7f-a32d-893778248a30",
+            "name": "Master",
+            "path": "Assets\\Audio\\Desktop\\Master.bank"
+        },
+        {
+            "guid": "98e943fc-62e3-4646-ae60-49ef01e59ff0",
+            "name": "Ambient",
+            "path": "Assets\\Audio\\Desktop\\Ambient.bank"
+        },
+        {
+            "guid": "82e361a1-9ec3-4012-a695-66b77c020c17",
+            "name": "Master.strings",
+            "path": "Assets\\Audio\\Desktop\\Master.strings.bank"
+        },
+        {
+            "guid": "d6f23fa6-ff6f-4892-91b3-ca11349bb492",
+            "name": "SFX",
+            "path": "Assets\\Audio\\Desktop\\SFX.bank"
+        }
+    ]
+}

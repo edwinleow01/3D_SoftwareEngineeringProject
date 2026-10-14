@@ -1,0 +1,41 @@
+{
+    "entity": {
+        "name": "UI_SkillBar_Zone",
+        "guid": "c6c5b6db-d087-44b6-bb3d-199e03d10bd8",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    900.0,
+                    300.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    128.0,
+                    28.0,
+                    1.0
+                ],
+                "isActive": true
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": ""
+            },
+            "TextureComponent": {
+                "guid": "f1944e1e-2e5d-4cc2-aabd-b644737524d1",
+                "isUI": true
+            }
+        }
+    }
+}

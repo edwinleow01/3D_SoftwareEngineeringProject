@@ -1,0 +1,135 @@
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 456e6a270206fb1452d7c095d3992e80161da54881bd496d4f24ea1722656899
+Status: install ok installed
+
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: cde553a63392bde7898aa0ae0868ba10356997c33acbb3de2df661740156f482
+Status: install ok installed
+
+Package: draco
+Version: 1.5.7
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e6be600a006f296dc9f785b997cc010c3045d88a0f147b1fa2bb52a37690a55f
+Description: A library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics.
+Status: install ok installed
+
+Package: jhasse-poly2tri
+Version: 2023-12-27
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: bd83037a5b134101f3e4f5692afd04ffda88c5b1cc97417dacb867c066ab52d0
+Description: Sweep-line algorithm for constrained Delaunay triangulation
+Status: install ok installed
+
+Package: kubazip
+Version: 0.3.5
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 3f003caa84ff2158fe6bae2ad8d495dc90dbac1ec9c5759a6ce20b9ee1f18917
+Description: A portable, simple zip library written in C
+Status: install ok installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2025-05-29
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: cc7f9bb5b2332da158e4196248b3a4adcde6c0eb6731c2171d62da88b7cfd19c
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f69844f580a2763b93dbee8136f4f1ffe4f3fb6f6f2a429b3deedd2c7a9377a2
+Description: A compression library
+Status: install ok installed
+
+Package: minizip
+Version: 1.3.1
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config, vcpkg-cmake-get-vars, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 42b1c961b152dd35a6cbc12c12ec09483da727754d9cf30cd957be809b3ef83f
+Description: Minizip zip file manipulation library
+Status: install ok installed
+
+Package: polyclipping
+Version: 6.4.2
+Port-Version: 13
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 11405e447d28194fa11ae691e92e374094dbc049c92d6ffe3cf3bbb2738b08d9
+Description: The Clipper library performs clipping and offsetting for both lines and polygons. All four boolean clipping operations are supported - intersection, union, difference and exclusive-or. Polygons can be of any shape including self-intersecting polygons.
+Status: install ok installed
+
+Package: pugixml
+Version: 1.15
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 8e76eadd931784a7e1f4834a644631ec06c3e6383309f72e1172c66c40287261
+Description: Light-weight, simple and fast XML parser for C++ with XPath support
+Status: install ok installed
+
+Package: rapidjson
+Version: 2025-02-26
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 445da6aa75f14c82396737ee8077bff5ca0c65cb6a6ba5b52d60dd36c2123033
+Description: A fast JSON parser/generator for C++ with both SAX/DOM style API <http://rapidjson.org/>
+Status: install ok installed
+
+Package: stb
+Version: 2024-07-29
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f1a1bc243c89f7bb5fb66b6772aebdbdb565d5cc8a9daec9cac7beda6da8da6a
+Description: public domain header-only libraries
+Status: install ok installed
+
+Package: utfcpp
+Version: 4.0.6
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c859b9baccbe1af71aeec8dff2d23a672bb01413f0598b738c080aac379095df
+Description: UTF-8 with C++ in a Portable Way
+Status: install ok installed
+
+Package: assimp
+Version: 6.0.2
+Port-Version: 1
+Depends: draco, jhasse-poly2tri, kubazip, minizip, polyclipping, pugixml, rapidjson, stb, utfcpp, vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e2bfaca87940751a16553c22ec1d9e8037e1687b0b1cbf90d627ff2a12027ebf
+Description: The Open Asset import library
+Status: install ok installed
+
+Package: rttr
+Version: 0.9.6+20210811
+Port-Version: 1
+Depends: rapidjson, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7605772a390c4505b4331bf32cb3add85e609286973f42dc3cc4ade2230a630a
+Description: an easy and intuitive way to use reflection in C++
+Status: install ok installed
+

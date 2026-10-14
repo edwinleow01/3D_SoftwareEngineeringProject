@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\SpellPatternProperties.obj",
+            "outputs": [
+                "x64\\Release\\SpellPatternProperties.h_E4458A912B018C7.ifc.dt.module.json",
+                "x64\\Release\\SpellPatternProperties.h_E4458A912B018C7.ifc.dt.d.json",
+                "x64\\Release\\SpellPatternProperties.h.ifc",
+                "x64\\Release\\Idesign Engine.pch"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\github\\Idesign-Studio-Engine-GAM300\\Idesign Engine\\Idesign Engine\\src\\SpellPatternProperties.h",
+                    "source-path": "d:\\github\\idesign-studio-engine-gam300\\idesign engine\\idesign engine\\src\\spellpatternproperties.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

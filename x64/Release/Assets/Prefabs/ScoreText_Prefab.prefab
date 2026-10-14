@@ -1,0 +1,55 @@
+{
+    "entity": {
+        "name": "ScoreText",
+        "guid": "fdf6b957-d479-48cc-b053-911623eeb56e",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    0.009999999776482582,
+                    0.019999999552965164,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": ""
+            },
+            "TextureComponent": {
+                "guid": "d51ae7b6-67be-4d65-acc3-eaa40328d190",
+                "isUI": false
+            },
+            "ScriptProperties": {
+                "scripts": []
+            },
+            "TextProperties": {
+                "text": "Score: ",
+                "scale": 0.800000011920929,
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "alignment": 0,
+                "isBillboard": false,
+                "screenSpace": true
+            }
+        }
+    }
+}

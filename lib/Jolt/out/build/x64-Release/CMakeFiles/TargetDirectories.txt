@@ -1,0 +1,3 @@
+C:/Users/Jasper/Downloads/SIT Stuff/Year 3/SEP Y3T1/Idesign-Studio-Engine-GAM300/Idesign Engine/lib/Jolt/out/build/x64-Release/CMakeFiles/Jolt.dir
+C:/Users/Jasper/Downloads/SIT Stuff/Year 3/SEP Y3T1/Idesign-Studio-Engine-GAM300/Idesign Engine/lib/Jolt/out/build/x64-Release/CMakeFiles/edit_cache.dir
+C:/Users/Jasper/Downloads/SIT Stuff/Year 3/SEP Y3T1/Idesign-Studio-Engine-GAM300/Idesign Engine/lib/Jolt/out/build/x64-Release/CMakeFiles/rebuild_cache.dir

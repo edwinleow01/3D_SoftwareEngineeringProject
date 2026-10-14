@@ -1,0 +1,100 @@
+{
+    "entity": {
+        "name": "Customer_Dynamic",
+        "guid": "b3fddead-dc10-4cb1-ab87-fc04e5319f10",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    -26.195905685424805,
+                    7.05233097076416,
+                    13.205756187438965
+                ],
+                "rotation": [
+                    0.1533588021993637,
+                    -24.281583786010742,
+                    179.95074462890625
+                ],
+                "scale": [
+                    0.009999999776482582,
+                    0.019999999552965164,
+                    0.009999999776482582
+                ]
+            },
+            "TagComponent": {
+                "tags": [
+                    "Interactable",
+                    "interactable"
+                ]
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": "e902f0d7-a022-45fc-9c17-2a98cbdb793e"
+            },
+            "TextureComponent": {
+                "guid": "8c24c8aa-00ff-4065-b384-a73ace8019dc",
+                "isUI": false
+            },
+            "NavMeshAgentComponent": {
+                "agentHeight": 10.0,
+                "agentRadius": 0.6000000238418579,
+                "moveSpeed": 3.5,
+                "angularSpeed": 120.0,
+                "acceleration": 8.0,
+                "stoppingDistance": 0.10000000149011612,
+                "autoRepath": false,
+                "stopOnTargetReached": true,
+                "targetPosition": [
+                    -25.987422943115234,
+                    5.900000095367432,
+                    13.040227890014648
+                ]
+            },
+            "ScriptProperties": {
+                "scripts": [
+                    "Assets\\Scripts\\Customer.lua"
+                ]
+            },
+            "BoxColliderComponent": {
+                "colliders": [
+                    {
+                        "size": [
+                            130.8000030517578,
+                            95.0,
+                            109.5999984741211
+                        ],
+                        "center": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "canPassThrough": false,
+                        "isInteractable": false
+                    }
+                ]
+            },
+            "PhysicsProperties": {
+                "category": 1,
+                "isImmovable": false,
+                "gravityFactor": 1.0,
+                "mass": 1.0,
+                "friction": 0.5,
+                "restitution": 0.0,
+                "linearVelocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "startAwake": true
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+  "entity": {
+    "name": "chopped_herb",
+    "guid": "95b5c704-ef86-4028-9be9-9c2f2f889361",
+    "components": {
+      "TransformComponent": {
+        "position": [
+          -70.2682876586914,
+          9.355600357055664,
+          2.9465508460998535
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          0.75,
+          0.75,
+          0.75
+        ]
+      },
+      "TagComponent": {
+        "tags": [
+          "Interactable"
+        ]
+      },
+      "HierarchyComponent": {
+        "parent": "",
+        "children": [],
+        "sortIndex": 48
+      },
+      "MeshReference": {
+        "guid": "7b437109-ba19-43a9-8d7c-1300ebff9d21"
+      },
+      "TextureComponent": {
+        "guid": "e726adb8-bf75-4993-9e77-826f5541ac9d",
+        "isUI": false
+      },
+      "ScriptProperties": {
+        "scripts": [
+          "Assets\\Scripts\\herb_pickup.lua"
+        ]
+      },
+      "BoxColliderComponent": {
+        "colliders": [
+          {
+            "size": [
+              2.9000000953674316,
+              0.699999988079071,
+              2.299999952316284
+            ],
+            "center": [
+              0.0,
+              0.4000000059604645,
+              0.0
+            ],
+            "canPassThrough": false,
+            "isInteractable": true,
+            "interactMessage": "",
+            "promptText": ""
+          }
+        ]
+      },
+      "PhysicsProperties": {
+        "category": 1,
+        "isImmovable": true,
+        "gravityFactor": 1.0,
+        "mass": 1.0,
+        "friction": 0.5,
+        "restitution": 0.0,
+        "linearVelocity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angularVelocity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "startAwake": true
+      },
+      "ItemComponent": {
+        "name": "chopped_herb",
+        "isIngredient": true,
+        "isChoppable": false,
+        "toDestroyWhenPicked": true
+      }
+    }
+  }
+}

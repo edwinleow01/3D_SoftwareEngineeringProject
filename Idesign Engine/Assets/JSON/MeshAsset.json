@@ -1,0 +1,1147 @@
+{
+    "mesh": [
+        {
+            "guid": "9a248918-705f-4d5a-88a2-17e85868745b",
+            "name": "wool",
+            "path": "Assets\\Objects\\wool.obj",
+            "vao": 1,
+            "vbo": 1,
+            "ebo": 2,
+            "indexCount": 510
+        },
+        {
+            "guid": "99f149a1-0e12-47e8-9322-626cec816595",
+            "name": "bench-damaged",
+            "path": "Assets\\Objects\\bench-damaged.obj",
+            "vao": 2,
+            "vbo": 3,
+            "ebo": 4,
+            "indexCount": 1440
+        },
+        {
+            "guid": "ad1d920a-c18d-41ea-90e7-d1cdfa54f7bf",
+            "name": "shovel",
+            "path": "Assets\\Objects\\shovel.obj",
+            "vao": 3,
+            "vbo": 5,
+            "ebo": 6,
+            "indexCount": 888
+        },
+        {
+            "guid": "c5b64c53-571e-459e-a52d-37bb8ad05795",
+            "name": "shovel-dirt",
+            "path": "Assets\\Objects\\shovel-dirt.obj",
+            "vao": 4,
+            "vbo": 7,
+            "ebo": 8,
+            "indexCount": 1680
+        },
+        {
+            "guid": "eac3e6f4-1bf2-415f-aef8-8f1269d91560",
+            "name": "Cube",
+            "path": "Assets/Objects/Cube.obj",
+            "vao": 288,
+            "vbo": 562,
+            "ebo": 563,
+            "indexCount": 36
+        },
+        {
+            "guid": "96ecdde5-7f27-4efc-824e-f18f383dbb83",
+            "name": "rocks",
+            "path": "Assets\\Objects\\rocks.obj",
+            "vao": 6,
+            "vbo": 11,
+            "ebo": 12,
+            "indexCount": 2184
+        },
+        {
+            "guid": "ac9a3c32-c3f7-45c7-a375-bd561ecaf0cc",
+            "name": "mushroom 2",
+            "path": "Assets\\Objects\\mushroom 2.obj",
+            "vao": 332,
+            "vbo": 650,
+            "ebo": 651,
+            "indexCount": 30054
+        },
+        {
+            "guid": "a8dc8a27-0de9-4d9b-9cee-a5ea09ea2265",
+            "name": "grass2",
+            "path": "Assets\\Objects\\grass2.obj",
+            "vao": 236,
+            "vbo": 458,
+            "ebo": 459,
+            "indexCount": 9516
+        },
+        {
+            "guid": "b220352c-c200-46f5-b805-578eb29bb705",
+            "name": "ChoppedHerb1",
+            "path": "Assets\\Objects\\ChoppedHerb1.obj",
+            "vao": 9,
+            "vbo": 17,
+            "ebo": 18,
+            "indexCount": 2016
+        },
+        {
+            "guid": "814c3cff-9da8-4ad4-8a05-009b99a4ea2b",
+            "name": "Door",
+            "path": "Assets\\Objects\\Door.obj",
+            "vao": 110,
+            "vbo": 206,
+            "ebo": 207,
+            "indexCount": 324
+        },
+        {
+            "guid": "c5a05b15-f198-42ed-94c4-938c0e5df6a4",
+            "name": "Untitled",
+            "path": "Assets\\Objects\\Untitled.obj",
+            "vao": 11,
+            "vbo": 21,
+            "ebo": 22,
+            "indexCount": 24
+        },
+        {
+            "guid": "473d7163-f81d-41d7-bde2-5106f072d36a",
+            "name": "vitality_potion",
+            "path": "Assets\\Objects\\vitality_potion.obj",
+            "vao": 12,
+            "vbo": 23,
+            "ebo": 24,
+            "indexCount": 780
+        },
+        {
+            "guid": "c9235b5b-3b4d-4d81-a8b0-be5f5e60c452",
+            "name": "land",
+            "path": "Assets\\Objects\\land.obj",
+            "vao": 285,
+            "vbo": 556,
+            "ebo": 557,
+            "indexCount": 3408
+        },
+        {
+            "guid": "71eff974-51b5-4c24-912c-ed68dbe5df8c",
+            "name": "Rock3",
+            "path": "Assets\\Objects\\Rock3.obj",
+            "vao": 180,
+            "vbo": 346,
+            "ebo": 347,
+            "indexCount": 37086
+        },
+        {
+            "guid": "1cc97700-7326-4df8-b677-80233b030807",
+            "name": "Back Wall",
+            "path": "Assets\\Objects\\Back Wall.obj",
+            "vao": 121,
+            "vbo": 228,
+            "ebo": 229,
+            "indexCount": 591
+        },
+        {
+            "guid": "90a63915-c3e8-40b9-8c48-b8fe58a9bd67",
+            "name": "Drawer",
+            "path": "Assets\\Objects\\Drawer.obj",
+            "vao": 117,
+            "vbo": 220,
+            "ebo": 221,
+            "indexCount": 1560
+        },
+        {
+            "guid": "5a92f04b-b30d-44f3-b990-d790fa568494",
+            "name": "woodencrate",
+            "path": "Assets\\Objects\\woodencrate.obj",
+            "vao": 283,
+            "vbo": 552,
+            "ebo": 553,
+            "indexCount": 28998
+        },
+        {
+            "guid": "b694fbcd-4620-4d40-bc75-a921d1cb799a",
+            "name": "PP_Blacksmithing_Sign_03",
+            "path": "Assets\\Objects\\PP_Blacksmithing_Sign_03.obj",
+            "vao": 145,
+            "vbo": 278,
+            "ebo": 279,
+            "indexCount": 1320
+        },
+        {
+            "guid": "2d0d1073-79fb-44de-9d09-86af64b2aabb",
+            "name": "GreenPotion2",
+            "path": "Assets\\Objects\\GreenPotion2.obj",
+            "vao": 18,
+            "vbo": 35,
+            "ebo": 36,
+            "indexCount": 924
+        },
+        {
+            "guid": "563cdf50-2687-4991-96cf-c5fa0be850ab",
+            "name": "Sphere",
+            "path": "Assets/Objects/Sphere.obj",
+            "vao": 19,
+            "vbo": 37,
+            "ebo": 38,
+            "indexCount": 2304
+        },
+        {
+            "guid": "6fa52b14-d79c-4815-aaff-767eb40b32ca",
+            "name": "Cutting Board",
+            "path": "Assets\\Objects\\Cutting Board.obj",
+            "vao": 124,
+            "vbo": 234,
+            "ebo": 235,
+            "indexCount": 456
+        },
+        {
+            "guid": "f699e1d9-f947-49e1-9108-ad2ecb610aa0",
+            "name": "center",
+            "path": "Assets\\Objects\\center.obj",
+            "vao": 21,
+            "vbo": 41,
+            "ebo": 42,
+            "indexCount": 12
+        },
+        {
+            "guid": "671f6bcc-5844-4c6d-9093-cb8e0c817831",
+            "name": "GreenPotion",
+            "path": "Assets\\Objects\\GreenPotion.obj",
+            "vao": 22,
+            "vbo": 43,
+            "ebo": 44,
+            "indexCount": 924
+        },
+        {
+            "guid": "8e3f6244-37cc-4772-9916-c310ee225654",
+            "name": "mushroom single",
+            "path": "Assets\\Objects\\mushroom single.obj",
+            "vao": 238,
+            "vbo": 462,
+            "ebo": 463,
+            "indexCount": 27030
+        },
+        {
+            "guid": "a0077014-9884-4a65-b44a-5c96f700552f",
+            "name": "fir tree bent",
+            "path": "Assets\\Objects\\fir tree bent.obj",
+            "vao": 287,
+            "vbo": 560,
+            "ebo": 561,
+            "indexCount": 14790
+        },
+        {
+            "guid": "58c34bb7-ff4d-4b4d-8e24-20ffbd1e78c6",
+            "name": "trunk",
+            "path": "Assets\\Objects\\trunk.obj",
+            "vao": 25,
+            "vbo": 49,
+            "ebo": 50,
+            "indexCount": 1644
+        },
+        {
+            "guid": "f597242d-9dba-4259-a91d-036298fb344c",
+            "name": "autumn tree 2 tier",
+            "path": "Assets\\Objects\\autumn tree 2 tier.obj",
+            "vao": 301,
+            "vbo": 588,
+            "ebo": 589,
+            "indexCount": 10098
+        },
+        {
+            "guid": "c04abe03-e3e7-4404-839f-630c34cde138",
+            "name": "PP_Gemstone_07_Gold",
+            "path": "Assets\\Objects\\PP_Gemstone_07_Gold.obj",
+            "vao": 148,
+            "vbo": 284,
+            "ebo": 285,
+            "indexCount": 60
+        },
+        {
+            "guid": "62fa60bd-a3d0-4575-851f-e6d04a326345",
+            "name": "Window Frame",
+            "path": "Assets\\Objects\\Window Frame.obj",
+            "vao": 108,
+            "vbo": 202,
+            "ebo": 203,
+            "indexCount": 774
+        },
+        {
+            "guid": "239cddd5-6733-44a1-927a-e3b13152a09a",
+            "name": "Frog",
+            "path": "Assets/Objects/Frog.obj",
+            "vao": 120,
+            "vbo": 226,
+            "ebo": 227,
+            "indexCount": 780
+        },
+        {
+            "guid": "9b1a5ea2-0cbf-4533-b25f-a5a6813a35ce",
+            "name": "pine",
+            "path": "Assets\\Objects\\pine.obj",
+            "vao": 29,
+            "vbo": 57,
+            "ebo": 58,
+            "indexCount": 2016
+        },
+        {
+            "guid": "8888d997-f172-4281-be69-fd7546feabc9",
+            "name": "rock_flat_top",
+            "path": "Assets\\Objects\\rock_flat_top.obj",
+            "vao": 24,
+            "vbo": 47,
+            "ebo": 48,
+            "indexCount": 1329996
+        },
+        {
+            "guid": "52f9947c-0b27-4f5a-9a18-cfef71bcfac3",
+            "name": "layout2-0",
+            "path": "Assets/Objects/layout2-0.obj",
+            "vao": 344,
+            "vbo": 674,
+            "ebo": 675,
+            "indexCount": 40356
+        },
+        {
+            "guid": "177fa052-079f-42bb-b225-97be34770804",
+            "name": "Table",
+            "path": "Assets\\Objects\\Table.obj",
+            "vao": 175,
+            "vbo": 336,
+            "ebo": 337,
+            "indexCount": 528
+        },
+        {
+            "guid": "6ce82b2e-ad7b-45b9-8fad-27f9a046a0ff",
+            "name": "autumn tree 4 branches",
+            "path": "Assets\\Objects\\autumn tree 4 branches.obj",
+            "vao": 300,
+            "vbo": 586,
+            "ebo": 587,
+            "indexCount": 16434
+        },
+        {
+            "guid": "b3d93b20-477b-4aea-ac2f-519a8b9372b5",
+            "name": "fountain",
+            "path": "Assets\\Objects\\fountain.obj",
+            "vao": 233,
+            "vbo": 452,
+            "ebo": 453,
+            "indexCount": 10140
+        },
+        {
+            "guid": "3a68b780-632d-49d8-b45d-33b1ac035172",
+            "name": "plane",
+            "path": "Assets/Objects/plane.obj",
+            "vao": 34,
+            "vbo": 67,
+            "ebo": 68,
+            "indexCount": 76662
+        },
+        {
+            "guid": "f804e240-f4a6-4909-91af-6a69fcb9517c",
+            "name": "rock2",
+            "path": "Assets\\Objects\\rock2.obj",
+            "vao": 158,
+            "vbo": 302,
+            "ebo": 303,
+            "indexCount": 30906
+        },
+        {
+            "guid": "4de6e54b-0df4-4ff4-9d1c-51a61190fe92",
+            "name": "GreenPotion3",
+            "path": "Assets\\Objects\\GreenPotion3.obj",
+            "vao": 37,
+            "vbo": 73,
+            "ebo": 74,
+            "indexCount": 780
+        },
+        {
+            "guid": "0ad7c57f-3b52-4184-90bc-f0a70e0f43cb",
+            "name": "warmth_potion",
+            "path": "Assets\\Objects\\warmth_potion.obj",
+            "vao": 36,
+            "vbo": 71,
+            "ebo": 72,
+            "indexCount": 924
+        },
+        {
+            "guid": "b788b0ac-54fe-4540-98ec-e45e98d76dd6",
+            "name": "bridge_flat",
+            "path": "Assets\\Objects\\bridge_flat.obj",
+            "vao": 38,
+            "vbo": 75,
+            "ebo": 76,
+            "indexCount": 3540
+        },
+        {
+            "guid": "7b437109-ba19-43a9-8d7c-1300ebff9d21",
+            "name": "chopped_herb",
+            "path": "Assets\\Objects\\chopped_herb.obj",
+            "vao": 40,
+            "vbo": 79,
+            "ebo": 80,
+            "indexCount": 1860
+        },
+        {
+            "guid": "129121d0-1b79-4037-92cc-441ec6337a1f",
+            "name": "Lantern",
+            "path": "Assets\\Objects\\Lantern.obj",
+            "vao": 272,
+            "vbo": 530,
+            "ebo": 531,
+            "indexCount": 4206
+        },
+        {
+            "guid": "c88635f7-0838-4fef-adcf-32a32dc48ea5",
+            "name": "mine_sign",
+            "path": "Assets\\Objects\\mine_sign.obj",
+            "vao": 174,
+            "vbo": 334,
+            "ebo": 335,
+            "indexCount": 2328
+        },
+        {
+            "guid": "b0bdcbb9-f3e6-4f07-8c24-875c928d13fa",
+            "name": "horsecart",
+            "path": "Assets\\Objects\\horsecart.obj",
+            "vao": 176,
+            "vbo": 338,
+            "ebo": 339,
+            "indexCount": 2130
+        },
+        {
+            "guid": "6cbaa85b-562d-4b23-9f64-8639947659cc",
+            "name": "knifechoppingwithBONEFIXED4",
+            "path": "Assets/Objects/knifechoppingwithBONEFIXED4.fbx",
+            "vao": 103,
+            "vbo": 192,
+            "ebo": 193,
+            "indexCount": 312
+        },
+        {
+            "guid": "d51dc95c-5066-4fd5-a31c-e51faf79cdd2",
+            "name": "Cupboard",
+            "path": "Assets\\Objects\\Cupboard.obj",
+            "vao": 118,
+            "vbo": 222,
+            "ebo": 223,
+            "indexCount": 684
+        },
+        {
+            "guid": "b3e40e99-b06a-4bb3-8a28-f7c4782d7941",
+            "name": "Cube",
+            "path": "Assets/Objects/Cube.obj",
+            "vao": 122,
+            "vbo": 230,
+            "ebo": 231,
+            "indexCount": 36
+        },
+        {
+            "guid": "0bfc0f47-64aa-4521-b9fa-08ff8aed994b",
+            "name": "Counter",
+            "path": "Assets\\Objects\\Counter.obj",
+            "vao": 119,
+            "vbo": 224,
+            "ebo": 225,
+            "indexCount": 966
+        },
+        {
+            "guid": "61ccf513-cbc9-40a5-828f-95376b1b2c8e",
+            "name": "Sphere",
+            "path": "Assets/Objects/Sphere.obj",
+            "vao": 48,
+            "vbo": 95,
+            "ebo": 96,
+            "indexCount": 2304
+        },
+        {
+            "guid": "9e1fcb62-0699-4a0b-ae75-d0670af44b1b",
+            "name": "plane2",
+            "path": "Assets/Objects/plane2.obj",
+            "vao": 50,
+            "vbo": 99,
+            "ebo": 100,
+            "indexCount": 231840
+        },
+        {
+            "guid": "e902f0d7-a022-45fc-9c17-2a98cbdb793e",
+            "name": "Cylinder",
+            "path": "Assets/Objects/Cylinder.obj",
+            "vao": 114,
+            "vbo": 214,
+            "ebo": 215,
+            "indexCount": 240
+        },
+        {
+            "guid": "fe86c54b-7cc2-471c-9d7e-0bce31089b5a",
+            "name": "Cylinder",
+            "path": "Assets/Objects/Cylinder.obj",
+            "vao": 52,
+            "vbo": 103,
+            "ebo": 104,
+            "indexCount": 240
+        },
+        {
+            "guid": "a25723a2-f9bf-4939-b80d-962eb537dd2e",
+            "name": "strength_potion",
+            "path": "Assets\\Objects\\strength_potion.obj",
+            "vao": 51,
+            "vbo": 101,
+            "ebo": 102,
+            "indexCount": 924
+        },
+        {
+            "guid": "da032094-6e5c-40fe-b6f0-39a9d542ffe5",
+            "name": "Chest",
+            "path": "Assets\\Objects\\Chest.obj",
+            "vao": 126,
+            "vbo": 238,
+            "ebo": 239,
+            "indexCount": 1116
+        },
+        {
+            "guid": "4d2d79f0-74c7-4d6a-9998-aa6c7f0d5bc9",
+            "name": "BlueVial",
+            "path": "Assets\\Objects\\BlueVial.obj",
+            "vao": 54,
+            "vbo": 107,
+            "ebo": 108,
+            "indexCount": 1116
+        },
+        {
+            "guid": "97635846-7fcd-4674-b730-21d672c2f510",
+            "name": "BluePotion",
+            "path": "Assets\\Objects\\BluePotion.obj",
+            "vao": 127,
+            "vbo": 240,
+            "ebo": 241,
+            "indexCount": 924
+        },
+        {
+            "guid": "bf7c3abb-d8d4-4fa5-bd45-019e80216f61",
+            "name": "BluePotion2",
+            "path": "Assets\\Objects\\BluePotion2.obj",
+            "vao": 135,
+            "vbo": 256,
+            "ebo": 257,
+            "indexCount": 924
+        },
+        {
+            "guid": "76f36163-789f-4c71-87b4-76fdccaa8408",
+            "name": "BluePotion3",
+            "path": "Assets\\Objects\\BluePotion3.obj",
+            "vao": 139,
+            "vbo": 264,
+            "ebo": 265,
+            "indexCount": 780
+        },
+        {
+            "guid": "fa8fc24d-ae88-4495-b5b9-75de860dbd54",
+            "name": "YellowVIal",
+            "path": "Assets\\Objects\\YellowVIal.obj",
+            "vao": 58,
+            "vbo": 115,
+            "ebo": 116,
+            "indexCount": 1116
+        },
+        {
+            "guid": "81ace677-17ae-4158-9b13-e11aeafc3fe0",
+            "name": "RedPotion2",
+            "path": "Assets\\Objects\\RedPotion2.obj",
+            "vao": 59,
+            "vbo": 117,
+            "ebo": 118,
+            "indexCount": 924
+        },
+        {
+            "guid": "a54638fb-f319-4fa3-b94b-a2a06b39e080",
+            "name": "RedVial",
+            "path": "Assets\\Objects\\RedVial.obj",
+            "vao": 60,
+            "vbo": 119,
+            "ebo": 120,
+            "indexCount": 1116
+        },
+        {
+            "guid": "4658a6a6-5858-4b7b-bf14-feea255d368c",
+            "name": "Shelf",
+            "path": "Assets\\Objects\\Shelf.obj",
+            "vao": 130,
+            "vbo": 246,
+            "ebo": 247,
+            "indexCount": 816
+        },
+        {
+            "guid": "4bf0356c-3b1b-4e45-a327-5a7f573a20ef",
+            "name": "unchopped_herb",
+            "path": "Assets\\Objects\\unchopped_herb.obj",
+            "vao": 151,
+            "vbo": 288,
+            "ebo": 289,
+            "indexCount": 1836
+        },
+        {
+            "guid": "95461aed-91bf-4172-9f2c-d7578e059e28",
+            "name": "CauldronStiring",
+            "path": "Assets\\Objects\\CauldronStiring.fbx",
+            "vao": 140,
+            "vbo": 266,
+            "ebo": 267,
+            "indexCount": 157614
+        },
+        {
+            "guid": "5ec81f76-0cd6-4d5c-ba71-45bfdd723242",
+            "name": "Capsule",
+            "path": "Assets\\Objects\\Capsule.obj",
+            "vao": 65,
+            "vbo": 129,
+            "ebo": 130,
+            "indexCount": 3456
+        },
+        {
+            "guid": "98376e97-180f-4b2c-b7f4-48834019f8ee",
+            "name": "autumn tree",
+            "path": "Assets\\Objects\\autumn tree.obj",
+            "vao": 64,
+            "vbo": 127,
+            "ebo": 128,
+            "indexCount": 19704
+        },
+        {
+            "guid": "7dcc7293-e55a-46b3-9015-a9ae51a11694",
+            "name": "testobj",
+            "path": "Assets\\Objects\\testobj.obj",
+            "vao": 103,
+            "vbo": 198,
+            "ebo": 199,
+            "indexCount": 24
+        },
+        {
+            "guid": "162fe10c-ffbf-4733-835c-4beb16376317",
+            "name": "BoxOfPears-3-VegetableCrate",
+            "path": "Assets\\Objects\\BoxOfPears-3-VegetableCrate.obj",
+            "vao": 141,
+            "vbo": 268,
+            "ebo": 269,
+            "indexCount": 10632
+        },
+        {
+            "guid": "ea5866c9-c6c4-42a1-ad1d-4ed77ebd533f",
+            "name": "pear",
+            "path": "Assets\\Objects\\pear.obj",
+            "vao": 67,
+            "vbo": 133,
+            "ebo": 134,
+            "indexCount": 5526
+        },
+        {
+            "guid": "802c0ce8-9457-482e-95f8-1605b388e87a",
+            "name": "pine-crooked",
+            "path": "Assets\\Objects\\pine-crooked.obj",
+            "vao": 68,
+            "vbo": 135,
+            "ebo": 136,
+            "indexCount": 2016
+        },
+        {
+            "guid": "d18bb312-eaa8-4bcf-9716-e93dd927eb27",
+            "name": "GoblinPixelLatest",
+            "path": "Assets\\Objects\\GoblinPixelLatest.fbx",
+            "vao": 61,
+            "vbo": 121,
+            "ebo": 122,
+            "indexCount": 22506
+        },
+        {
+            "guid": "b455763a-b7fa-4a03-aaa1-e48156042711",
+            "name": "rocks",
+            "path": "Assets\\Objects\\rocks.obj",
+            "vao": 69,
+            "vbo": 137,
+            "ebo": 138,
+            "indexCount": 2184
+        },
+        {
+            "guid": "faea9651-973c-4f0d-a44f-09fcb0162971",
+            "name": "rock1",
+            "path": "Assets\\Objects\\rock1.obj",
+            "vao": 172,
+            "vbo": 330,
+            "ebo": 331,
+            "indexCount": 26328
+        },
+        {
+            "guid": "082855c0-23a0-485d-a250-7334458728bc",
+            "name": "rock_pixelated",
+            "path": "Assets\\Objects\\rock_pixelated.obj",
+            "vao": 173,
+            "vbo": 332,
+            "ebo": 333,
+            "indexCount": 24696
+        },
+        {
+            "guid": "67684565-20ee-4b83-9b20-d3351fe06741",
+            "name": "PP_Crate_Wooden_03",
+            "path": "Assets\\Objects\\PP_Crate_Wooden_03.obj",
+            "vao": 146,
+            "vbo": 280,
+            "ebo": 281,
+            "indexCount": 2217
+        },
+        {
+            "guid": "e79eccfb-54fa-4204-8b78-3df9d0c4d1a6",
+            "name": "PP_Gemstone_05_Green",
+            "path": "Assets\\Objects\\PP_Gemstone_05_Green.obj",
+            "vao": 147,
+            "vbo": 282,
+            "ebo": 283,
+            "indexCount": 114
+        },
+        {
+            "guid": "7ee5d1c3-de05-43c0-a3f0-36d807bea0c6",
+            "name": "AUTUMN PINE TREE MED",
+            "path": "Assets\\Objects\\AUTUMN PINE TREE MED.obj",
+            "vao": 231,
+            "vbo": 448,
+            "ebo": 449,
+            "indexCount": 7302
+        },
+        {
+            "guid": "eaf2ede8-8f2f-4fa9-b684-d600dada2e45",
+            "name": "PP_Gemstone_11_Red",
+            "path": "Assets\\Objects\\PP_Gemstone_11_Red.obj",
+            "vao": 149,
+            "vbo": 286,
+            "ebo": 287,
+            "indexCount": 114
+        },
+        {
+            "guid": "92c24922-fff4-4ff0-9821-5a9886d58655",
+            "name": "PP_Gemstone_13_Blue",
+            "path": "Assets\\Objects\\PP_Gemstone_13_Blue.obj",
+            "vao": 150,
+            "vbo": 288,
+            "ebo": 289,
+            "indexCount": 120
+        },
+        {
+            "guid": "44463c32-ef0a-48c8-82d0-9080e33a9bbb",
+            "name": "PP_Lantern_02_Yellow_Light_Iron",
+            "path": "Assets\\Objects\\PP_Lantern_02_Yellow_Light_Iron.obj",
+            "vao": 151,
+            "vbo": 290,
+            "ebo": 291,
+            "indexCount": 6690
+        },
+        {
+            "guid": "286d3954-714c-4881-8445-0ef99ac43831",
+            "name": "PP_Pickaxe_Used_04_Iron",
+            "path": "Assets\\Objects\\PP_Pickaxe_Used_04_Iron.obj",
+            "vao": 152,
+            "vbo": 292,
+            "ebo": 293,
+            "indexCount": 696
+        },
+        {
+            "guid": "7b6859aa-5151-4275-b87d-49b47c391646",
+            "name": "pickaxe",
+            "path": "Assets\\Objects\\pickaxe.obj",
+            "vao": 164,
+            "vbo": 314,
+            "ebo": 315,
+            "indexCount": 1332
+        },
+        {
+            "guid": "0a591991-e29a-4458-ac5c-7fe229c901d0",
+            "name": "fir tree large",
+            "path": "Assets\\Objects\\fir tree large.obj",
+            "vao": 74,
+            "vbo": 147,
+            "ebo": 148,
+            "indexCount": 15558
+        },
+        {
+            "guid": "a199b6c5-521c-41a8-8140-8b6844286e16",
+            "name": "tori gate",
+            "path": "Assets\\Objects\\tori gate.obj",
+            "vao": 232,
+            "vbo": 450,
+            "ebo": 451,
+            "indexCount": 2520
+        },
+        {
+            "guid": "91064056-d7bd-4cc4-bb78-031709aab73e",
+            "name": "autumn tree merged leaves",
+            "path": "Assets\\Objects\\autumn tree merged leaves.obj",
+            "vao": 228,
+            "vbo": 442,
+            "ebo": 443,
+            "indexCount": 24522
+        },
+        {
+            "guid": "fce08de9-0879-4132-90c5-4419d7047cc5",
+            "name": "autumn tree 2 branches",
+            "path": "Assets\\Objects\\autumn tree 2 branches.obj",
+            "vao": 77,
+            "vbo": 153,
+            "ebo": 154,
+            "indexCount": 13284
+        },
+        {
+            "guid": "7ffa056d-b98e-4c07-9bd6-20be463ac867",
+            "name": "Autumn pine tree small",
+            "path": "Assets\\Objects\\Autumn pine tree small.obj",
+            "vao": 78,
+            "vbo": 155,
+            "ebo": 156,
+            "indexCount": 5472
+        },
+        {
+            "guid": "3d375724-4c1a-448d-ac97-c67b4c6404fd",
+            "name": "grass3",
+            "path": "Assets\\Objects\\grass3.obj",
+            "vao": 343,
+            "vbo": 672,
+            "ebo": 673,
+            "indexCount": 7188
+        },
+        {
+            "guid": "9a02a596-f621-44fe-8748-a236f6cff68a",
+            "name": "bridge_slope",
+            "path": "Assets\\Objects\\bridge_slope.obj",
+            "vao": 80,
+            "vbo": 159,
+            "ebo": 160,
+            "indexCount": 5844
+        },
+        {
+            "guid": "a996d924-d28b-4666-bdd8-6960b3a2fbba",
+            "name": "",
+            "path": "Assets\\Objects\\Sheep.obj",
+            "vao": 81,
+            "vbo": 161,
+            "ebo": 162,
+            "indexCount": 149802
+        },
+        {
+            "guid": "d33b0f4f-4a71-4085-bc40-5f9e05c0820d",
+            "name": "updatedfinalgoblin",
+            "path": "Assets\\Objects\\updatedfinalgoblin.fbx",
+            "vao": 82,
+            "vbo": 163,
+            "ebo": 164,
+            "indexCount": 448440
+        },
+        {
+            "guid": "5599d418-30e7-4aa5-96ee-b34bb2739271",
+            "name": "FISHFINALUPDATED",
+            "path": "Assets\\Objects\\FISHFINALUPDATED.fbx",
+            "vao": 83,
+            "vbo": 165,
+            "ebo": 166,
+            "indexCount": 22494
+        },
+        {
+            "guid": "d85b75be-05a0-4ced-b227-c79dfa52eacc",
+            "name": "furance",
+            "path": "Assets\\Objects\\furance.obj",
+            "vao": 588,
+            "vbo": 1162,
+            "ebo": 1163,
+            "indexCount": 150114
+        },
+        {
+            "guid": "ae3c86d6-9b19-4484-b88b-582606f3bfe7",
+            "name": "copper_ore",
+            "path": "Assets\\Objects\\copper_ore.obj",
+            "vao": 345,
+            "vbo": 676,
+            "ebo": 677,
+            "indexCount": 30810
+        },
+        {
+            "guid": "aedb4577-4302-4a54-a762-b12920503e54",
+            "name": "iron_bar",
+            "path": "Assets\\Objects\\iron_bar.obj",
+            "vao": 346,
+            "vbo": 678,
+            "ebo": 679,
+            "indexCount": 1458
+        },
+        {
+            "guid": "7c1c5c3c-ec12-4542-84f3-6127123c40ae",
+            "name": "iron_ore",
+            "path": "Assets\\Objects\\iron_ore.obj",
+            "vao": 347,
+            "vbo": 680,
+            "ebo": 681,
+            "indexCount": 34836
+        },
+        {
+            "guid": "19c2e254-ec34-4989-a9cf-ed7588ea47e4",
+            "name": "Bellow",
+            "path": "Assets\\Objects\\Bellow.obj",
+            "vao": 348,
+            "vbo": 682,
+            "ebo": 683,
+            "indexCount": 8640
+        },
+        {
+            "guid": "0acc0a6b-17a6-48d1-88d2-87d340df6b1b",
+            "name": "CoalOre",
+            "path": "Assets\\Objects\\CoalOre.obj",
+            "vao": 349,
+            "vbo": 684,
+            "ebo": 685,
+            "indexCount": 26688
+        },
+        {
+            "guid": "0df8072a-987f-469c-aeee-5d36ce29055d",
+            "name": "copper_bar",
+            "path": "Assets\\Objects\\copper_bar.obj",
+            "vao": 350,
+            "vbo": 686,
+            "ebo": 687,
+            "indexCount": 1458
+        },
+        {
+            "guid": "00ce9d25-0901-40b6-9bce-0d21d170bf81",
+            "name": "Mortar_new-0-mortar",
+            "path": "Assets\\Objects\\Mortar_new-0-mortar.obj",
+            "vao": 351,
+            "vbo": 688,
+            "ebo": 689,
+            "indexCount": 6900
+        },
+        {
+            "guid": "5911ce61-9333-47a1-99a6-599e2747fa29",
+            "name": "Pestle-0-pestlenonvox",
+            "path": "Assets\\Objects\\Pestle-0-pestlenonvox.obj",
+            "vao": 352,
+            "vbo": 690,
+            "ebo": 691,
+            "indexCount": 4704
+        },
+        {
+            "guid": "cef3cfc3-dd31-45b8-8a86-60e4d3676b3e",
+            "name": "mending_potion",
+            "path": "Assets\\Objects\\mending_potion.obj",
+            "vao": 356,
+            "vbo": 699,
+            "ebo": 700,
+            "indexCount": 1116
+        },
+        {
+            "guid": "442ad97a-1926-4698-828c-778a3bf2a78f",
+            "name": "defense_potion",
+            "path": "Assets\\Objects\\defense_potion.obj",
+            "vao": 357,
+            "vbo": 701,
+            "ebo": 702,
+            "indexCount": 2970
+        },
+        {
+            "guid": "9add4c42-1abb-4c37-b4c2-7808966f5e64",
+            "name": "healing_powder",
+            "path": "Assets\\Objects\\healing_powder.obj",
+            "vao": 358,
+            "vbo": 703,
+            "ebo": 704,
+            "indexCount": 20730
+        },
+        {
+            "guid": "407ccfc6-13f2-498d-a329-1445f0bf80bb",
+            "name": "preservation_powder",
+            "path": "Assets\\Objects\\preservation_powder.obj",
+            "vao": 359,
+            "vbo": 705,
+            "ebo": 706,
+            "indexCount": 20730
+        },
+        {
+            "guid": "f63a9551-ef39-454e-a670-111cd80f263e",
+            "name": "bellow",
+            "path": "Assets\\Objects\\bellow.fbx",
+            "vao": 363,
+            "vbo": 713,
+            "ebo": 714,
+            "indexCount": 8640
+        },
+        {
+            "guid": "2948390c-fdc4-4ab8-8a25-b6e36302dbea",
+            "name": "furance_fire",
+            "path": "Assets\\Objects\\furance_fire.fbx",
+            "vao": 364,
+            "vbo": 715,
+            "ebo": 716,
+            "indexCount": 150108
+        },
+        {
+            "guid": "0f76246f-ae7d-4e53-ae3c-33a7a61b3104",
+            "name": "apple",
+            "path": "Assets\\Objects\\apple.obj",
+            "vao": 348,
+            "vbo": 682,
+            "ebo": 683,
+            "indexCount": 40146
+        },
+        {
+            "guid": "5b0e4129-babd-447a-a3f5-d1f5450908d1",
+            "name": "exit",
+            "path": "Assets\\Objects\\exit.obj",
+            "vao": 339,
+            "vbo": 664,
+            "ebo": 665,
+            "indexCount": 1710
+        },
+        {
+            "guid": "e78287da-9061-4e51-a2c0-152d8f5189fe",
+            "name": "iron",
+            "path": "Assets\\Objects\\iron.obj",
+            "vao": 345,
+            "vbo": 676,
+            "ebo": 677,
+            "indexCount": 34836
+        },
+        {
+            "guid": "03a2913c-b3ef-4c94-a3b5-f3dce76182fc",
+            "name": "copper",
+            "path": "Assets\\Objects\\copper.obj",
+            "vao": 346,
+            "vbo": 678,
+            "ebo": 679,
+            "indexCount": 30822
+        },
+        {
+            "guid": "849e3bac-d193-4af9-88c5-b09cee85c9ab",
+            "name": "coal",
+            "path": "Assets\\Objects\\coal.obj",
+            "vao": 347,
+            "vbo": 680,
+            "ebo": 681,
+            "indexCount": 25836
+        },
+        {
+            "guid": "76caba09-7322-483a-8377-40902f8bc6ca",
+            "name": "updatedcoal",
+            "path": "Assets\\Objects\\updatedcoal.obj",
+            "vao": 360,
+            "vbo": 706,
+            "ebo": 707,
+            "indexCount": 32100
+        },
+        {
+            "guid": "3ac75dff-24fb-4d45-bf0f-24539207a54b",
+            "name": "coalFloor",
+            "path": "Assets\\Objects\\coalFloor.obj",
+            "vao": 362,
+            "vbo": 710,
+            "ebo": 711,
+            "indexCount": 6534
+        },
+        {
+            "guid": "7a6e9206-e1aa-4326-875e-bd10ce0a8e89",
+            "name": "elevationquarryplane",
+            "path": "Assets\\Objects\\elevationquarryplane.obj",
+            "vao": 370,
+            "vbo": 726,
+            "ebo": 727,
+            "indexCount": 1236
+        },
+        {
+            "guid": "d0126376-7efd-4381-8888-86e51a0719a5",
+            "name": "copper quarry",
+            "path": "Assets\\Objects\\copper quarry.obj",
+            "vao": 378,
+            "vbo": 742,
+            "ebo": 743,
+            "indexCount": 12504
+        },
+        {
+            "guid": "b9e6f8a5-b0a7-4dfc-af73-b871bc1d0bcb",
+            "name": "QUARRYSTAND",
+            "path": "Assets\\Objects\\QUARRYSTAND.obj",
+            "vao": 382,
+            "vbo": 750,
+            "ebo": 751,
+            "indexCount": 2646
+        },
+        {
+            "guid": "f0246a62-8aaf-4b31-9dcc-33aad664943f",
+            "name": "NEW QUARRY STAND",
+            "path": "Assets\\Objects\\NEW QUARRY STAND.obj",
+            "vao": 384,
+            "vbo": 754,
+            "ebo": 755,
+            "indexCount": 2664
+        },
+        {
+            "guid": "58328ef6-2b84-4dd3-b935-6b58b34bb052",
+            "name": "SheepWithWool",
+            "path": "Assets\\Objects\\SheepWithWool.obj",
+            "vao": 396,
+            "vbo": 779,
+            "ebo": 780,
+            "indexCount": 15270
+        },
+        {
+            "guid": "709d75f8-cd91-4e19-8021-6a83b6ca15ab",
+            "name": "SheepWithoutWool",
+            "path": "Assets\\Objects\\SheepWithoutWool.obj",
+            "vao": 397,
+            "vbo": 781,
+            "ebo": 782,
+            "indexCount": 9072
+        },
+        {
+            "guid": "3f03d74b-6497-4b87-ad92-ef7a38fdc552",
+            "name": "cauldronwithoutspoon)",
+            "path": "Assets\\Objects\\cauldronwithoutspoon).fbx",
+            "vao": 396,
+            "vbo": 779,
+            "ebo": 780,
+            "indexCount": 157614
+        },
+        {
+            "guid": "79b35663-72a2-4a38-a85b-0cd642f46f11",
+            "name": "Finalgoblinwithfeedback",
+            "path": "Assets\\Objects\\Finalgoblinwithfeedback.fbx",
+            "vao": 397,
+            "vbo": 781,
+            "ebo": 782,
+            "indexCount": 448440
+        },
+        {
+            "guid": "0a406b67-1c83-478b-b638-73b2330bd588",
+            "name": "FISHFINALWITHFEEDBACK",
+            "path": "Assets\\Objects\\FISHFINALWITHFEEDBACK.fbx",
+            "vao": 398,
+            "vbo": 783,
+            "ebo": 784,
+            "indexCount": 22494
+        },
+        {
+            "guid": "87491114-5ba9-4a95-be7f-fd35c7db45ac",
+            "name": "cauldronwithoutspoon",
+            "path": "Assets\\Objects\\cauldronwithoutspoon.fbx",
+            "vao": 398,
+            "vbo": 783,
+            "ebo": 784,
+            "indexCount": 157614
+        },
+        {
+            "guid": "84b0c709-2b29-4ef4-a854-649e529fc650",
+            "name": "windowRim",
+            "path": "Assets\\Objects\\windowRim.obj",
+            "vao": 622,
+            "vbo": 1231,
+            "ebo": 1232,
+            "indexCount": 1770
+        },
+        {
+            "guid": "9d2fe13d-dc16-4931-b991-93e65b7389e3",
+            "name": "Candle",
+            "path": "Assets\\Objects\\Candle.obj",
+            "vao": 624,
+            "vbo": 1235,
+            "ebo": 1236,
+            "indexCount": 5208
+        }
+    ]
+}

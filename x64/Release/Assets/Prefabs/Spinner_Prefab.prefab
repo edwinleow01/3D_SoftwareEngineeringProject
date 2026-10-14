@@ -1,0 +1,41 @@
+{
+    "entity": {
+        "name": "Spinner",
+        "guid": "f1be0898-f6e7-461c-9cac-c3ff86e39465",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    960.0,
+                    540.0,
+                    1.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    250.0,
+                    250.0,
+                    1.0
+                ],
+                "isActive": true
+            },
+            "TagComponent": {
+                "tags": []
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 0
+            },
+            "MeshReference": {
+                "guid": ""
+            },
+            "TextureComponent": {
+                "guid": "da0ef587-afae-498e-a41b-3e2a8de5d819",
+                "isUI": true
+            }
+        }
+    }
+}

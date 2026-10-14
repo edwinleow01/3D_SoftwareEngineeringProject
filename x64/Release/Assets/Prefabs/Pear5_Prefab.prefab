@@ -1,0 +1,105 @@
+{
+    "entity": {
+        "name": "Pear5",
+        "guid": "856bde60-2a83-47ce-8c3f-a21b567802d6",
+        "components": {
+            "TransformComponent": {
+                "position": [
+                    -166.0,
+                    317.5,
+                    658.5
+                ],
+                "rotation": [
+                    0.004841761663556099,
+                    -0.06824593991041183,
+                    -0.0048353285528719425
+                ],
+                "scale": [
+                    0.75,
+                    0.75,
+                    0.75
+                ],
+                "isActive": true
+            },
+            "TagComponent": {
+                "tags": [
+                    "Interactable"
+                ]
+            },
+            "HierarchyComponent": {
+                "parent": "",
+                "children": [],
+                "sortIndex": 73
+            },
+            "MeshReference": {
+                "guid": "ea5866c9-c6c4-42a1-ad1d-4ed77ebd533f"
+            },
+            "TextureComponent": {
+                "guid": "95b2bdaa-b3c5-42e0-9687-d0edc85dfe01",
+                "isUI": false
+            },
+            "BoxColliderComponent": {
+                "colliders": [
+                    {
+                        "size": [
+                            3.0,
+                            4.099999904632568,
+                            4.0
+                        ],
+                        "center": [
+                            0.0,
+                            1.899999976158142,
+                            0.0
+                        ],
+                        "canPassThrough": false,
+                        "isInteractable": false
+                    }
+                ]
+            },
+            "PhysicsProperties": {
+                "category": 1,
+                "isImmovable": true,
+                "gravityFactor": 1.0,
+                "mass": 1.0,
+                "friction": 0.5,
+                "restitution": 0.0,
+                "linearVelocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "angularVelocity": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "startAwake": true
+            },
+            "ItemComponent": {
+                "name": "pear",
+                "isIngredient": true,
+                "isChoppable": true,
+                "toDestroyWhenPicked": true
+            },
+            "ParticleEmitterComponent": {
+                "active": true,
+                "loop": true,
+                "duration": 1.0,
+                "direction": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "spreadAngleDeg": 100.0,
+                "range": 1.0,
+                "particlesPerSecond": 10.0,
+                "particleSpeed": 1.0,
+                "particleSize": 0.2,
+                "localSpace": true,
+                "textureGuid": "7f81f0a1-cb99-4e9a-ac72-e1f7193092f7",
+                "pixelFilter": true,
+                "maxParticles": 200
+            }
+        }
+    }
+}
