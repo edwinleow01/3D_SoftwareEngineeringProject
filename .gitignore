@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+ipch/
+
+# Build output
+/x64/
+/Idesign Engine/x64/
+**/out/build/
+*.pdb
+*.ilk
+/Idesign Engine/**/*.exp
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+
+# Note: *.obj, *.lib and *.dll are NOT ignored globally:
+# Assets/Objects/*.obj are 3D models, and lib/ + dll/ hold required dependencies.
+
+# Editor runtime state
+/Idesign Engine/imgui.ini
