@@ -5,13 +5,13 @@ Collaborative 3D Game Engine + Game Project built by Developers and UI/UX Engine
 IDesign Engine is a 3D game engine built by IDesign Studio, designed around a data-driven Entity Component System (ECS) architecture.
 It pairs a reflection-driven editor with a Lua scripting layer, so gameplay can be built and iterated on without recompiling the engine.
 
-This project is developed by a team of Computer Science and UI/UX students from the Singapore Institute of Technology, in Joint Degree with DigiPen Institute of Technology.
+This project is developed by a team of eleven Year 2 Computer Science and UI/UX students from the Singapore Institute of Technology, in Joint Degree with DigiPen Institute of Technology.
 
 The engine is written in C++, utilizing OpenGL and GLSL for rendering, Jolt for physics, FMOD for audio and Lua for gameplay scripting.
 Our primary goal is to build a scalable engine and editor that supports a full game production pipeline — from asset import, to scene and prefab authoring, to scripted gameplay.
 
-## 🧪 Game Showcase
-Built on the engine is a 3D potion-brewing shop game:
+## 🧪 Game Showcase — Runes & Remedies
+Built on the engine is **Runes & Remedies**, a 3D potion-brewing shop game:
 - 🌿 Gather herbs in the Forest and mine ore in the Quarry by day
 - ⚗️ Prepare ingredients with the chopping board, mortar, furnace and cauldron, then brew potions
 - 🧙 Serve customers their orders by night to earn gold and climb from Novice Alchemist to Legendary Alchemist
